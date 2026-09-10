@@ -1,0 +1,2679 @@
+{
+ "phrases": {
+  "voice-note-ingest": [
+   "voice note",
+   "ingest this voice memo",
+   "transcribe and file",
+   "voice note ingest",
+   "save this audio note",
+   "audio message",
+   "voice note",
+   "ingest this voice memo",
+   "transcribe and file",
+   "voice note ingest",
+   "save this audio note"
+  ],
+  "article-enrichment": [
+   "enrich this article",
+   "enrich the article",
+   "enriching the article",
+   "enrich brain pages",
+   "batch enrich",
+   "enrich pass",
+   "make brain pages useful",
+   "enrich this article",
+   "enrich brain pages",
+   "batch enrich",
+   "make brain pages useful"
+  ],
+  "book-mirror": [
+   "personalized version of this book",
+   "mirror this book",
+   "two column book analysis",
+   "apply this book to my life",
+   "how does this book apply to me",
+   "personalized version of this book",
+   "mirror this book",
+   "two column book analysis",
+   "apply this book to my life",
+   "how does this book apply to me"
+  ],
+  "minion-orchestrator": [
+   "gbrain jobs submit",
+   "submit a gbrain job",
+   "submit a shell job",
+   "shell job",
+   "run shell command in background",
+   "deterministic background task",
+   "spawn agent",
+   "background task",
+   "run in background",
+   "check on agent",
+   "agent progress",
+   "what s running",
+   "steer agent",
+   "change direction",
+   "tell the agent",
+   "pause agent",
+   "stop agent",
+   "resume agent",
+   "parallel tasks",
+   "fan out",
+   "do these in parallel",
+   "long operation",
+   "durable execution",
+   "arm a deadman",
+   "the job went silent",
+   "operation died in the background",
+   "make this pipeline resumable",
+   "spawn agent",
+   "background task",
+   "parallel tasks",
+   "steer agent",
+   "pause resume agent",
+   "gbrain jobs submit",
+   "submit a gbrain job",
+   "submit a shell job",
+   "shell job"
+  ],
+  "schema-author": [
+   "add a page type",
+   "add a type to my schema",
+   "my brain has untyped pages",
+   "schema isn t matching my notes",
+   "propose new types from my corpus",
+   "backfill page types",
+   "evolve my schema",
+   "extend the schema pack",
+   "create a custom type for",
+   "researcher type",
+   "make x an expert type",
+   "schema pack add",
+   "schema mutate",
+   "schema sync",
+   "schema author",
+   "add a page type",
+   "add a type to my schema",
+   "schema author",
+   "schema mutate",
+   "schema pack add",
+   "my brain has untyped pages",
+   "propose new types from my corpus",
+   "backfill page types",
+   "evolve my schema",
+   "researcher type",
+   "make x an expert type"
+  ],
+  "daily-task-prep": [
+   "morning prep",
+   "prepare for today",
+   "what s on my plate",
+   "day prep",
+   "morning prep meeting context day planning"
+  ],
+  "chat-connectors": [
+   "connect my chatgpt",
+   "connect my claude account",
+   "sync my chat history",
+   "chatgpt oauth",
+   "auto import my chats",
+   "keep my conversations synced",
+   "connect my chatgpt",
+   "connect my claude account",
+   "sync my chat history",
+   "chatgpt oauth",
+   "auto import my chats",
+   "keep my conversations synced"
+  ],
+  "capture": [
+   "capture this",
+   "save this thought",
+   "remember this",
+   "ingest this into my brain",
+   "drop this in the inbox",
+   "save to brain",
+   "capture this",
+   "save this thought",
+   "remember this",
+   "drop this in the inbox",
+   "save to brain"
+  ],
+  "brain-taxonomist": [
+   "where does this brain page go",
+   "file this in the brain",
+   "brain taxonomist",
+   "taxonomy check",
+   "refile brain page",
+   "create brain page",
+   "which directory does this go",
+   "which directory does this page go",
+   "where does this brain page go",
+   "file this in the brain",
+   "brain taxonomist",
+   "taxonomy check",
+   "refile brain page",
+   "which directory does this page go"
+  ],
+  "citation-fixer": [
+   "fix citations",
+   "fix broken citations",
+   "citation audit",
+   "check citations",
+   "citation fixer",
+   "fix broken citations in brain pages",
+   "citation audit",
+   "check citations",
+   "fix citations"
+  ],
+  "blog-ingest": [
+   "ingest this publication",
+   "ingest this whole blog",
+   "ingest this feed",
+   "ingest this newsletter archive",
+   "save this whole substack",
+   "backfill this blog",
+   "walk this rss feed",
+   "ingest every post from",
+   "ingest this publication",
+   "ingest this whole blog",
+   "ingest this feed",
+   "ingest this newsletter archive"
+  ],
+  "company-brainify": [
+   "company brain",
+   "team brain",
+   "brainify",
+   "sanitize the brain",
+   "share my brain with the team",
+   "strip sensitive data from the brain",
+   "scrub employee data",
+   "audit the shared brain",
+   "make the brain safe to share",
+   "company brain",
+   "team brain",
+   "brainify",
+   "sanitize the brain"
+  ],
+  "brain-link-discipline": [
+   "give me the link",
+   "where is the page",
+   "why does this link 404",
+   "brain link discipline",
+   "rewrite subagent paths",
+   "report the pages you created",
+   "send me a clickable link",
+   "link the page in the same message",
+   "give me the link",
+   "where is the page",
+   "why does this link 404",
+   "brain link discipline"
+  ],
+  "skill-autobench": [
+   "skill autobench",
+   "autobench",
+   "write the eval from usage history",
+   "synthesize an eval for this skill",
+   "mine how this skill is actually used",
+   "build a benchmark from my corrections",
+   "verify the eval panel",
+   "did all providers return",
+   "skill autobench",
+   "autobench",
+   "write the eval from usage history",
+   "synthesize an eval for this skill"
+  ],
+  "correction-pipeline": [
+   "that s wrong",
+   "that s not true",
+   "i never said that",
+   "where did you get that",
+   "you got that wrong",
+   "correct that fact",
+   "root cause this error",
+   "that s wrong",
+   "that s not true",
+   "i never said that",
+   "where did you get that"
+  ],
+  "cron-scheduler": [
+   "schedule a job",
+   "cron",
+   "quiet hours",
+   "what jobs are running",
+   "cron scheduling quiet hours job staggering"
+  ],
+  "eiirp": [
+   "everything in its right place",
+   "eiirp",
+   "store this research",
+   "put this in the brain",
+   "file this properly",
+   "where does this research go",
+   "make this permanent",
+   "archive this research",
+   "archive this research thread",
+   "brain this",
+   "file all of this",
+   "organize all of this",
+   "organize all of this work",
+   "make this re doable",
+   "dry this up",
+   "check everything is in the right place",
+   "analyze this document",
+   "deep analysis",
+   "review this report",
+   "eiirp",
+   "everything in its right place",
+   "store this research",
+   "put this in the brain",
+   "make this re doable",
+   "dry this up",
+   "file all of this",
+   "organize all of this work",
+   "archive this research thread"
+  ],
+  "ask-user": [
+   "present options",
+   "ask before proceeding",
+   "choice gate",
+   "user decision",
+   "present options",
+   "ask before proceeding",
+   "choice gate",
+   "user decision"
+  ],
+  "archive-crawler": [
+   "crawl my archive",
+   "find gold in my archive",
+   "archive crawler",
+   "scan my dropbox for",
+   "mine my old files for",
+   "crawl my archive",
+   "find gold in my archive",
+   "archive crawler",
+   "scan my dropbox for",
+   "mine my old files for"
+  ],
+  "brain-ingest-gate": [
+   "move this to brain",
+   "migrate to brain",
+   "copy these files into the brain",
+   "is this already in the brain",
+   "check for duplicates before writing",
+   "dedup before saving",
+   "raw copy to brain",
+   "move this to brain",
+   "migrate to brain",
+   "copy these files into the brain",
+   "is this already in the brain"
+  ],
+  "ingest": [
+   "ingest this",
+   "save this to brain",
+   "process this meeting",
+   "ingest this"
+  ],
+  "repo-architecture": [
+   "where does this go",
+   "filing rules",
+   "create new page",
+   "which directory",
+   "where does a new file go filing rules"
+  ],
+  "skill-optimizer": [
+   "optimize this skill",
+   "tune the skill against the benchmark",
+   "make the skill better",
+   "run skillopt",
+   "skillopt for",
+   "optimize this skill",
+   "tune the skill against the benchmark",
+   "run skillopt",
+   "make the skill better"
+  ],
+  "context-audit": [
+   "context audit",
+   "context diet",
+   "system prompt audit",
+   "prompt compression",
+   "reduce context size",
+   "audit my context stack",
+   "context is too big",
+   "token hygiene",
+   "context audit",
+   "context diet",
+   "system prompt audit",
+   "prompt compression"
+  ],
+  "setup": [
+   "set up gbrain",
+   "initialize brain",
+   "gbrain setup",
+   "set up gbrain"
+  ],
+  "data-loss-gate": [
+   "bulk delete",
+   "wipe the",
+   "rm rf",
+   "purge the",
+   "truncate",
+   "free up space",
+   "bulk forget",
+   "remove the source",
+   "drop the table",
+   "bulk delete",
+   "wipe the",
+   "rm rf",
+   "purge the",
+   "bulk forget"
+  ],
+  "brain-ops": [
+   "any brain read write lookup citation"
+  ],
+  "skillpack-check": [
+   "skillpack check",
+   "is gbrain healthy",
+   "gbrain health",
+   "check the brain",
+   "is the brain working",
+   "is gbrain healthy"
+  ],
+  "citation-graph-ingest": [
+   "citation graph",
+   "citation graph ingest",
+   "typed citation graph",
+   "build a reference graph",
+   "graph over a corpus",
+   "overrules distinguishes graph",
+   "reason over a domain corpus",
+   "trace the argument through these documents",
+   "citation graph",
+   "citation graph ingest",
+   "typed citation graph",
+   "build a reference graph"
+  ],
+  "smoke-test": [
+   "smoke test",
+   "run smoke tests",
+   "container restart check",
+   "health check",
+   "did the restart break anything",
+   "did the container restart break anything",
+   "did the container restart break anything"
+  ],
+  "signal-detector": [
+   "every inbound message always on",
+   "every inbound message spawn parallel don t block"
+  ],
+  "fact-check": [
+   "fact check",
+   "fact check",
+   "verify the facts",
+   "check the claims",
+   "is this accurate",
+   "source check",
+   "verify this output claim by claim",
+   "is this output hallucinating",
+   "re derive every claim",
+   "fact check",
+   "fact check",
+   "verify the facts",
+   "check the claims"
+  ],
+  "two-tier-extraction": [
+   "two tier extraction",
+   "triage then deep read",
+   "smart model routing",
+   "cheap triage expensive analysis",
+   "model escalation pattern",
+   "route models by content value",
+   "which model tier for bulk extraction",
+   "two tier extraction",
+   "triage then deep read",
+   "smart model routing",
+   "cheap triage expensive analysis"
+  ],
+  "gbrain-advisor": [
+   "what should i do to get more out of gbrain",
+   "is my brain set up right",
+   "gbrain advisor",
+   "advise me on my brain",
+   "weekly brain checkup",
+   "get more out of gbrain",
+   "is my brain set up right",
+   "weekly brain checkup",
+   "advise me on my brain",
+   "gbrain advisor"
+  ],
+  "skillify": [
+   "skillify this",
+   "skillify",
+   "is this a skill",
+   "make this proper",
+   "add tests and evals for this",
+   "check skill completeness",
+   "run skillify on a skill",
+   "did this skill regress",
+   "skillify this",
+   "is this a skill",
+   "make this proper"
+  ],
+  "maintain": [
+   "brain health",
+   "check backlinks",
+   "maintenance",
+   "orphan pages",
+   "stale pages",
+   "extract links",
+   "build link graph",
+   "populate timeline",
+   "populate links",
+   "backfill graph",
+   "extract timeline entries",
+   "retriage the backlog",
+   "re score the triage",
+   "run dream",
+   "process today s session",
+   "process yesterday s transcripts",
+   "synthesize my conversations",
+   "what patterns did you see",
+   "did the dream cycle run",
+   "consolidate yesterday s conversations",
+   "brain health check maintenance run",
+   "extract links",
+   "build link graph",
+   "populate timeline",
+   "run dream",
+   "process today s session",
+   "synthesize my conversations",
+   "consolidate yesterday s conversations",
+   "what patterns did you see",
+   "did the dream cycle run",
+   "retriage the backlog",
+   "re score the triage",
+   "populate links",
+   "extract links",
+   "backfill graph",
+   "populate timeline",
+   "extract timeline entries"
+  ],
+  "testing": [
+   "validate skills",
+   "test skills",
+   "skill health check",
+   "run conformance tests",
+   "run the tests",
+   "how are the tests",
+   "what s broken",
+   "daily test run",
+   "validate skills"
+  ],
+  "cold-start": [
+   "cold start",
+   "fill my brain",
+   "bootstrap brain",
+   "bootstrap my data",
+   "import my data",
+   "day one",
+   "get started",
+   "what should i import first",
+   "populate brain",
+   "now what",
+   "now what",
+   "fill my brain",
+   "cold start",
+   "bootstrap my data",
+   "import my data",
+   "what should i import first"
+  ],
+  "gbrain-upgrade": [
+   "gbrain update available",
+   "upgrade available",
+   "upgrade gbrain",
+   "update gbrain",
+   "gbrain is out of date",
+   "gbrain self upgrade",
+   "is gbrain up to date",
+   "keep gbrain current",
+   "upgrade gbrain",
+   "update gbrain",
+   "gbrain update available",
+   "is gbrain up to date"
+  ],
+  "publish": [
+   "share this page",
+   "publish page",
+   "create shareable link",
+   "share a brain page as a link"
+  ],
+  "skill-creator": [
+   "create a skill",
+   "new skill",
+   "improve this skill",
+   "create a skill",
+   "improve this skill"
+  ],
+  "functional-area-resolver": [
+   "compress agents md",
+   "compress my resolver",
+   "resolver too big",
+   "resolver md too big",
+   "agents md too large",
+   "shrink routing table",
+   "slim down agents md",
+   "functional area resolver",
+   "functional area dispatcher",
+   "context health agents",
+   "context health resolver",
+   "reduce context budget",
+   "compress my resolver",
+   "agents md too large",
+   "resolver md too big",
+   "functional area dispatcher",
+   "shrink routing table"
+  ],
+  "bulk-ingestion": [
+   "bulk ingest",
+   "bulk import",
+   "ingest all",
+   "ingestion pipeline",
+   "mass ingestion",
+   "bulk backfill",
+   "make a manifest",
+   "processing manifest",
+   "track a large ingest",
+   "bulk ingest",
+   "bulk import",
+   "ingest all",
+   "ingestion pipeline"
+  ],
+  "migrate": [
+   "migrate from",
+   "import from obsidian",
+   "import from notion",
+   "migrate from obsidian notion logseq"
+  ],
+  "briefing": [
+   "daily briefing",
+   "morning briefing",
+   "what s happening today",
+   "brain pulse",
+   "pre briefing pull",
+   "what s happening today"
+  ],
+  "data-research": [
+   "research",
+   "track",
+   "extract from email",
+   "investor updates",
+   "donations",
+   "build a tracker",
+   "data dig",
+   "research",
+   "track",
+   "extract from email",
+   "investor updates",
+   "donations"
+  ],
+  "idea-ingest": [
+   "shares a link or url",
+   "read this",
+   "save this",
+   "think about this",
+   "put this in brain",
+   "user shares a link article tweet or idea"
+  ],
+  "measure-before-you-fix": [
+   "keeps timing out",
+   "etimedout",
+   "why is this data stale",
+   "freshness alert",
+   "wedged",
+   "job is slow",
+   "sync is stuck",
+   "raise the timeout",
+   "keeps timing out",
+   "etimedout",
+   "why is this data stale",
+   "freshness alert"
+  ],
+  "cross-modal-review": [
+   "second opinion",
+   "cross modal review",
+   "double check this",
+   "get another perspective",
+   "challenge this code",
+   "adversarial review",
+   "cross modal review second opinion"
+  ],
+  "brain-pdf": [
+   "make pdf from brain",
+   "brain pdf",
+   "convert brain page to pdf",
+   "publish this page as pdf",
+   "export brain page",
+   "make pdf from brain",
+   "brain pdf",
+   "convert brain page to pdf",
+   "publish this page as pdf",
+   "export brain page"
+  ],
+  "academic-verify": [
+   "verify this academic claim",
+   "check this study",
+   "academic verify",
+   "validate citation",
+   "is this study real",
+   "retraction watch",
+   "verify this academic claim",
+   "check this study",
+   "academic verify",
+   "validate citation",
+   "is this study real"
+  ],
+  "meeting-ingestion": [
+   "meeting transcript",
+   "process this meeting",
+   "meeting notes",
+   "meeting recorder",
+   "ingest this recording",
+   "capture meetings",
+   "audit this meeting",
+   "check the sequence",
+   "did i get the order right",
+   "meeting transcript received"
+  ],
+  "enrich": [
+   "enrich",
+   "create person page",
+   "update company page",
+   "who is this person",
+   "look up this company",
+   "creating enriching a person or company page"
+  ],
+  "frontmatter-guard": [
+   "validate frontmatter",
+   "check frontmatter",
+   "fix frontmatter",
+   "frontmatter audit",
+   "brain lint",
+   "validate frontmatter",
+   "check frontmatter",
+   "fix frontmatter",
+   "frontmatter audit",
+   "brain lint"
+  ],
+  "webhook-transforms": [
+   "set up webhook",
+   "process webhook event",
+   "transform this event",
+   "webhook setup external event processing"
+  ],
+  "google-loops": [
+   "connect gmail",
+   "connect google",
+   "connect calendar",
+   "connect contacts",
+   "who is waiting on me",
+   "what do i owe people",
+   "open loops",
+   "unanswered email",
+   "set up email ingestion",
+   "gbrain waiting",
+   "connect gmail",
+   "connect google",
+   "who is waiting on me",
+   "open loops",
+   "unanswered email"
+  ],
+  "concept-synthesis": [
+   "concept synthesis",
+   "synthesize my concepts",
+   "find patterns across my notes",
+   "build my intellectual map",
+   "trace idea evolution",
+   "canon vs riff",
+   "cull my concepts",
+   "which concepts to keep",
+   "concept quality rubric",
+   "concept synthesis",
+   "synthesize my concepts",
+   "find patterns across my notes",
+   "build my intellectual map",
+   "trace idea evolution"
+  ],
+  "idea-lineage": [
+   "idea lineage",
+   "trace the lineage of this idea",
+   "how my thinking about",
+   "how has my thinking about",
+   "current version of this idea",
+   "what is my current version of",
+   "show reversals in my thinking about",
+   "where did this idea come from",
+   "idea lineage",
+   "trace the lineage of this idea",
+   "how my thinking about",
+   "how has my thinking about",
+   "what is my current version of",
+   "show reversals in my thinking about",
+   "where did this idea come from"
+  ],
+  "research-compendium": [
+   "compendium",
+   "research everything about",
+   "read them all and summarize",
+   "definitive guide",
+   "comprehensive guide to",
+   "deep research and write up",
+   "archive the sources then summarize",
+   "deepen the compendium",
+   "compendium",
+   "research everything about",
+   "read them all and summarize",
+   "definitive guide"
+  ],
+  "schema-unify": [
+   "unify my types",
+   "migrate to gbrain base v2",
+   "94 types to 14",
+   "apply canonical taxonomy",
+   "clean up my page types",
+   "pack upgrade",
+   "shrink type proliferation",
+   "what does the canonical taxonomy look like",
+   "consolidate page types",
+   "retype pages to canonical",
+   "unify my types",
+   "migrate to gbrain base v2",
+   "94 types to 14",
+   "apply canonical taxonomy",
+   "clean up my page types",
+   "pack upgrade",
+   "shrink type proliferation",
+   "consolidate page types",
+   "retype pages to canonical"
+  ],
+  "daily-task-manager": [
+   "add task",
+   "complete task",
+   "what are my tasks",
+   "task list",
+   "defer task",
+   "task add remove complete defer review"
+  ],
+  "query": [
+   "what do we know about",
+   "tell me about",
+   "who is",
+   "what happened",
+   "search for",
+   "look up",
+   "background on",
+   "notes on",
+   "who knows who",
+   "relationship between",
+   "connections",
+   "graph query",
+   "what do we know about",
+   "tell me about",
+   "search for",
+   "who is",
+   "background on",
+   "notes on",
+   "who knows who",
+   "relationship between",
+   "connections",
+   "graph query"
+  ],
+  "soul-audit": [
+   "soul audit",
+   "customize agent",
+   "who am i",
+   "set up identity",
+   "change my agent s personality",
+   "who am i"
+  ],
+  "perplexity-research": [
+   "perplexity research",
+   "perplexity research",
+   "what s new about",
+   "current state of",
+   "web research",
+   "what changed about",
+   "surface new developments",
+   "perplexity research",
+   "what s new about",
+   "current state of",
+   "web research",
+   "what changed about"
+  ],
+  "draft-in-voice": [
+   "draft in voice",
+   "write this as",
+   "make this sound like",
+   "ghostwrite",
+   "draft a tweet as",
+   "write a post as",
+   "in their voice",
+   "in my voice",
+   "build a voice profile",
+   "draft in voice",
+   "write this as",
+   "make this sound like",
+   "ghostwrite"
+  ],
+  "resolve-before-asking": [
+   "resolve before asking",
+   "before asking the user",
+   "unidentified contact",
+   "unknown relationship",
+   "should i ask who",
+   "don t know who this is",
+   "to be filled by content analysis",
+   "placeholder on this page",
+   "resolve before asking",
+   "before asking the user",
+   "unidentified contact",
+   "unknown relationship"
+  ],
+  "db-repair": [
+   "gbrain db access",
+   "gbrain database error",
+   "gbrain connection refused",
+   "cannot reach the brain database",
+   "brain database is down",
+   "fix gbrain database access",
+   "repair gbrain postgres",
+   "gbrain database error",
+   "gbrain connection refused",
+   "brain database is down",
+   "cannot reach the brain database",
+   "fix gbrain database access",
+   "repair gbrain postgres"
+  ],
+  "strategic-reading": [
+   "strategic reading",
+   "read this through the lens of",
+   "apply this to my problem",
+   "what can i learn from this about",
+   "extract a playbook from",
+   "strategic reading",
+   "read this through the lens of",
+   "apply this to my problem",
+   "what can i learn from this about",
+   "extract a playbook from"
+  ],
+  "skillpack-harvest": [
+   "harvest this skill",
+   "harvest my skill",
+   "publish this skill to gbrain",
+   "lift this skill",
+   "share this skill",
+   "promote this skill",
+   "promote my skill",
+   "skill upstream",
+   "into the gbrain core",
+   "gbrain bundle",
+   "harvest this skill into gbrain",
+   "publish this skill to gbrain",
+   "lift this skill upstream",
+   "share this skill with other gbrain clients",
+   "promote my skill to gbrain"
+  ],
+  "reports": [
+   "save report",
+   "load latest report",
+   "what s the latest briefing",
+   "show me the pulse",
+   "report quality",
+   "link quality check",
+   "validate report links",
+   "save or load reports"
+  ],
+  "conversation-archive": [
+   "chatgpt export",
+   "claude export",
+   "perplexity export",
+   "conversation history",
+   "import my conversations",
+   "search my conversations",
+   "when did i first discuss",
+   "archive my session transcripts",
+   "backfill missing conversations",
+   "chatgpt export",
+   "claude export",
+   "perplexity export",
+   "conversation history"
+  ],
+  "media-ingest": [
+   "watch this video",
+   "process this youtube link",
+   "ingest this pdf",
+   "save this podcast",
+   "process this book",
+   "pdf book",
+   "summarize this book",
+   "ingest it into my brain",
+   "what s in this screenshot",
+   "check out this repo",
+   "watch this video",
+   "process this youtube link",
+   "ingest this pdf",
+   "save this podcast",
+   "process this book",
+   "summarize this book",
+   "pdf book",
+   "ingest it into my brain",
+   "what s in this screenshot",
+   "check out this repo"
+  ],
+  "postgres-adopt": [
+   "which gbrain engine",
+   "pglite or postgres",
+   "gbrain engine status",
+   "upgrade to postgres",
+   "switch gbrain to postgres",
+   "install postgres for gbrain",
+   "move my brain to supabase",
+   "set up postgres for the brain",
+   "which gbrain engine",
+   "pglite or postgres",
+   "gbrain engine status",
+   "upgrade to postgres",
+   "switch gbrain to postgres",
+   "install postgres for gbrain",
+   "move my brain to supabase",
+   "set up postgres for the brain"
+  ]
+ },
+ "fixtures": [
+  {
+   "intent": "Please ingest this voice memo I just sent and file it into my brain",
+   "expected_skill": "voice-note-ingest",
+   "source": "gbrain/skills/voice-note-ingest/routing-eval.jsonl"
+  },
+  {
+   "intent": "Transcribe and file this audio message into the right directory",
+   "expected_skill": "voice-note-ingest",
+   "source": "gbrain/skills/voice-note-ingest/routing-eval.jsonl"
+  },
+  {
+   "intent": "Save this audio note as a brain page with the original audio attached",
+   "expected_skill": "voice-note-ingest",
+   "ambiguous_with": [
+    "idea-ingest"
+   ],
+   "source": "gbrain/skills/voice-note-ingest/routing-eval.jsonl"
+  },
+  {
+   "intent": "Run voice note ingest on what I just sent — preserve my words verbatim",
+   "expected_skill": "voice-note-ingest",
+   "source": "gbrain/skills/voice-note-ingest/routing-eval.jsonl"
+  },
+  {
+   "intent": "This voice note has a thought I want preserved word-for-word",
+   "expected_skill": "voice-note-ingest",
+   "source": "gbrain/skills/voice-note-ingest/routing-eval.jsonl"
+  },
+  {
+   "intent": "This article page is a wall of raw text — please enrich this article with quotes and insights",
+   "expected_skill": "article-enrichment",
+   "ambiguous_with": [
+    "enrich"
+   ],
+   "source": "gbrain/skills/article-enrichment/routing-eval.jsonl"
+  },
+  {
+   "intent": "Run a batch enrich pass on the unstructured articles in my brain",
+   "expected_skill": "article-enrichment",
+   "ambiguous_with": [
+    "enrich"
+   ],
+   "source": "gbrain/skills/article-enrichment/routing-eval.jsonl"
+  },
+  {
+   "intent": "Make brain pages useful by enriching the article dumps",
+   "expected_skill": "article-enrichment",
+   "ambiguous_with": [
+    "enrich"
+   ],
+   "source": "gbrain/skills/article-enrichment/routing-eval.jsonl"
+  },
+  {
+   "intent": "Please enrich brain pages that have raw content but no executive summary",
+   "expected_skill": "article-enrichment",
+   "ambiguous_with": [
+    "enrich"
+   ],
+   "source": "gbrain/skills/article-enrichment/routing-eval.jsonl"
+  },
+  {
+   "intent": "Enrich this article so it has verbatim quotes, key insights, and a why-it-matters section",
+   "expected_skill": "article-enrichment",
+   "ambiguous_with": [
+    "enrich"
+   ],
+   "source": "gbrain/skills/article-enrichment/routing-eval.jsonl"
+  },
+  {
+   "intent": "Please make a personalized version of this book using the brain context",
+   "expected_skill": "book-mirror",
+   "source": "gbrain/skills/book-mirror/routing-eval.jsonl"
+  },
+  {
+   "intent": "Mirror this book — left column the chapters, right column my actual life",
+   "expected_skill": "book-mirror",
+   "source": "gbrain/skills/book-mirror/routing-eval.jsonl"
+  },
+  {
+   "intent": "Run a two-column book analysis with brain context",
+   "expected_skill": "book-mirror",
+   "source": "gbrain/skills/book-mirror/routing-eval.jsonl"
+  },
+  {
+   "intent": "Apply this book to my life — chapter-by-chapter mapping to the brain",
+   "expected_skill": "book-mirror",
+   "source": "gbrain/skills/book-mirror/routing-eval.jsonl"
+  },
+  {
+   "intent": "How does this book apply to me — produce a personalized version",
+   "expected_skill": "book-mirror",
+   "source": "gbrain/skills/book-mirror/routing-eval.jsonl"
+  },
+  {
+   "intent": "Process this book and ingest it into my brain",
+   "expected_skill": "media-ingest",
+   "ambiguous_with": [
+    "book-mirror"
+   ],
+   "source": "gbrain/skills/book-mirror/routing-eval.jsonl"
+  },
+  {
+   "intent": "Ingest this PDF book and extract the entities",
+   "expected_skill": "media-ingest",
+   "ambiguous_with": [
+    "book-mirror"
+   ],
+   "source": "gbrain/skills/book-mirror/routing-eval.jsonl"
+  },
+  {
+   "intent": "Just summarize this book — I don't need it personalized to me",
+   "expected_skill": "media-ingest",
+   "ambiguous_with": [
+    "book-mirror"
+   ],
+   "source": "gbrain/skills/book-mirror/routing-eval.jsonl"
+  },
+  {
+   "intent": "This embed backfill will take 40 minutes — set it up as a durable execution so it survives a restart",
+   "expected_skill": "minion-orchestrator",
+   "source": "gbrain/skills/minion-orchestrator/routing-eval.jsonl"
+  },
+  {
+   "intent": "Arm a deadman on that extract job so we notice if the result never gets reported",
+   "expected_skill": "minion-orchestrator",
+   "source": "gbrain/skills/minion-orchestrator/routing-eval.jsonl"
+  },
+  {
+   "intent": "The job went silent an hour ago and I never saw a completion message — recover it",
+   "expected_skill": "minion-orchestrator",
+   "ambiguous_with": [],
+   "source": "gbrain/skills/minion-orchestrator/routing-eval.jsonl"
+  },
+  {
+   "intent": "The scoring stage is expensive — make this pipeline resumable so a crash doesn't re-spend the LLM calls",
+   "expected_skill": "minion-orchestrator",
+   "source": "gbrain/skills/minion-orchestrator/routing-eval.jsonl"
+  },
+  {
+   "intent": "Schedule the nightly sync for 2am and keep it out of quiet hours",
+   "expected_skill": "cron-scheduler",
+   "source": "gbrain/skills/minion-orchestrator/routing-eval.jsonl"
+  },
+  {
+   "intent": "Kill the runaway local process that is pegging my laptop CPU",
+   "expected_skill": null,
+   "source": "gbrain/skills/minion-orchestrator/routing-eval.jsonl"
+  },
+  {
+   "intent": "connect my chatgpt account and pull my whole history into the brain",
+   "expected_skill": "chat-connectors",
+   "source": "gbrain/skills/chat-connectors/routing-eval.jsonl"
+  },
+  {
+   "intent": "connect my claude account so new conversations land in gbrain",
+   "expected_skill": "chat-connectors",
+   "source": "gbrain/skills/chat-connectors/routing-eval.jsonl"
+  },
+  {
+   "intent": "sync my chat history from ChatGPT every day automatically",
+   "expected_skill": "chat-connectors",
+   "source": "gbrain/skills/chat-connectors/routing-eval.jsonl"
+  },
+  {
+   "intent": "set up chatgpt oauth so gbrain can read my conversations",
+   "expected_skill": "chat-connectors",
+   "source": "gbrain/skills/chat-connectors/routing-eval.jsonl"
+  },
+  {
+   "intent": "auto-import my chats from Claude on a schedule",
+   "expected_skill": "chat-connectors",
+   "source": "gbrain/skills/chat-connectors/routing-eval.jsonl"
+  },
+  {
+   "intent": "keep my conversations synced without me downloading an export each time",
+   "expected_skill": "chat-connectors",
+   "source": "gbrain/skills/chat-connectors/routing-eval.jsonl"
+  },
+  {
+   "intent": "where does this brain page go for Alice?",
+   "expected_skill": "brain-taxonomist",
+   "source": "gbrain/skills/brain-taxonomist/routing-eval.jsonl"
+  },
+  {
+   "intent": "I need to file this in the brain — what path?",
+   "expected_skill": "brain-taxonomist",
+   "source": "gbrain/skills/brain-taxonomist/routing-eval.jsonl"
+  },
+  {
+   "intent": "ask the brain taxonomist before I write this page",
+   "expected_skill": "brain-taxonomist",
+   "source": "gbrain/skills/brain-taxonomist/routing-eval.jsonl"
+  },
+  {
+   "intent": "run a taxonomy check on yesterday's notes",
+   "expected_skill": "brain-taxonomist",
+   "source": "gbrain/skills/brain-taxonomist/routing-eval.jsonl"
+  },
+  {
+   "intent": "I want to refile brain page about Bob",
+   "expected_skill": "brain-taxonomist",
+   "source": "gbrain/skills/brain-taxonomist/routing-eval.jsonl"
+  },
+  {
+   "intent": "which directory does this page go in given the active pack?",
+   "expected_skill": "brain-taxonomist",
+   "ambiguous_with": [
+    "repo-architecture"
+   ],
+   "source": "gbrain/skills/brain-taxonomist/routing-eval.jsonl"
+  },
+  {
+   "intent": "please fix citations in the latest batch of brain pages",
+   "expected_skill": "citation-fixer",
+   "source": "gbrain/skills/citation-fixer/routing-eval.jsonl"
+  },
+  {
+   "intent": "I need to fix citations across these pages",
+   "expected_skill": "citation-fixer",
+   "source": "gbrain/skills/citation-fixer/routing-eval.jsonl"
+  },
+  {
+   "intent": "What does this book say about mentorship",
+   "expected_skill": null,
+   "ambiguous_with": [],
+   "source": "gbrain/skills/citation-fixer/routing-eval.jsonl"
+  },
+  {
+   "intent": "Please ingest this whole blog into my brain — every post in the archive, not just the recent ones",
+   "expected_skill": "blog-ingest",
+   "source": "gbrain/skills/blog-ingest/routing-eval.jsonl"
+  },
+  {
+   "intent": "Ingest this publication: walk the RSS feed, paginate the archive, and write one page per post",
+   "expected_skill": "blog-ingest",
+   "source": "gbrain/skills/blog-ingest/routing-eval.jsonl"
+  },
+  {
+   "intent": "Backfill this blog from its feed, oldest posts first, and make sure re-runs don't duplicate",
+   "expected_skill": "blog-ingest",
+   "source": "gbrain/skills/blog-ingest/routing-eval.jsonl"
+  },
+  {
+   "intent": "Ingest this newsletter archive — all the back issues, deduped by canonical URL",
+   "expected_skill": "blog-ingest",
+   "source": "gbrain/skills/blog-ingest/routing-eval.jsonl"
+  },
+  {
+   "intent": "Save this whole substack to my brain, public posts only",
+   "expected_skill": "blog-ingest",
+   "ambiguous_with": [
+    "idea-ingest"
+   ],
+   "source": "gbrain/skills/blog-ingest/routing-eval.jsonl"
+  },
+  {
+   "intent": "Save this article for me — just the one post, it's a great essay",
+   "expected_skill": "idea-ingest",
+   "ambiguous_with": [
+    "blog-ingest"
+   ],
+   "source": "gbrain/skills/blog-ingest/routing-eval.jsonl"
+  },
+  {
+   "intent": "Ingest this PDF whitepaper I found on a blog",
+   "expected_skill": "media-ingest",
+   "ambiguous_with": [
+    "blog-ingest"
+   ],
+   "source": "gbrain/skills/blog-ingest/routing-eval.jsonl"
+  },
+  {
+   "intent": "Unsubscribe me from this newsletter and mute future issues",
+   "expected_skill": null,
+   "source": "gbrain/skills/blog-ingest/routing-eval.jsonl"
+  },
+  {
+   "intent": "stand up a company brain from my personal brain for the whole team",
+   "expected_skill": "company-brainify",
+   "source": "gbrain/skills/company-brainify/routing-eval.jsonl"
+  },
+  {
+   "intent": "sanitize the brain so I can onboard new teammates to the repo",
+   "expected_skill": "company-brainify",
+   "source": "gbrain/skills/company-brainify/routing-eval.jsonl"
+  },
+  {
+   "intent": "scrub employee data — comp, ratings, performance notes — before we share it",
+   "expected_skill": "company-brainify",
+   "source": "gbrain/skills/company-brainify/routing-eval.jsonl"
+  },
+  {
+   "intent": "brainify this into a team brain the engineers can mount",
+   "expected_skill": "company-brainify",
+   "source": "gbrain/skills/company-brainify/routing-eval.jsonl"
+  },
+  {
+   "intent": "audit the shared brain for sensitive content that shouldn't be in there",
+   "expected_skill": "company-brainify",
+   "source": "gbrain/skills/company-brainify/routing-eval.jsonl"
+  },
+  {
+   "intent": "can you share my brain with the team so they can mount it",
+   "expected_skill": "company-brainify",
+   "ambiguous_with": [
+    "publish"
+   ],
+   "source": "gbrain/skills/company-brainify/routing-eval.jsonl"
+  },
+  {
+   "intent": "share this page as a password-protected link",
+   "expected_skill": "publish",
+   "source": "gbrain/skills/company-brainify/routing-eval.jsonl"
+  },
+  {
+   "intent": "purge the old media cache to free up space",
+   "expected_skill": "data-loss-gate",
+   "source": "gbrain/skills/company-brainify/routing-eval.jsonl"
+  },
+  {
+   "intent": "what's on my calendar for tomorrow",
+   "expected_skill": null,
+   "source": "gbrain/skills/company-brainify/routing-eval.jsonl"
+  },
+  {
+   "intent": "you committed the brain page — give me the link in the same message next time",
+   "expected_skill": "brain-link-discipline",
+   "source": "gbrain/skills/brain-link-discipline/routing-eval.jsonl"
+  },
+  {
+   "intent": "where is the page you just pushed? I shouldn't have to ask",
+   "expected_skill": "brain-link-discipline",
+   "source": "gbrain/skills/brain-link-discipline/routing-eval.jsonl"
+  },
+  {
+   "intent": "why does this link 404 right after you said you pushed the page",
+   "expected_skill": "brain-link-discipline",
+   "source": "gbrain/skills/brain-link-discipline/routing-eval.jsonl"
+  },
+  {
+   "intent": "rewrite subagent paths into clickable links before relaying the result",
+   "expected_skill": "brain-link-discipline",
+   "source": "gbrain/skills/brain-link-discipline/routing-eval.jsonl"
+  },
+  {
+   "intent": "apply brain link discipline when you report the pages you created",
+   "expected_skill": "brain-link-discipline",
+   "source": "gbrain/skills/brain-link-discipline/routing-eval.jsonl"
+  },
+  {
+   "intent": "add a typed link between the alice-example page and the acme-example page",
+   "expected_skill": null,
+   "ambiguous_with": [],
+   "source": "gbrain/skills/brain-link-discipline/routing-eval.jsonl"
+  },
+  {
+   "intent": "share this page as a link someone outside the repo can open",
+   "expected_skill": "publish",
+   "ambiguous_with": [
+    "brain-link-discipline"
+   ],
+   "source": "gbrain/skills/brain-link-discipline/routing-eval.jsonl"
+  },
+  {
+   "intent": "autobench the media-ingest skill",
+   "expected_skill": "skill-autobench",
+   "source": "gbrain/skills/skill-autobench/routing-eval.jsonl"
+  },
+  {
+   "intent": "please write the eval from usage history for the media-ingest skill",
+   "expected_skill": "skill-autobench",
+   "source": "gbrain/skills/skill-autobench/routing-eval.jsonl"
+  },
+  {
+   "intent": "synthesize an eval for this skill based on how I've actually used it, not its spec",
+   "expected_skill": "skill-autobench",
+   "source": "gbrain/skills/skill-autobench/routing-eval.jsonl"
+  },
+  {
+   "intent": "I keep correcting this skill — build a benchmark from my corrections so it stops",
+   "expected_skill": "skill-autobench",
+   "ambiguous_with": [
+    "skill-optimizer"
+   ],
+   "source": "gbrain/skills/skill-autobench/routing-eval.jsonl"
+  },
+  {
+   "intent": "verify the eval panel — was that judging really 3 models or did it collapse to one provider",
+   "expected_skill": "skill-autobench",
+   "source": "gbrain/skills/skill-autobench/routing-eval.jsonl"
+  },
+  {
+   "intent": "improve this skill — tighten its instructions",
+   "expected_skill": "skill-creator",
+   "source": "gbrain/skills/skill-autobench/routing-eval.jsonl"
+  },
+  {
+   "intent": "run the unit tests before we ship",
+   "expected_skill": null,
+   "source": "gbrain/skills/skill-autobench/routing-eval.jsonl"
+  },
+  {
+   "intent": "That's wrong — alice-example never worked at widget-co. Find out where you got that and fix it",
+   "expected_skill": "correction-pipeline",
+   "source": "gbrain/skills/correction-pipeline/routing-eval.jsonl"
+  },
+  {
+   "intent": "I never said that about the acme-example deal. Where did you get that?",
+   "expected_skill": "correction-pipeline",
+   "source": "gbrain/skills/correction-pipeline/routing-eval.jsonl"
+  },
+  {
+   "intent": "You got that wrong: charlie-example is the CTO, not the CEO. Root-cause this error, don't just note it",
+   "expected_skill": "correction-pipeline",
+   "source": "gbrain/skills/correction-pipeline/routing-eval.jsonl"
+  },
+  {
+   "intent": "That's not true — correct that fact and check everywhere else it spread",
+   "expected_skill": "correction-pipeline",
+   "source": "gbrain/skills/correction-pipeline/routing-eval.jsonl"
+  },
+  {
+   "intent": "That's wrong — alice-example left widget-co last year but you keep saying she works there. Fix it everywhere",
+   "expected_skill": "correction-pipeline",
+   "ambiguous_with": [
+    "maintain"
+   ],
+   "source": "gbrain/skills/correction-pipeline/routing-eval.jsonl"
+  },
+  {
+   "intent": "fix broken citations on the acme-example page",
+   "expected_skill": "citation-fixer",
+   "ambiguous_with": [],
+   "source": "gbrain/skills/correction-pipeline/routing-eval.jsonl"
+  },
+  {
+   "intent": "the unit test is wrong, fix the assertion",
+   "expected_skill": null,
+   "ambiguous_with": [],
+   "source": "gbrain/skills/correction-pipeline/routing-eval.jsonl"
+  },
+  {
+   "intent": "let's do EIIRP on what we just built",
+   "expected_skill": "eiirp",
+   "source": "gbrain/skills/eiirp/routing-eval.jsonl"
+  },
+  {
+   "intent": "time for EIIRP — wrap this all up",
+   "expected_skill": "eiirp",
+   "source": "gbrain/skills/eiirp/routing-eval.jsonl"
+  },
+  {
+   "intent": "I want everything in its right place after today",
+   "expected_skill": "eiirp",
+   "source": "gbrain/skills/eiirp/routing-eval.jsonl"
+  },
+  {
+   "intent": "let's get everything in its right place before EOD",
+   "expected_skill": "eiirp",
+   "source": "gbrain/skills/eiirp/routing-eval.jsonl"
+  },
+  {
+   "intent": "make this re-doable for next quarter",
+   "expected_skill": "eiirp",
+   "source": "gbrain/skills/eiirp/routing-eval.jsonl"
+  },
+  {
+   "intent": "let's DRY this up across our skills",
+   "expected_skill": "eiirp",
+   "source": "gbrain/skills/eiirp/routing-eval.jsonl"
+  },
+  {
+   "intent": "please file all of this properly",
+   "expected_skill": "eiirp",
+   "source": "gbrain/skills/eiirp/routing-eval.jsonl"
+  },
+  {
+   "intent": "organize all of this work so it's findable later",
+   "expected_skill": "eiirp",
+   "source": "gbrain/skills/eiirp/routing-eval.jsonl"
+  },
+  {
+   "intent": "archive this research thread once we're done",
+   "expected_skill": "eiirp",
+   "ambiguous_with": [
+    "data-research"
+   ],
+   "source": "gbrain/skills/eiirp/routing-eval.jsonl"
+  },
+  {
+   "intent": "run a deep analysis on this diligence packet from acme-example and make sure it's findable later",
+   "expected_skill": "eiirp",
+   "source": "gbrain/skills/eiirp/routing-eval.jsonl"
+  },
+  {
+   "intent": "can you analyze this document I just uploaded and file the takeaways somewhere permanent?",
+   "expected_skill": "eiirp",
+   "source": "gbrain/skills/eiirp/routing-eval.jsonl"
+  },
+  {
+   "intent": "here's a PDF — deep analysis please, then save to brain",
+   "expected_skill": "eiirp",
+   "ambiguous_with": [
+    "capture"
+   ],
+   "source": "gbrain/skills/eiirp/routing-eval.jsonl"
+  },
+  {
+   "intent": "please review this report on the widget-co pilot and give me structured findings",
+   "expected_skill": "eiirp",
+   "source": "gbrain/skills/eiirp/routing-eval.jsonl"
+  },
+  {
+   "intent": "what page is the indemnity clause on in this contract?",
+   "expected_skill": null,
+   "ambiguous_with": [],
+   "source": "gbrain/skills/eiirp/routing-eval.jsonl"
+  },
+  {
+   "intent": "Please crawl my archive and surface the writing worth keeping",
+   "expected_skill": "archive-crawler",
+   "source": "gbrain/skills/archive-crawler/routing-eval.jsonl"
+  },
+  {
+   "intent": "Find gold in my archive of old letters and ideas",
+   "expected_skill": "archive-crawler",
+   "source": "gbrain/skills/archive-crawler/routing-eval.jsonl"
+  },
+  {
+   "intent": "Run archive crawler on the gbrain.yml allow-listed paths",
+   "expected_skill": "archive-crawler",
+   "source": "gbrain/skills/archive-crawler/routing-eval.jsonl"
+  },
+  {
+   "intent": "Scan my dropbox for substantive email threads with people who matter",
+   "expected_skill": "archive-crawler",
+   "source": "gbrain/skills/archive-crawler/routing-eval.jsonl"
+  },
+  {
+   "intent": "Mine my old files for journal entries and reflections worth ingesting",
+   "expected_skill": "archive-crawler",
+   "source": "gbrain/skills/archive-crawler/routing-eval.jsonl"
+  },
+  {
+   "intent": "migrate to brain: these project notes have been sitting in the workspace for weeks",
+   "expected_skill": "brain-ingest-gate",
+   "source": "gbrain/skills/brain-ingest-gate/routing-eval.jsonl"
+  },
+  {
+   "intent": "before you save that concept page, is this already in the brain somewhere?",
+   "expected_skill": "brain-ingest-gate",
+   "source": "gbrain/skills/brain-ingest-gate/routing-eval.jsonl"
+  },
+  {
+   "intent": "copy these files into the brain — the whole notes/ folder from this project",
+   "expected_skill": "brain-ingest-gate",
+   "source": "gbrain/skills/brain-ingest-gate/routing-eval.jsonl"
+  },
+  {
+   "intent": "check for duplicates before writing anything from this batch",
+   "expected_skill": "brain-ingest-gate",
+   "source": "gbrain/skills/brain-ingest-gate/routing-eval.jsonl"
+  },
+  {
+   "intent": "move this to brain, but make sure it's not just a raw copy to brain with no linking",
+   "expected_skill": "brain-ingest-gate",
+   "source": "gbrain/skills/brain-ingest-gate/routing-eval.jsonl"
+  },
+  {
+   "intent": "capture this thought: pricing pages should default to the annual toggle",
+   "expected_skill": "capture",
+   "ambiguous_with": [],
+   "source": "gbrain/skills/brain-ingest-gate/routing-eval.jsonl"
+  },
+  {
+   "intent": "run concept synthesis to dedupe the stubs that piled up in the brain over the last few months",
+   "expected_skill": "concept-synthesis",
+   "ambiguous_with": [
+    "brain-ingest-gate"
+   ],
+   "source": "gbrain/skills/brain-ingest-gate/routing-eval.jsonl"
+  },
+  {
+   "intent": "Fix the typos in this outgoing email before I hit send",
+   "expected_skill": null,
+   "source": "gbrain/skills/brain-ingest-gate/routing-eval.jsonl"
+  },
+  {
+   "intent": "Can you optimize this skill against my benchmark?",
+   "expected_skill": "skill-optimizer",
+   "source": "gbrain/skills/skill-optimizer/routing-eval.jsonl"
+  },
+  {
+   "intent": "Tune the skill against the benchmark fixtures",
+   "expected_skill": "skill-optimizer",
+   "source": "gbrain/skills/skill-optimizer/routing-eval.jsonl"
+  },
+  {
+   "intent": "Run skillopt for the brain-ops skill",
+   "expected_skill": "skill-optimizer",
+   "source": "gbrain/skills/skill-optimizer/routing-eval.jsonl"
+  },
+  {
+   "intent": "Make the skill better via the optimizer",
+   "expected_skill": "skill-optimizer",
+   "source": "gbrain/skills/skill-optimizer/routing-eval.jsonl"
+  },
+  {
+   "intent": "Run skillopt for my-skill to improve it",
+   "expected_skill": "skill-optimizer",
+   "source": "gbrain/skills/skill-optimizer/routing-eval.jsonl"
+  },
+  {
+   "intent": "How do I create a new skill from scratch?",
+   "expected_skill": "skill-creator",
+   "ambiguous_with": [
+    "skill-optimizer"
+   ],
+   "source": "gbrain/skills/skill-optimizer/routing-eval.jsonl"
+  },
+  {
+   "intent": "Run a context audit — my always-loaded files keep growing",
+   "expected_skill": "context-audit",
+   "source": "gbrain/skills/context-audit/routing-eval.jsonl"
+  },
+  {
+   "intent": "Do a system prompt audit and tell me what to cut",
+   "expected_skill": "context-audit",
+   "source": "gbrain/skills/context-audit/routing-eval.jsonl"
+  },
+  {
+   "intent": "Put my agent on a context diet, CLAUDE.md is enormous",
+   "expected_skill": "context-audit",
+   "source": "gbrain/skills/context-audit/routing-eval.jsonl"
+  },
+  {
+   "intent": "Can you reduce context size? The startup files feel bloated and contradictory",
+   "expected_skill": "context-audit",
+   "source": "gbrain/skills/context-audit/routing-eval.jsonl"
+  },
+  {
+   "intent": "Audit my context stack for redundancy and stale rules",
+   "expected_skill": "context-audit",
+   "source": "gbrain/skills/context-audit/routing-eval.jsonl"
+  },
+  {
+   "intent": "Time for some token hygiene — what's wasting tokens every turn?",
+   "expected_skill": "context-audit",
+   "source": "gbrain/skills/context-audit/routing-eval.jsonl"
+  },
+  {
+   "intent": "SOUL.md got huge — audit my context stack and rank what to compress",
+   "expected_skill": "context-audit",
+   "ambiguous_with": [
+    "soul-audit"
+   ],
+   "source": "gbrain/skills/context-audit/routing-eval.jsonl"
+  },
+  {
+   "intent": "Re-run the identity interview, I want to change my agent's personality",
+   "expected_skill": "soul-audit",
+   "ambiguous_with": [
+    "context-audit"
+   ],
+   "source": "gbrain/skills/context-audit/routing-eval.jsonl"
+  },
+  {
+   "intent": "Check the brain and jobs — is everything still running fine?",
+   "expected_skill": "skillpack-check",
+   "source": "gbrain/skills/context-audit/routing-eval.jsonl"
+  },
+  {
+   "intent": "Estimate the token count of this single prompt before I send it",
+   "expected_skill": null,
+   "source": "gbrain/skills/context-audit/routing-eval.jsonl"
+  },
+  {
+   "intent": "rm -rf the old imports directory to free up space",
+   "expected_skill": "data-loss-gate",
+   "source": "gbrain/skills/data-loss-gate/routing-eval.jsonl"
+  },
+  {
+   "intent": "bulk delete every page in the sources/acme-example folder, all 400 of them",
+   "expected_skill": "data-loss-gate",
+   "source": "gbrain/skills/data-loss-gate/routing-eval.jsonl"
+  },
+  {
+   "intent": "run a bulk forget over the stale facts from last quarter",
+   "expected_skill": "data-loss-gate",
+   "source": "gbrain/skills/data-loss-gate/routing-eval.jsonl"
+  },
+  {
+   "intent": "truncate the content_chunks table and re-embed from scratch",
+   "expected_skill": "data-loss-gate",
+   "source": "gbrain/skills/data-loss-gate/routing-eval.jsonl"
+  },
+  {
+   "intent": "cleanup: purge the soft-deleted pages and remove the source widget-co",
+   "expected_skill": "data-loss-gate",
+   "source": "gbrain/skills/data-loss-gate/routing-eval.jsonl"
+  },
+  {
+   "intent": "forget fact 1234, it's outdated — I corrected it on the page already",
+   "expected_skill": null,
+   "ambiguous_with": [],
+   "source": "gbrain/skills/data-loss-gate/routing-eval.jsonl"
+  },
+  {
+   "intent": "clean up the brain — find orphan pages and stale info",
+   "expected_skill": "maintain",
+   "ambiguous_with": [
+    "data-loss-gate"
+   ],
+   "source": "gbrain/skills/data-loss-gate/routing-eval.jsonl"
+  },
+  {
+   "intent": "Build a citation graph over this case-law corpus so I can see what overrules what",
+   "expected_skill": "citation-graph-ingest",
+   "source": "gbrain/skills/citation-graph-ingest/routing-eval.jsonl"
+  },
+  {
+   "intent": "Run citation graph ingest on the patents source",
+   "expected_skill": "citation-graph-ingest",
+   "source": "gbrain/skills/citation-graph-ingest/routing-eval.jsonl"
+  },
+  {
+   "intent": "Create a typed citation graph for these papers — extends, relies on, refutes",
+   "expected_skill": "citation-graph-ingest",
+   "source": "gbrain/skills/citation-graph-ingest/routing-eval.jsonl"
+  },
+  {
+   "intent": "Build a reference graph over the ingested filings so we can trace which ones supersede which",
+   "expected_skill": "citation-graph-ingest",
+   "source": "gbrain/skills/citation-graph-ingest/routing-eval.jsonl"
+  },
+  {
+   "intent": "I want to reason over a domain corpus, not just similarity-search it — graph the citations",
+   "expected_skill": "citation-graph-ingest",
+   "source": "gbrain/skills/citation-graph-ingest/routing-eval.jsonl"
+  },
+  {
+   "intent": "Fix broken citations in my essay pages",
+   "expected_skill": "citation-fixer",
+   "source": "gbrain/skills/citation-graph-ingest/routing-eval.jsonl"
+  },
+  {
+   "intent": "Verify this academic claim from the book against the original paper",
+   "expected_skill": "academic-verify",
+   "source": "gbrain/skills/citation-graph-ingest/routing-eval.jsonl"
+  },
+  {
+   "intent": "Just walk one hop out from doc-a-example with the gbrain graph CLI",
+   "expected_skill": null,
+   "source": "gbrain/skills/citation-graph-ingest/routing-eval.jsonl"
+  },
+  {
+   "intent": "Audit how the ingested court documents cite each other — build a reference graph of it",
+   "expected_skill": "citation-graph-ingest",
+   "ambiguous_with": [
+    "citation-fixer"
+   ],
+   "source": "gbrain/skills/citation-graph-ingest/routing-eval.jsonl"
+  },
+  {
+   "intent": "fact check this draft before I post it",
+   "expected_skill": "fact-check",
+   "source": "gbrain/skills/fact-check/routing-eval.jsonl"
+  },
+  {
+   "intent": "verify the facts in this essay against live sources",
+   "expected_skill": "fact-check",
+   "source": "gbrain/skills/fact-check/routing-eval.jsonl"
+  },
+  {
+   "intent": "is this accurate? check the claims one by one",
+   "expected_skill": "fact-check",
+   "source": "gbrain/skills/fact-check/routing-eval.jsonl"
+  },
+  {
+   "intent": "this briefing came straight out of the brain — is this output hallucinating? re-derive every claim",
+   "expected_skill": "fact-check",
+   "source": "gbrain/skills/fact-check/routing-eval.jsonl"
+  },
+  {
+   "intent": "run a source check on the numbers in this post",
+   "expected_skill": "fact-check",
+   "source": "gbrain/skills/fact-check/routing-eval.jsonl"
+  },
+  {
+   "intent": "fix citations across these brain pages",
+   "expected_skill": "citation-fixer",
+   "source": "gbrain/skills/fact-check/routing-eval.jsonl"
+  },
+  {
+   "intent": "what's for breakfast",
+   "expected_skill": null,
+   "ambiguous_with": [],
+   "source": "gbrain/skills/fact-check/routing-eval.jsonl"
+  },
+  {
+   "intent": "check this study — is the 40% reduction number real, did it ever replicate",
+   "expected_skill": "academic-verify",
+   "ambiguous_with": [
+    "fact-check"
+   ],
+   "source": "gbrain/skills/fact-check/routing-eval.jsonl"
+  },
+  {
+   "intent": "Set up two-tier extraction for this document dump — cheap model on the noise, best model on what matters",
+   "expected_skill": "two-tier-extraction",
+   "source": "gbrain/skills/two-tier-extraction/routing-eval.jsonl"
+  },
+  {
+   "intent": "Use triage then deep read on these 5,000 old email threads so we don't burn the deep tier on noise",
+   "expected_skill": "two-tier-extraction",
+   "source": "gbrain/skills/two-tier-extraction/routing-eval.jsonl"
+  },
+  {
+   "intent": "What's the model escalation pattern for bulk-processing my transcript library?",
+   "expected_skill": "two-tier-extraction",
+   "source": "gbrain/skills/two-tier-extraction/routing-eval.jsonl"
+  },
+  {
+   "intent": "Give me smart model routing for this archive run — route models by content value",
+   "expected_skill": "two-tier-extraction",
+   "source": "gbrain/skills/two-tier-extraction/routing-eval.jsonl"
+  },
+  {
+   "intent": "Cheap triage expensive analysis: only the significant items should get the expensive model",
+   "expected_skill": "two-tier-extraction",
+   "source": "gbrain/skills/two-tier-extraction/routing-eval.jsonl"
+  },
+  {
+   "intent": "Which model tier for bulk extraction of this chat export?",
+   "expected_skill": "two-tier-extraction",
+   "ambiguous_with": [
+    "archive-crawler"
+   ],
+   "source": "gbrain/skills/two-tier-extraction/routing-eval.jsonl"
+  },
+  {
+   "intent": "Crawl my archive and surface the writing worth keeping",
+   "expected_skill": "archive-crawler",
+   "source": "gbrain/skills/two-tier-extraction/routing-eval.jsonl"
+  },
+  {
+   "intent": "Which model should I set as my default for gbrain chat?",
+   "expected_skill": null,
+   "source": "gbrain/skills/two-tier-extraction/routing-eval.jsonl"
+  },
+  {
+   "intent": "Skillify this workflow end to end — full checklist, eval contract, and resolver row",
+   "expected_skill": "skillify",
+   "source": "gbrain/skills/skillify/routing-eval.jsonl"
+  },
+  {
+   "intent": "Check skill completeness on this workflow before we call it done",
+   "expected_skill": "skillify",
+   "source": "gbrain/skills/skillify/routing-eval.jsonl"
+  },
+  {
+   "intent": "Did this skill regress after my edit? Compare the fresh score against the prior baseline",
+   "expected_skill": "skillify",
+   "source": "gbrain/skills/skillify/routing-eval.jsonl"
+  },
+  {
+   "intent": "Skillify this new skill draft — take it through the whole checklist and evals",
+   "expected_skill": "skillify",
+   "ambiguous_with": [
+    "skill-creator"
+   ],
+   "source": "gbrain/skills/skillify/routing-eval.jsonl"
+  },
+  {
+   "intent": "Which of our skills are bundled into the plugin for downstream installs?",
+   "expected_skill": null,
+   "source": "gbrain/skills/skillify/routing-eval.jsonl"
+  },
+  {
+   "intent": "My AGENTS.md too large at 30KB and hitting context limits, how do I shrink it",
+   "expected_skill": "functional-area-resolver",
+   "source": "gbrain/skills/functional-area-resolver/routing-eval.jsonl"
+  },
+  {
+   "intent": "The daily doctor says context-health is red because AGENTS.md too large",
+   "expected_skill": "functional-area-resolver",
+   "source": "gbrain/skills/functional-area-resolver/routing-eval.jsonl"
+  },
+  {
+   "intent": "How do I compress my resolver without losing routing accuracy",
+   "expected_skill": "functional-area-resolver",
+   "source": "gbrain/skills/functional-area-resolver/routing-eval.jsonl"
+  },
+  {
+   "intent": "RESOLVER.md too big — convert my 200-row skill resolver into functional areas",
+   "expected_skill": "functional-area-resolver",
+   "source": "gbrain/skills/functional-area-resolver/routing-eval.jsonl"
+  },
+  {
+   "intent": "What's the functional area dispatcher pattern for AGENTS.md",
+   "expected_skill": "functional-area-resolver",
+   "source": "gbrain/skills/functional-area-resolver/routing-eval.jsonl"
+  },
+  {
+   "intent": "My RESOLVER.md too big at 25KB, how do I shrink it",
+   "expected_skill": "functional-area-resolver",
+   "source": "gbrain/skills/functional-area-resolver/routing-eval.jsonl"
+  },
+  {
+   "intent": "I want to compress my resolver while keeping all the sub-skills reachable",
+   "expected_skill": "functional-area-resolver",
+   "source": "gbrain/skills/functional-area-resolver/routing-eval.jsonl"
+  },
+  {
+   "intent": "Explain the functional area dispatcher pattern and when to use it",
+   "expected_skill": "functional-area-resolver",
+   "source": "gbrain/skills/functional-area-resolver/routing-eval.jsonl"
+  },
+  {
+   "intent": "Skillify this — make this proper from the routing-pattern notes",
+   "expected_skill": "skillify",
+   "ambiguous_with": [
+    "functional-area-resolver"
+   ],
+   "source": "gbrain/skills/functional-area-resolver/routing-eval.jsonl"
+  },
+  {
+   "intent": "Create a skill that compacts a routing file using AI",
+   "expected_skill": "skill-creator",
+   "ambiguous_with": [
+    "functional-area-resolver"
+   ],
+   "source": "gbrain/skills/functional-area-resolver/routing-eval.jsonl"
+  },
+  {
+   "intent": "Personalized version of this book about resolver and dispatcher design",
+   "expected_skill": "book-mirror",
+   "ambiguous_with": [
+    "functional-area-resolver"
+   ],
+   "source": "gbrain/skills/functional-area-resolver/routing-eval.jsonl"
+  },
+  {
+   "intent": "Synthesize my concepts about how routing files grow over time",
+   "expected_skill": "concept-synthesis",
+   "ambiguous_with": [
+    "functional-area-resolver"
+   ],
+   "source": "gbrain/skills/functional-area-resolver/routing-eval.jsonl"
+  },
+  {
+   "intent": "I want to ingest all my podcast transcripts into the brain",
+   "expected_skill": "bulk-ingestion",
+   "source": "gbrain/skills/bulk-ingestion/routing-eval.jsonl"
+  },
+  {
+   "intent": "Build an ingestion pipeline for my newsletter archive",
+   "expected_skill": "bulk-ingestion",
+   "source": "gbrain/skills/bulk-ingestion/routing-eval.jsonl"
+  },
+  {
+   "intent": "Set up a bulk import of this email takeout — hundreds of thousands of messages",
+   "expected_skill": "bulk-ingestion",
+   "source": "gbrain/skills/bulk-ingestion/routing-eval.jsonl"
+  },
+  {
+   "intent": "Make a manifest so we can resume this large ingest across sessions and workers",
+   "expected_skill": "bulk-ingestion",
+   "source": "gbrain/skills/bulk-ingestion/routing-eval.jsonl"
+  },
+  {
+   "intent": "We need to bulk backfill three years of standup summaries into brain pages",
+   "expected_skill": "bulk-ingestion",
+   "source": "gbrain/skills/bulk-ingestion/routing-eval.jsonl"
+  },
+  {
+   "intent": "save this to brain — just the one article I linked",
+   "expected_skill": "ingest",
+   "ambiguous_with": [
+    "idea-ingest"
+   ],
+   "source": "gbrain/skills/bulk-ingestion/routing-eval.jsonl"
+  },
+  {
+   "intent": "Crawl my archive and bulk ingest everything worth keeping",
+   "expected_skill": "bulk-ingestion",
+   "ambiguous_with": [
+    "archive-crawler"
+   ],
+   "source": "gbrain/skills/bulk-ingestion/routing-eval.jsonl"
+  },
+  {
+   "intent": "Bulk-rename the screenshots in this folder to kebab-case filenames",
+   "expected_skill": null,
+   "source": "gbrain/skills/bulk-ingestion/routing-eval.jsonl"
+  },
+  {
+   "intent": "Give me the brain pulse before my first meeting — what changed overnight",
+   "expected_skill": "briefing",
+   "source": "gbrain/skills/briefing/routing-eval.jsonl"
+  },
+  {
+   "intent": "Run the pre-briefing pull: salience, anomalies, and recall before you compose today's briefing",
+   "expected_skill": "briefing",
+   "source": "gbrain/skills/briefing/routing-eval.jsonl"
+  },
+  {
+   "intent": "Morning briefing please, and lead with anything high-salience or anomalous in the brain",
+   "expected_skill": "briefing",
+   "source": "gbrain/skills/briefing/routing-eval.jsonl"
+  },
+  {
+   "intent": "What's happening today across my meetings and hot topics",
+   "expected_skill": "briefing",
+   "ambiguous_with": [
+    "daily-task-prep"
+   ],
+   "source": "gbrain/skills/briefing/routing-eval.jsonl"
+  },
+  {
+   "intent": "Why did the page for acme-example suddenly spike in edits last Tuesday — dig into the cause",
+   "expected_skill": null,
+   "source": "gbrain/skills/briefing/routing-eval.jsonl"
+  },
+  {
+   "intent": "gbrain doctor says source-a is stale — should I just raise the timeout on the sync?",
+   "expected_skill": "measure-before-you-fix",
+   "source": "gbrain/skills/measure-before-you-fix/routing-eval.jsonl"
+  },
+  {
+   "intent": "The embed job is slow and died with ETIMEDOUT — bump the timeout and rerun",
+   "expected_skill": "measure-before-you-fix",
+   "source": "gbrain/skills/measure-before-you-fix/routing-eval.jsonl"
+  },
+  {
+   "intent": "Sync is stuck again, third freshness alert today, let's rewrite the wrapper",
+   "expected_skill": "measure-before-you-fix",
+   "source": "gbrain/skills/measure-before-you-fix/routing-eval.jsonl"
+  },
+  {
+   "intent": "The pipeline looks wedged — it says 14 hours behind, split the step so it can't starve",
+   "expected_skill": "measure-before-you-fix",
+   "source": "gbrain/skills/measure-before-you-fix/routing-eval.jsonl"
+  },
+  {
+   "intent": "Raise the timeout on the cycle step, it keeps timing out overnight",
+   "expected_skill": "measure-before-you-fix",
+   "source": "gbrain/skills/measure-before-you-fix/routing-eval.jsonl"
+  },
+  {
+   "intent": "Why is this function returning undefined? Debug it",
+   "expected_skill": null,
+   "source": "gbrain/skills/measure-before-you-fix/routing-eval.jsonl"
+  },
+  {
+   "intent": "run a brain health check — citations, orphans, stale pages",
+   "expected_skill": "maintain",
+   "ambiguous_with": [
+    "citation-fixer",
+    "smoke-test"
+   ],
+   "source": "gbrain/skills/measure-before-you-fix/routing-eval.jsonl"
+  },
+  {
+   "intent": "Doctor flagged a sync freshness alert — triage brain health before we change anything",
+   "expected_skill": "measure-before-you-fix",
+   "ambiguous_with": [
+    "maintain"
+   ],
+   "source": "gbrain/skills/measure-before-you-fix/routing-eval.jsonl"
+  },
+  {
+   "intent": "Please make pdf from brain page media/books/this-book-personalized",
+   "expected_skill": "brain-pdf",
+   "source": "gbrain/skills/brain-pdf/routing-eval.jsonl"
+  },
+  {
+   "intent": "Run brain pdf on this strategy doc for the meeting",
+   "expected_skill": "brain-pdf",
+   "source": "gbrain/skills/brain-pdf/routing-eval.jsonl"
+  },
+  {
+   "intent": "Convert brain page to pdf with a draft watermark",
+   "expected_skill": "brain-pdf",
+   "source": "gbrain/skills/brain-pdf/routing-eval.jsonl"
+  },
+  {
+   "intent": "Publish this page as pdf for the printable deliverable",
+   "expected_skill": "brain-pdf",
+   "source": "gbrain/skills/brain-pdf/routing-eval.jsonl"
+  },
+  {
+   "intent": "Export brain page to a clean PDF I can send",
+   "expected_skill": "brain-pdf",
+   "source": "gbrain/skills/brain-pdf/routing-eval.jsonl"
+  },
+  {
+   "intent": "Please verify this academic claim from the book against the original paper",
+   "expected_skill": "academic-verify",
+   "source": "gbrain/skills/academic-verify/routing-eval.jsonl"
+  },
+  {
+   "intent": "Check this study cited in the article — has it been replicated",
+   "expected_skill": "academic-verify",
+   "source": "gbrain/skills/academic-verify/routing-eval.jsonl"
+  },
+  {
+   "intent": "Run academic verify on the 40% reduction claim and trace it to the source data",
+   "expected_skill": "academic-verify",
+   "source": "gbrain/skills/academic-verify/routing-eval.jsonl"
+  },
+  {
+   "intent": "Validate citation for the Stanford study referenced in the policy brief",
+   "expected_skill": "academic-verify",
+   "source": "gbrain/skills/academic-verify/routing-eval.jsonl"
+  },
+  {
+   "intent": "Is this study real, or is it on Retraction Watch",
+   "expected_skill": "academic-verify",
+   "source": "gbrain/skills/academic-verify/routing-eval.jsonl"
+  },
+  {
+   "intent": "A new meeting transcript received from my recorder — run the full pipeline on it",
+   "expected_skill": "meeting-ingestion",
+   "source": "gbrain/skills/meeting-ingestion/routing-eval.jsonl"
+  },
+  {
+   "intent": "My meeting recorder just finished — ingest this recording into the brain and update everyone who was there",
+   "expected_skill": "meeting-ingestion",
+   "source": "gbrain/skills/meeting-ingestion/routing-eval.jsonl"
+  },
+  {
+   "intent": "Here are the meeting notes from my sync with alice-example — file them with attendee pages and timeline merge",
+   "expected_skill": "meeting-ingestion",
+   "source": "gbrain/skills/meeting-ingestion/routing-eval.jsonl"
+  },
+  {
+   "intent": "I have a voice note from my meeting recorder — process this meeting into the brain",
+   "expected_skill": "meeting-ingestion",
+   "ambiguous_with": [
+    "voice-note-ingest"
+   ],
+   "source": "gbrain/skills/meeting-ingestion/routing-eval.jsonl"
+  },
+  {
+   "intent": "Reschedule tomorrow's standup with alice-example to the afternoon",
+   "expected_skill": null,
+   "source": "gbrain/skills/meeting-ingestion/routing-eval.jsonl"
+  },
+  {
+   "intent": "please validate frontmatter on the latest batch of brain pages",
+   "expected_skill": "frontmatter-guard",
+   "source": "gbrain/skills/frontmatter-guard/routing-eval.jsonl"
+  },
+  {
+   "intent": "fix frontmatter on these pages",
+   "expected_skill": "frontmatter-guard",
+   "source": "gbrain/skills/frontmatter-guard/routing-eval.jsonl"
+  },
+  {
+   "intent": "I want to run a frontmatter audit across the brain",
+   "expected_skill": "frontmatter-guard",
+   "source": "gbrain/skills/frontmatter-guard/routing-eval.jsonl"
+  },
+  {
+   "intent": "what's for breakfast",
+   "expected_skill": null,
+   "ambiguous_with": [],
+   "source": "gbrain/skills/frontmatter-guard/routing-eval.jsonl"
+  },
+  {
+   "intent": "Run concept synthesis on my brain — dedupe stubs and tier them",
+   "expected_skill": "concept-synthesis",
+   "source": "gbrain/skills/concept-synthesis/routing-eval.jsonl"
+  },
+  {
+   "intent": "Synthesize my concepts into a tiered intellectual map",
+   "expected_skill": "concept-synthesis",
+   "source": "gbrain/skills/concept-synthesis/routing-eval.jsonl"
+  },
+  {
+   "intent": "Find patterns across my notes and group them into clusters",
+   "expected_skill": "concept-synthesis",
+   "source": "gbrain/skills/concept-synthesis/routing-eval.jsonl"
+  },
+  {
+   "intent": "Build my intellectual map — what's canon vs riff",
+   "expected_skill": "concept-synthesis",
+   "source": "gbrain/skills/concept-synthesis/routing-eval.jsonl"
+  },
+  {
+   "intent": "Trace idea evolution across years of my reflections",
+   "expected_skill": "concept-synthesis",
+   "source": "gbrain/skills/concept-synthesis/routing-eval.jsonl"
+  },
+  {
+   "intent": "Trace idea evolution across years of my reflections and cluster the themes",
+   "expected_skill": "concept-synthesis",
+   "source": "gbrain/skills/concept-synthesis/routing-eval.jsonl"
+  },
+  {
+   "intent": "Run concept synthesis with the cull pass — hard keep or delete verdicts on my hollow concept stubs",
+   "expected_skill": "concept-synthesis",
+   "source": "gbrain/skills/concept-synthesis/routing-eval.jsonl"
+  },
+  {
+   "intent": "Synthesize my concepts and fold the redundant stubs into canonical heads under a cluster budget",
+   "expected_skill": "concept-synthesis",
+   "source": "gbrain/skills/concept-synthesis/routing-eval.jsonl"
+  },
+  {
+   "intent": "Delete the stale stub page about acme-example, it is outdated and no longer accurate",
+   "expected_skill": null,
+   "source": "gbrain/skills/concept-synthesis/routing-eval.jsonl"
+  },
+  {
+   "intent": "Run idea lineage on founder-led sales and show the earliest version",
+   "expected_skill": "idea-lineage",
+   "source": "gbrain/skills/idea-lineage/routing-eval.jsonl"
+  },
+  {
+   "intent": "Show how my thinking about compounding trust changed over time",
+   "expected_skill": "idea-lineage",
+   "source": "gbrain/skills/idea-lineage/routing-eval.jsonl"
+  },
+  {
+   "intent": "What is my current version of the invisible college idea?",
+   "expected_skill": "idea-lineage",
+   "source": "gbrain/skills/idea-lineage/routing-eval.jsonl"
+  },
+  {
+   "intent": "Where did this idea come from in my notes, and what did I abandon?",
+   "expected_skill": "idea-lineage",
+   "source": "gbrain/skills/idea-lineage/routing-eval.jsonl"
+  },
+  {
+   "intent": "Show reversals in my thinking about founder-led sales",
+   "expected_skill": "idea-lineage",
+   "source": "gbrain/skills/idea-lineage/routing-eval.jsonl"
+  },
+  {
+   "intent": "How has acme-example MRR trended since January?",
+   "expected_skill": null,
+   "source": "gbrain/skills/idea-lineage/routing-eval.jsonl"
+  },
+  {
+   "intent": "Build my intellectual map across all my recurring frameworks",
+   "expected_skill": "concept-synthesis",
+   "source": "gbrain/skills/idea-lineage/routing-eval.jsonl"
+  },
+  {
+   "intent": "Research everything about zettelkasten note systems, save every source, and write me a compendium",
+   "expected_skill": "research-compendium",
+   "ambiguous_with": [
+    "data-research"
+   ],
+   "source": "gbrain/skills/research-compendium/routing-eval.jsonl"
+  },
+  {
+   "intent": "Write me the definitive guide to home espresso — read them all and summarize each source first",
+   "expected_skill": "research-compendium",
+   "source": "gbrain/skills/research-compendium/routing-eval.jsonl"
+  },
+  {
+   "intent": "Deepen the compendium on urban walkability with another research layer",
+   "expected_skill": "research-compendium",
+   "ambiguous_with": [
+    "data-research"
+   ],
+   "source": "gbrain/skills/research-compendium/routing-eval.jsonl"
+  },
+  {
+   "intent": "Archive the sources then summarize each one before writing the synthesis doc",
+   "expected_skill": "research-compendium",
+   "source": "gbrain/skills/research-compendium/routing-eval.jsonl"
+  },
+  {
+   "intent": "Deep research and write up a comprehensive guide to solid-state batteries",
+   "expected_skill": "research-compendium",
+   "ambiguous_with": [
+    "data-research"
+   ],
+   "source": "gbrain/skills/research-compendium/routing-eval.jsonl"
+  },
+  {
+   "intent": "Deep research and write up a tracker with one row per funding round",
+   "expected_skill": "data-research",
+   "ambiguous_with": [
+    "research-compendium"
+   ],
+   "source": "gbrain/skills/research-compendium/routing-eval.jsonl"
+  },
+  {
+   "intent": "Just give me a quick answer about espresso grind size, no sources needed",
+   "expected_skill": null,
+   "source": "gbrain/skills/research-compendium/routing-eval.jsonl"
+  },
+  {
+   "intent": "What are my tasks looking like today?",
+   "expected_skill": "daily-task-manager",
+   "source": "gbrain/skills/daily-task-manager/routing-eval.jsonl"
+  },
+  {
+   "intent": "Add task: renew the acme-example contract next week",
+   "expected_skill": "daily-task-manager",
+   "source": "gbrain/skills/daily-task-manager/routing-eval.jsonl"
+  },
+  {
+   "intent": "Complete task: quarterly report — mark it off",
+   "expected_skill": "daily-task-manager",
+   "source": "gbrain/skills/daily-task-manager/routing-eval.jsonl"
+  },
+  {
+   "intent": "Defer task: website redesign, push it to next Monday",
+   "expected_skill": "daily-task-manager",
+   "ambiguous_with": [
+    "daily-task-prep"
+   ],
+   "source": "gbrain/skills/daily-task-manager/routing-eval.jsonl"
+  },
+  {
+   "intent": "What did I get done across the brain last week?",
+   "expected_skill": null,
+   "source": "gbrain/skills/daily-task-manager/routing-eval.jsonl"
+  },
+  {
+   "intent": "Who is Paul Graham and what has he written about startups",
+   "expected_skill": "query",
+   "source": "gbrain/skills/query/routing-eval.jsonl"
+  },
+  {
+   "intent": "I need background on the Series B round Acme raised last year",
+   "expected_skill": "query",
+   "ambiguous_with": [
+    "brain-ops"
+   ],
+   "source": "gbrain/skills/query/routing-eval.jsonl"
+  },
+  {
+   "intent": "Do we already have notes on this person",
+   "expected_skill": "query",
+   "ambiguous_with": [
+    "brain-ops"
+   ],
+   "source": "gbrain/skills/query/routing-eval.jsonl"
+  },
+  {
+   "intent": "Run perplexity-research on Brex and surface NEW developments",
+   "expected_skill": "perplexity-research",
+   "ambiguous_with": [
+    "data-research"
+   ],
+   "source": "gbrain/skills/perplexity-research/routing-eval.jsonl"
+  },
+  {
+   "intent": "What's new about this company that the brain doesn't already cover",
+   "expected_skill": "perplexity-research",
+   "source": "gbrain/skills/perplexity-research/routing-eval.jsonl"
+  },
+  {
+   "intent": "Tell me the current state of the YC W26 batch announcements",
+   "expected_skill": "perplexity-research",
+   "source": "gbrain/skills/perplexity-research/routing-eval.jsonl"
+  },
+  {
+   "intent": "Do a web research pass on this person — focus on the delta",
+   "expected_skill": "perplexity-research",
+   "ambiguous_with": [
+    "data-research"
+   ],
+   "source": "gbrain/skills/perplexity-research/routing-eval.jsonl"
+  },
+  {
+   "intent": "What changed about this funding round since I last looked",
+   "expected_skill": "perplexity-research",
+   "source": "gbrain/skills/perplexity-research/routing-eval.jsonl"
+  },
+  {
+   "intent": "Draft a tweet as alice-example announcing the acme-example launch",
+   "expected_skill": "draft-in-voice",
+   "source": "gbrain/skills/draft-in-voice/routing-eval.jsonl"
+  },
+  {
+   "intent": "Make this sound like charlie-example before I send it",
+   "expected_skill": "draft-in-voice",
+   "source": "gbrain/skills/draft-in-voice/routing-eval.jsonl"
+  },
+  {
+   "intent": "Ghostwrite a recruiting blurb in their voice for widget-co",
+   "expected_skill": "draft-in-voice",
+   "source": "gbrain/skills/draft-in-voice/routing-eval.jsonl"
+  },
+  {
+   "intent": "Build a voice profile for alice-example from her posts over the last year",
+   "expected_skill": "draft-in-voice",
+   "source": "gbrain/skills/draft-in-voice/routing-eval.jsonl"
+  },
+  {
+   "intent": "Turn this voice memo into a post in my voice about the launch",
+   "expected_skill": "draft-in-voice",
+   "ambiguous_with": [
+    "voice-note-ingest"
+   ],
+   "source": "gbrain/skills/draft-in-voice/routing-eval.jsonl"
+  },
+  {
+   "intent": "Transcribe and file this voice note from my walk",
+   "expected_skill": "voice-note-ingest",
+   "source": "gbrain/skills/draft-in-voice/routing-eval.jsonl"
+  },
+  {
+   "intent": "Save report: this week's pipeline numbers for the team",
+   "expected_skill": "reports",
+   "source": "gbrain/skills/draft-in-voice/routing-eval.jsonl"
+  },
+  {
+   "intent": "Fix the grammar and typos in this paragraph I wrote myself, keeping my wording",
+   "expected_skill": null,
+   "source": "gbrain/skills/draft-in-voice/routing-eval.jsonl"
+  },
+  {
+   "intent": "I have an unidentified contact in this reply draft — run resolve before asking",
+   "expected_skill": "resolve-before-asking",
+   "source": "gbrain/skills/resolve-before-asking/routing-eval.jsonl"
+  },
+  {
+   "intent": "This person page still says to be filled by content analysis — resolve it from the brain",
+   "expected_skill": "resolve-before-asking",
+   "source": "gbrain/skills/resolve-before-asking/routing-eval.jsonl"
+  },
+  {
+   "intent": "The briefing lists three people with unknown relationship — exhaust the brain before asking the user",
+   "expected_skill": "resolve-before-asking",
+   "source": "gbrain/skills/resolve-before-asking/routing-eval.jsonl"
+  },
+  {
+   "intent": "I don't know who this is — should I ask who they are or can the brain answer first?",
+   "expected_skill": "resolve-before-asking",
+   "source": "gbrain/skills/resolve-before-asking/routing-eval.jsonl"
+  },
+  {
+   "intent": "There's a placeholder on this page left by the email import — fill in who charlie-example is before asking me",
+   "expected_skill": "resolve-before-asking",
+   "ambiguous_with": [
+    "enrich"
+   ],
+   "source": "gbrain/skills/resolve-before-asking/routing-eval.jsonl"
+  },
+  {
+   "intent": "who is alice-example? tell me about her background",
+   "expected_skill": "query",
+   "source": "gbrain/skills/resolve-before-asking/routing-eval.jsonl"
+  },
+  {
+   "intent": "what's for breakfast",
+   "expected_skill": null,
+   "ambiguous_with": [],
+   "source": "gbrain/skills/resolve-before-asking/routing-eval.jsonl"
+  },
+  {
+   "intent": "The tool result says GBRAIN_DB_ACCESS conn_refused — handle it",
+   "expected_skill": "db-repair",
+   "source": "gbrain/skills/db-repair/routing-eval.jsonl"
+  },
+  {
+   "intent": "gbrain database error on every call, can you fix it",
+   "expected_skill": "db-repair",
+   "source": "gbrain/skills/db-repair/routing-eval.jsonl"
+  },
+  {
+   "intent": "gbrain connection refused when I query the brain",
+   "expected_skill": "db-repair",
+   "source": "gbrain/skills/db-repair/routing-eval.jsonl"
+  },
+  {
+   "intent": "I cannot reach the brain database from this session",
+   "expected_skill": "db-repair",
+   "source": "gbrain/skills/db-repair/routing-eval.jsonl"
+  },
+  {
+   "intent": "The brain database is down again — repair access",
+   "expected_skill": "db-repair",
+   "source": "gbrain/skills/db-repair/routing-eval.jsonl"
+  },
+  {
+   "intent": "fix gbrain database access so recall works",
+   "expected_skill": "db-repair",
+   "source": "gbrain/skills/db-repair/routing-eval.jsonl"
+  },
+  {
+   "intent": "repair gbrain postgres, the pooler keeps rejecting us",
+   "expected_skill": "db-repair",
+   "source": "gbrain/skills/db-repair/routing-eval.jsonl"
+  },
+  {
+   "intent": "Do a strategic reading of 'The Power Broker' against my current situation",
+   "expected_skill": "strategic-reading",
+   "source": "gbrain/skills/strategic-reading/routing-eval.jsonl"
+  },
+  {
+   "intent": "Read this through the lens of the board meeting next week and give me tactics",
+   "expected_skill": "strategic-reading",
+   "ambiguous_with": [
+    "idea-ingest"
+   ],
+   "source": "gbrain/skills/strategic-reading/routing-eval.jsonl"
+  },
+  {
+   "intent": "Apply this to my problem with the launch — what to do, what to avoid, what to watch for",
+   "expected_skill": "strategic-reading",
+   "source": "gbrain/skills/strategic-reading/routing-eval.jsonl"
+  },
+  {
+   "intent": "What can I learn from this about handling a hostile gatekeeper",
+   "expected_skill": "strategic-reading",
+   "source": "gbrain/skills/strategic-reading/routing-eval.jsonl"
+  },
+  {
+   "intent": "Extract a playbook from this case study for my product launch",
+   "expected_skill": "strategic-reading",
+   "source": "gbrain/skills/strategic-reading/routing-eval.jsonl"
+  },
+  {
+   "intent": "lift this skill back into gbrain so others can use it",
+   "expected_skill": "skillpack-harvest",
+   "source": "gbrain/skills/skillpack-harvest/routing-eval.jsonl"
+  },
+  {
+   "intent": "publish my fork-only skill upstream",
+   "expected_skill": "skillpack-harvest",
+   "source": "gbrain/skills/skillpack-harvest/routing-eval.jsonl"
+  },
+  {
+   "intent": "share this skill with the gbrain bundle",
+   "expected_skill": "skillpack-harvest",
+   "source": "gbrain/skills/skillpack-harvest/routing-eval.jsonl"
+  },
+  {
+   "intent": "harvest my skill into gbrain for the other clients",
+   "expected_skill": "skillpack-harvest",
+   "source": "gbrain/skills/skillpack-harvest/routing-eval.jsonl"
+  },
+  {
+   "intent": "promote this skill to gbrain so neuromancer can scaffold it",
+   "expected_skill": "skillpack-harvest",
+   "source": "gbrain/skills/skillpack-harvest/routing-eval.jsonl"
+  },
+  {
+   "intent": "I want this skill in the gbrain bundle",
+   "expected_skill": "skillpack-harvest",
+   "source": "gbrain/skills/skillpack-harvest/routing-eval.jsonl"
+  },
+  {
+   "intent": "move my custom skill into the gbrain core",
+   "expected_skill": "skillpack-harvest",
+   "source": "gbrain/skills/skillpack-harvest/routing-eval.jsonl"
+  },
+  {
+   "intent": "publish this report to the team",
+   "expected_skill": null,
+   "source": "gbrain/skills/skillpack-harvest/routing-eval.jsonl"
+  },
+  {
+   "intent": "promote my role on LinkedIn",
+   "expected_skill": null,
+   "source": "gbrain/skills/skillpack-harvest/routing-eval.jsonl"
+  },
+  {
+   "intent": "bundle these screenshots into a deck",
+   "expected_skill": null,
+   "source": "gbrain/skills/skillpack-harvest/routing-eval.jsonl"
+  },
+  {
+   "intent": "lift weights at the gym",
+   "expected_skill": null,
+   "source": "gbrain/skills/skillpack-harvest/routing-eval.jsonl"
+  },
+  {
+   "intent": "Run a link quality check on this morning briefing before it goes out",
+   "expected_skill": "reports",
+   "ambiguous_with": [
+    "briefing"
+   ],
+   "source": "gbrain/skills/reports/routing-eval.jsonl"
+  },
+  {
+   "intent": "Validate report links in the meeting digest — no profile links standing in for posts",
+   "expected_skill": "reports",
+   "source": "gbrain/skills/reports/routing-eval.jsonl"
+  },
+  {
+   "intent": "Do a report quality pass: flag broken, dead, or indirect links in this week's digest",
+   "expected_skill": "reports",
+   "source": "gbrain/skills/reports/routing-eval.jsonl"
+  },
+  {
+   "intent": "Validate report links — make sure every brain-page link is committed and pushed so nothing 404s",
+   "expected_skill": "reports",
+   "ambiguous_with": [
+    "citation-fixer"
+   ],
+   "source": "gbrain/skills/reports/routing-eval.jsonl"
+  },
+  {
+   "intent": "Fix broken citations on this brain page",
+   "expected_skill": "citation-fixer",
+   "source": "gbrain/skills/reports/routing-eval.jsonl"
+  },
+  {
+   "intent": "File my quarterly expense report with the accounting team",
+   "expected_skill": null,
+   "source": "gbrain/skills/reports/routing-eval.jsonl"
+  },
+  {
+   "intent": "I downloaded my chatgpt export — import my conversations into the brain as pages",
+   "expected_skill": "conversation-archive",
+   "source": "gbrain/skills/conversation-archive/routing-eval.jsonl"
+  },
+  {
+   "intent": "when did I first discuss seed-stage pricing with any AI assistant?",
+   "expected_skill": "conversation-archive",
+   "source": "gbrain/skills/conversation-archive/routing-eval.jsonl"
+  },
+  {
+   "intent": "search my conversations with Claude and Perplexity about agent memory and build me a timeline",
+   "expected_skill": "conversation-archive",
+   "source": "gbrain/skills/conversation-archive/routing-eval.jsonl"
+  },
+  {
+   "intent": "archive my session transcripts from this agent and backfill missing conversations from last month",
+   "expected_skill": "conversation-archive",
+   "source": "gbrain/skills/conversation-archive/routing-eval.jsonl"
+  },
+  {
+   "intent": "I have a claude export with 4000 threads — import my conversations and keep the archive gap-free",
+   "expected_skill": "conversation-archive",
+   "ambiguous_with": [
+    "bulk-ingestion"
+   ],
+   "source": "gbrain/skills/conversation-archive/routing-eval.jsonl"
+  },
+  {
+   "intent": "did my colleague answer in the group channel last night?",
+   "expected_skill": null,
+   "ambiguous_with": [],
+   "source": "gbrain/skills/conversation-archive/routing-eval.jsonl"
+  },
+  {
+   "intent": "which gbrain engine is this brain running on",
+   "expected_skill": "postgres-adopt",
+   "source": "gbrain/skills/postgres-adopt/routing-eval.jsonl"
+  },
+  {
+   "intent": "is my brain pglite or postgres right now",
+   "expected_skill": "postgres-adopt",
+   "source": "gbrain/skills/postgres-adopt/routing-eval.jsonl"
+  },
+  {
+   "intent": "show me gbrain engine status for this machine",
+   "expected_skill": "postgres-adopt",
+   "source": "gbrain/skills/postgres-adopt/routing-eval.jsonl"
+  },
+  {
+   "intent": "I want to upgrade to postgres for the brain",
+   "expected_skill": "postgres-adopt",
+   "source": "gbrain/skills/postgres-adopt/routing-eval.jsonl"
+  },
+  {
+   "intent": "switch gbrain to postgres, we have three agents now",
+   "expected_skill": "postgres-adopt",
+   "source": "gbrain/skills/postgres-adopt/routing-eval.jsonl"
+  },
+  {
+   "intent": "install postgres for gbrain on this box",
+   "expected_skill": "postgres-adopt",
+   "source": "gbrain/skills/postgres-adopt/routing-eval.jsonl"
+  },
+  {
+   "intent": "move my brain to supabase, it hit 5000 pages",
+   "expected_skill": "postgres-adopt",
+   "source": "gbrain/skills/postgres-adopt/routing-eval.jsonl"
+  },
+  {
+   "intent": "set up postgres for the brain instead of the local file engine",
+   "expected_skill": "postgres-adopt",
+   "source": "gbrain/skills/postgres-adopt/routing-eval.jsonl"
+  }
+ ]
+}

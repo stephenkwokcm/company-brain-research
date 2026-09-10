@@ -1,0 +1,2395 @@
+[
+ {
+  "intent": "Please ingest this voice memo I just sent and file it into my brain",
+  "expected": "voice-note-ingest",
+  "outcome": "pass",
+  "matched": [
+   "voice-note-ingest",
+   "ingest"
+  ]
+ },
+ {
+  "intent": "Transcribe and file this audio message into the right directory",
+  "expected": "voice-note-ingest",
+  "outcome": "pass",
+  "matched": [
+   "voice-note-ingest"
+  ]
+ },
+ {
+  "intent": "Save this audio note as a brain page with the original audio attached",
+  "expected": "voice-note-ingest",
+  "outcome": "pass",
+  "matched": [
+   "voice-note-ingest",
+   "idea-ingest"
+  ]
+ },
+ {
+  "intent": "Run voice note ingest on what I just sent — preserve my words verbatim",
+  "expected": "voice-note-ingest",
+  "outcome": "pass",
+  "matched": [
+   "voice-note-ingest"
+  ]
+ },
+ {
+  "intent": "This voice note has a thought I want preserved word-for-word",
+  "expected": "voice-note-ingest",
+  "outcome": "pass",
+  "matched": [
+   "voice-note-ingest"
+  ]
+ },
+ {
+  "intent": "This article page is a wall of raw text — please enrich this article with quotes and insights",
+  "expected": "article-enrichment",
+  "outcome": "pass",
+  "matched": [
+   "article-enrichment",
+   "enrich"
+  ]
+ },
+ {
+  "intent": "Run a batch enrich pass on the unstructured articles in my brain",
+  "expected": "article-enrichment",
+  "outcome": "pass",
+  "matched": [
+   "article-enrichment",
+   "enrich"
+  ]
+ },
+ {
+  "intent": "Make brain pages useful by enriching the article dumps",
+  "expected": "article-enrichment",
+  "outcome": "pass",
+  "matched": [
+   "article-enrichment",
+   "enrich"
+  ]
+ },
+ {
+  "intent": "Please enrich brain pages that have raw content but no executive summary",
+  "expected": "article-enrichment",
+  "outcome": "pass",
+  "matched": [
+   "article-enrichment",
+   "enrich"
+  ]
+ },
+ {
+  "intent": "Enrich this article so it has verbatim quotes, key insights, and a why-it-matters section",
+  "expected": "article-enrichment",
+  "outcome": "pass",
+  "matched": [
+   "article-enrichment",
+   "enrich"
+  ]
+ },
+ {
+  "intent": "Please make a personalized version of this book using the brain context",
+  "expected": "book-mirror",
+  "outcome": "pass",
+  "matched": [
+   "book-mirror"
+  ]
+ },
+ {
+  "intent": "Mirror this book — left column the chapters, right column my actual life",
+  "expected": "book-mirror",
+  "outcome": "pass",
+  "matched": [
+   "book-mirror"
+  ]
+ },
+ {
+  "intent": "Run a two-column book analysis with brain context",
+  "expected": "book-mirror",
+  "outcome": "pass",
+  "matched": [
+   "book-mirror"
+  ]
+ },
+ {
+  "intent": "Apply this book to my life — chapter-by-chapter mapping to the brain",
+  "expected": "book-mirror",
+  "outcome": "pass",
+  "matched": [
+   "book-mirror"
+  ]
+ },
+ {
+  "intent": "How does this book apply to me — produce a personalized version",
+  "expected": "book-mirror",
+  "outcome": "pass",
+  "matched": [
+   "book-mirror"
+  ]
+ },
+ {
+  "intent": "Process this book and ingest it into my brain",
+  "expected": "media-ingest",
+  "outcome": "pass",
+  "matched": [
+   "media-ingest"
+  ]
+ },
+ {
+  "intent": "Ingest this PDF book and extract the entities",
+  "expected": "media-ingest",
+  "outcome": "pass",
+  "matched": [
+   "ingest",
+   "media-ingest"
+  ]
+ },
+ {
+  "intent": "Just summarize this book — I don't need it personalized to me",
+  "expected": "media-ingest",
+  "outcome": "pass",
+  "matched": [
+   "media-ingest"
+  ]
+ },
+ {
+  "intent": "This embed backfill will take 40 minutes — set it up as a durable execution so it survives a restart",
+  "expected": "minion-orchestrator",
+  "outcome": "pass",
+  "matched": [
+   "minion-orchestrator"
+  ]
+ },
+ {
+  "intent": "Arm a deadman on that extract job so we notice if the result never gets reported",
+  "expected": "minion-orchestrator",
+  "outcome": "pass",
+  "matched": [
+   "minion-orchestrator"
+  ]
+ },
+ {
+  "intent": "The job went silent an hour ago and I never saw a completion message — recover it",
+  "expected": "minion-orchestrator",
+  "outcome": "pass",
+  "matched": [
+   "minion-orchestrator"
+  ]
+ },
+ {
+  "intent": "The scoring stage is expensive — make this pipeline resumable so a crash doesn't re-spend the LLM calls",
+  "expected": "minion-orchestrator",
+  "outcome": "pass",
+  "matched": [
+   "minion-orchestrator"
+  ]
+ },
+ {
+  "intent": "Schedule the nightly sync for 2am and keep it out of quiet hours",
+  "expected": "cron-scheduler",
+  "outcome": "pass",
+  "matched": [
+   "cron-scheduler"
+  ]
+ },
+ {
+  "intent": "Kill the runaway local process that is pegging my laptop CPU",
+  "expected": null,
+  "outcome": "pass",
+  "matched": []
+ },
+ {
+  "intent": "connect my chatgpt account and pull my whole history into the brain",
+  "expected": "chat-connectors",
+  "outcome": "pass",
+  "matched": [
+   "chat-connectors"
+  ]
+ },
+ {
+  "intent": "connect my claude account so new conversations land in gbrain",
+  "expected": "chat-connectors",
+  "outcome": "pass",
+  "matched": [
+   "chat-connectors"
+  ]
+ },
+ {
+  "intent": "sync my chat history from ChatGPT every day automatically",
+  "expected": "chat-connectors",
+  "outcome": "pass",
+  "matched": [
+   "chat-connectors"
+  ]
+ },
+ {
+  "intent": "set up chatgpt oauth so gbrain can read my conversations",
+  "expected": "chat-connectors",
+  "outcome": "pass",
+  "matched": [
+   "chat-connectors"
+  ]
+ },
+ {
+  "intent": "auto-import my chats from Claude on a schedule",
+  "expected": "chat-connectors",
+  "outcome": "pass",
+  "matched": [
+   "chat-connectors"
+  ]
+ },
+ {
+  "intent": "keep my conversations synced without me downloading an export each time",
+  "expected": "chat-connectors",
+  "outcome": "pass",
+  "matched": [
+   "chat-connectors"
+  ]
+ },
+ {
+  "intent": "where does this brain page go for Alice?",
+  "expected": "brain-taxonomist",
+  "outcome": "pass",
+  "matched": [
+   "brain-taxonomist"
+  ]
+ },
+ {
+  "intent": "I need to file this in the brain — what path?",
+  "expected": "brain-taxonomist",
+  "outcome": "pass",
+  "matched": [
+   "brain-taxonomist"
+  ]
+ },
+ {
+  "intent": "ask the brain taxonomist before I write this page",
+  "expected": "brain-taxonomist",
+  "outcome": "pass",
+  "matched": [
+   "brain-taxonomist"
+  ]
+ },
+ {
+  "intent": "run a taxonomy check on yesterday's notes",
+  "expected": "brain-taxonomist",
+  "outcome": "pass",
+  "matched": [
+   "brain-taxonomist"
+  ]
+ },
+ {
+  "intent": "I want to refile brain page about Bob",
+  "expected": "brain-taxonomist",
+  "outcome": "pass",
+  "matched": [
+   "brain-taxonomist"
+  ]
+ },
+ {
+  "intent": "which directory does this page go in given the active pack?",
+  "expected": "brain-taxonomist",
+  "outcome": "pass",
+  "matched": [
+   "brain-taxonomist",
+   "repo-architecture"
+  ]
+ },
+ {
+  "intent": "please fix citations in the latest batch of brain pages",
+  "expected": "citation-fixer",
+  "outcome": "pass",
+  "matched": [
+   "citation-fixer"
+  ]
+ },
+ {
+  "intent": "I need to fix citations across these pages",
+  "expected": "citation-fixer",
+  "outcome": "pass",
+  "matched": [
+   "citation-fixer"
+  ]
+ },
+ {
+  "intent": "What does this book say about mentorship",
+  "expected": null,
+  "outcome": "pass",
+  "matched": []
+ },
+ {
+  "intent": "Please ingest this whole blog into my brain — every post in the archive, not just the recent ones",
+  "expected": "blog-ingest",
+  "outcome": "pass",
+  "matched": [
+   "blog-ingest",
+   "ingest"
+  ]
+ },
+ {
+  "intent": "Ingest this publication: walk the RSS feed, paginate the archive, and write one page per post",
+  "expected": "blog-ingest",
+  "outcome": "pass",
+  "matched": [
+   "blog-ingest",
+   "ingest"
+  ]
+ },
+ {
+  "intent": "Backfill this blog from its feed, oldest posts first, and make sure re-runs don't duplicate",
+  "expected": "blog-ingest",
+  "outcome": "pass",
+  "matched": [
+   "blog-ingest"
+  ]
+ },
+ {
+  "intent": "Ingest this newsletter archive — all the back issues, deduped by canonical URL",
+  "expected": "blog-ingest",
+  "outcome": "pass",
+  "matched": [
+   "blog-ingest",
+   "ingest"
+  ]
+ },
+ {
+  "intent": "Save this whole substack to my brain, public posts only",
+  "expected": "blog-ingest",
+  "outcome": "pass",
+  "matched": [
+   "blog-ingest",
+   "idea-ingest"
+  ]
+ },
+ {
+  "intent": "Save this article for me — just the one post, it's a great essay",
+  "expected": "idea-ingest",
+  "outcome": "pass",
+  "matched": [
+   "idea-ingest"
+  ]
+ },
+ {
+  "intent": "Ingest this PDF whitepaper I found on a blog",
+  "expected": "media-ingest",
+  "outcome": "pass",
+  "matched": [
+   "ingest",
+   "media-ingest"
+  ]
+ },
+ {
+  "intent": "Unsubscribe me from this newsletter and mute future issues",
+  "expected": null,
+  "outcome": "pass",
+  "matched": []
+ },
+ {
+  "intent": "stand up a company brain from my personal brain for the whole team",
+  "expected": "company-brainify",
+  "outcome": "pass",
+  "matched": [
+   "company-brainify"
+  ]
+ },
+ {
+  "intent": "sanitize the brain so I can onboard new teammates to the repo",
+  "expected": "company-brainify",
+  "outcome": "pass",
+  "matched": [
+   "company-brainify"
+  ]
+ },
+ {
+  "intent": "scrub employee data — comp, ratings, performance notes — before we share it",
+  "expected": "company-brainify",
+  "outcome": "pass",
+  "matched": [
+   "company-brainify"
+  ]
+ },
+ {
+  "intent": "brainify this into a team brain the engineers can mount",
+  "expected": "company-brainify",
+  "outcome": "pass",
+  "matched": [
+   "company-brainify"
+  ]
+ },
+ {
+  "intent": "audit the shared brain for sensitive content that shouldn't be in there",
+  "expected": "company-brainify",
+  "outcome": "pass",
+  "matched": [
+   "company-brainify"
+  ]
+ },
+ {
+  "intent": "can you share my brain with the team so they can mount it",
+  "expected": "company-brainify",
+  "outcome": "pass",
+  "matched": [
+   "company-brainify"
+  ]
+ },
+ {
+  "intent": "share this page as a password-protected link",
+  "expected": "publish",
+  "outcome": "pass",
+  "matched": [
+   "publish"
+  ]
+ },
+ {
+  "intent": "purge the old media cache to free up space",
+  "expected": "data-loss-gate",
+  "outcome": "pass",
+  "matched": [
+   "data-loss-gate"
+  ]
+ },
+ {
+  "intent": "what's on my calendar for tomorrow",
+  "expected": null,
+  "outcome": "pass",
+  "matched": []
+ },
+ {
+  "intent": "you committed the brain page — give me the link in the same message next time",
+  "expected": "brain-link-discipline",
+  "outcome": "pass",
+  "matched": [
+   "brain-link-discipline"
+  ]
+ },
+ {
+  "intent": "where is the page you just pushed? I shouldn't have to ask",
+  "expected": "brain-link-discipline",
+  "outcome": "pass",
+  "matched": [
+   "brain-link-discipline"
+  ]
+ },
+ {
+  "intent": "why does this link 404 right after you said you pushed the page",
+  "expected": "brain-link-discipline",
+  "outcome": "pass",
+  "matched": [
+   "brain-link-discipline"
+  ]
+ },
+ {
+  "intent": "rewrite subagent paths into clickable links before relaying the result",
+  "expected": "brain-link-discipline",
+  "outcome": "pass",
+  "matched": [
+   "brain-link-discipline"
+  ]
+ },
+ {
+  "intent": "apply brain link discipline when you report the pages you created",
+  "expected": "brain-link-discipline",
+  "outcome": "pass",
+  "matched": [
+   "brain-link-discipline"
+  ]
+ },
+ {
+  "intent": "add a typed link between the alice-example page and the acme-example page",
+  "expected": null,
+  "outcome": "pass",
+  "matched": []
+ },
+ {
+  "intent": "share this page as a link someone outside the repo can open",
+  "expected": "publish",
+  "outcome": "pass",
+  "matched": [
+   "publish"
+  ]
+ },
+ {
+  "intent": "autobench the media-ingest skill",
+  "expected": "skill-autobench",
+  "outcome": "pass",
+  "matched": [
+   "skill-autobench"
+  ]
+ },
+ {
+  "intent": "please write the eval from usage history for the media-ingest skill",
+  "expected": "skill-autobench",
+  "outcome": "pass",
+  "matched": [
+   "skill-autobench"
+  ]
+ },
+ {
+  "intent": "synthesize an eval for this skill based on how I've actually used it, not its spec",
+  "expected": "skill-autobench",
+  "outcome": "pass",
+  "matched": [
+   "skill-autobench"
+  ]
+ },
+ {
+  "intent": "I keep correcting this skill — build a benchmark from my corrections so it stops",
+  "expected": "skill-autobench",
+  "outcome": "pass",
+  "matched": [
+   "skill-autobench"
+  ]
+ },
+ {
+  "intent": "verify the eval panel — was that judging really 3 models or did it collapse to one provider",
+  "expected": "skill-autobench",
+  "outcome": "pass",
+  "matched": [
+   "skill-autobench"
+  ]
+ },
+ {
+  "intent": "improve this skill — tighten its instructions",
+  "expected": "skill-creator",
+  "outcome": "pass",
+  "matched": [
+   "skill-creator"
+  ]
+ },
+ {
+  "intent": "run the unit tests before we ship",
+  "expected": null,
+  "outcome": "pass",
+  "matched": []
+ },
+ {
+  "intent": "That's wrong — alice-example never worked at widget-co. Find out where you got that and fix it",
+  "expected": "correction-pipeline",
+  "outcome": "pass",
+  "matched": [
+   "correction-pipeline"
+  ]
+ },
+ {
+  "intent": "I never said that about the acme-example deal. Where did you get that?",
+  "expected": "correction-pipeline",
+  "outcome": "pass",
+  "matched": [
+   "correction-pipeline"
+  ]
+ },
+ {
+  "intent": "You got that wrong: charlie-example is the CTO, not the CEO. Root-cause this error, don't just note it",
+  "expected": "correction-pipeline",
+  "outcome": "pass",
+  "matched": [
+   "correction-pipeline"
+  ]
+ },
+ {
+  "intent": "That's not true — correct that fact and check everywhere else it spread",
+  "expected": "correction-pipeline",
+  "outcome": "pass",
+  "matched": [
+   "correction-pipeline"
+  ]
+ },
+ {
+  "intent": "That's wrong — alice-example left widget-co last year but you keep saying she works there. Fix it everywhere",
+  "expected": "correction-pipeline",
+  "outcome": "pass",
+  "matched": [
+   "correction-pipeline"
+  ]
+ },
+ {
+  "intent": "fix broken citations on the acme-example page",
+  "expected": "citation-fixer",
+  "outcome": "pass",
+  "matched": [
+   "citation-fixer"
+  ]
+ },
+ {
+  "intent": "the unit test is wrong, fix the assertion",
+  "expected": null,
+  "outcome": "pass",
+  "matched": []
+ },
+ {
+  "intent": "let's do EIIRP on what we just built",
+  "expected": "eiirp",
+  "outcome": "pass",
+  "matched": [
+   "eiirp"
+  ]
+ },
+ {
+  "intent": "time for EIIRP — wrap this all up",
+  "expected": "eiirp",
+  "outcome": "pass",
+  "matched": [
+   "eiirp"
+  ]
+ },
+ {
+  "intent": "I want everything in its right place after today",
+  "expected": "eiirp",
+  "outcome": "pass",
+  "matched": [
+   "eiirp"
+  ]
+ },
+ {
+  "intent": "let's get everything in its right place before EOD",
+  "expected": "eiirp",
+  "outcome": "pass",
+  "matched": [
+   "eiirp"
+  ]
+ },
+ {
+  "intent": "make this re-doable for next quarter",
+  "expected": "eiirp",
+  "outcome": "pass",
+  "matched": [
+   "eiirp"
+  ]
+ },
+ {
+  "intent": "let's DRY this up across our skills",
+  "expected": "eiirp",
+  "outcome": "pass",
+  "matched": [
+   "eiirp"
+  ]
+ },
+ {
+  "intent": "please file all of this properly",
+  "expected": "eiirp",
+  "outcome": "pass",
+  "matched": [
+   "eiirp"
+  ]
+ },
+ {
+  "intent": "organize all of this work so it's findable later",
+  "expected": "eiirp",
+  "outcome": "pass",
+  "matched": [
+   "eiirp"
+  ]
+ },
+ {
+  "intent": "archive this research thread once we're done",
+  "expected": "eiirp",
+  "outcome": "pass",
+  "matched": [
+   "eiirp",
+   "data-research"
+  ]
+ },
+ {
+  "intent": "run a deep analysis on this diligence packet from acme-example and make sure it's findable later",
+  "expected": "eiirp",
+  "outcome": "pass",
+  "matched": [
+   "eiirp"
+  ]
+ },
+ {
+  "intent": "can you analyze this document I just uploaded and file the takeaways somewhere permanent?",
+  "expected": "eiirp",
+  "outcome": "pass",
+  "matched": [
+   "eiirp"
+  ]
+ },
+ {
+  "intent": "here's a PDF — deep analysis please, then save to brain",
+  "expected": "eiirp",
+  "outcome": "pass",
+  "matched": [
+   "capture",
+   "eiirp"
+  ]
+ },
+ {
+  "intent": "please review this report on the widget-co pilot and give me structured findings",
+  "expected": "eiirp",
+  "outcome": "pass",
+  "matched": [
+   "eiirp"
+  ]
+ },
+ {
+  "intent": "what page is the indemnity clause on in this contract?",
+  "expected": null,
+  "outcome": "pass",
+  "matched": []
+ },
+ {
+  "intent": "Please crawl my archive and surface the writing worth keeping",
+  "expected": "archive-crawler",
+  "outcome": "pass",
+  "matched": [
+   "archive-crawler"
+  ]
+ },
+ {
+  "intent": "Find gold in my archive of old letters and ideas",
+  "expected": "archive-crawler",
+  "outcome": "pass",
+  "matched": [
+   "archive-crawler"
+  ]
+ },
+ {
+  "intent": "Run archive crawler on the gbrain.yml allow-listed paths",
+  "expected": "archive-crawler",
+  "outcome": "pass",
+  "matched": [
+   "archive-crawler"
+  ]
+ },
+ {
+  "intent": "Scan my dropbox for substantive email threads with people who matter",
+  "expected": "archive-crawler",
+  "outcome": "pass",
+  "matched": [
+   "archive-crawler"
+  ]
+ },
+ {
+  "intent": "Mine my old files for journal entries and reflections worth ingesting",
+  "expected": "archive-crawler",
+  "outcome": "pass",
+  "matched": [
+   "archive-crawler"
+  ]
+ },
+ {
+  "intent": "migrate to brain: these project notes have been sitting in the workspace for weeks",
+  "expected": "brain-ingest-gate",
+  "outcome": "pass",
+  "matched": [
+   "brain-ingest-gate"
+  ]
+ },
+ {
+  "intent": "before you save that concept page, is this already in the brain somewhere?",
+  "expected": "brain-ingest-gate",
+  "outcome": "pass",
+  "matched": [
+   "brain-ingest-gate"
+  ]
+ },
+ {
+  "intent": "copy these files into the brain — the whole notes/ folder from this project",
+  "expected": "brain-ingest-gate",
+  "outcome": "pass",
+  "matched": [
+   "brain-ingest-gate"
+  ]
+ },
+ {
+  "intent": "check for duplicates before writing anything from this batch",
+  "expected": "brain-ingest-gate",
+  "outcome": "pass",
+  "matched": [
+   "brain-ingest-gate"
+  ]
+ },
+ {
+  "intent": "move this to brain, but make sure it's not just a raw copy to brain with no linking",
+  "expected": "brain-ingest-gate",
+  "outcome": "pass",
+  "matched": [
+   "brain-ingest-gate"
+  ]
+ },
+ {
+  "intent": "capture this thought: pricing pages should default to the annual toggle",
+  "expected": "capture",
+  "outcome": "pass",
+  "matched": [
+   "capture"
+  ]
+ },
+ {
+  "intent": "run concept synthesis to dedupe the stubs that piled up in the brain over the last few months",
+  "expected": "concept-synthesis",
+  "outcome": "pass",
+  "matched": [
+   "concept-synthesis"
+  ]
+ },
+ {
+  "intent": "Fix the typos in this outgoing email before I hit send",
+  "expected": null,
+  "outcome": "pass",
+  "matched": []
+ },
+ {
+  "intent": "Can you optimize this skill against my benchmark?",
+  "expected": "skill-optimizer",
+  "outcome": "pass",
+  "matched": [
+   "skill-optimizer"
+  ]
+ },
+ {
+  "intent": "Tune the skill against the benchmark fixtures",
+  "expected": "skill-optimizer",
+  "outcome": "pass",
+  "matched": [
+   "skill-optimizer"
+  ]
+ },
+ {
+  "intent": "Run skillopt for the brain-ops skill",
+  "expected": "skill-optimizer",
+  "outcome": "pass",
+  "matched": [
+   "skill-optimizer"
+  ]
+ },
+ {
+  "intent": "Make the skill better via the optimizer",
+  "expected": "skill-optimizer",
+  "outcome": "pass",
+  "matched": [
+   "skill-optimizer"
+  ]
+ },
+ {
+  "intent": "Run skillopt for my-skill to improve it",
+  "expected": "skill-optimizer",
+  "outcome": "pass",
+  "matched": [
+   "skill-optimizer"
+  ]
+ },
+ {
+  "intent": "How do I create a new skill from scratch?",
+  "expected": "skill-creator",
+  "outcome": "pass",
+  "matched": [
+   "skill-creator"
+  ]
+ },
+ {
+  "intent": "Run a context audit — my always-loaded files keep growing",
+  "expected": "context-audit",
+  "outcome": "pass",
+  "matched": [
+   "context-audit"
+  ]
+ },
+ {
+  "intent": "Do a system prompt audit and tell me what to cut",
+  "expected": "context-audit",
+  "outcome": "pass",
+  "matched": [
+   "context-audit"
+  ]
+ },
+ {
+  "intent": "Put my agent on a context diet, CLAUDE.md is enormous",
+  "expected": "context-audit",
+  "outcome": "pass",
+  "matched": [
+   "context-audit"
+  ]
+ },
+ {
+  "intent": "Can you reduce context size? The startup files feel bloated and contradictory",
+  "expected": "context-audit",
+  "outcome": "pass",
+  "matched": [
+   "context-audit"
+  ]
+ },
+ {
+  "intent": "Audit my context stack for redundancy and stale rules",
+  "expected": "context-audit",
+  "outcome": "pass",
+  "matched": [
+   "context-audit"
+  ]
+ },
+ {
+  "intent": "Time for some token hygiene — what's wasting tokens every turn?",
+  "expected": "context-audit",
+  "outcome": "pass",
+  "matched": [
+   "context-audit"
+  ]
+ },
+ {
+  "intent": "SOUL.md got huge — audit my context stack and rank what to compress",
+  "expected": "context-audit",
+  "outcome": "pass",
+  "matched": [
+   "context-audit"
+  ]
+ },
+ {
+  "intent": "Re-run the identity interview, I want to change my agent's personality",
+  "expected": "soul-audit",
+  "outcome": "pass",
+  "matched": [
+   "soul-audit"
+  ]
+ },
+ {
+  "intent": "Check the brain and jobs — is everything still running fine?",
+  "expected": "skillpack-check",
+  "outcome": "pass",
+  "matched": [
+   "skillpack-check"
+  ]
+ },
+ {
+  "intent": "Estimate the token count of this single prompt before I send it",
+  "expected": null,
+  "outcome": "pass",
+  "matched": []
+ },
+ {
+  "intent": "rm -rf the old imports directory to free up space",
+  "expected": "data-loss-gate",
+  "outcome": "pass",
+  "matched": [
+   "data-loss-gate"
+  ]
+ },
+ {
+  "intent": "bulk delete every page in the sources/acme-example folder, all 400 of them",
+  "expected": "data-loss-gate",
+  "outcome": "pass",
+  "matched": [
+   "data-loss-gate"
+  ]
+ },
+ {
+  "intent": "run a bulk forget over the stale facts from last quarter",
+  "expected": "data-loss-gate",
+  "outcome": "pass",
+  "matched": [
+   "data-loss-gate"
+  ]
+ },
+ {
+  "intent": "truncate the content_chunks table and re-embed from scratch",
+  "expected": "data-loss-gate",
+  "outcome": "pass",
+  "matched": [
+   "data-loss-gate"
+  ]
+ },
+ {
+  "intent": "cleanup: purge the soft-deleted pages and remove the source widget-co",
+  "expected": "data-loss-gate",
+  "outcome": "pass",
+  "matched": [
+   "data-loss-gate"
+  ]
+ },
+ {
+  "intent": "forget fact 1234, it's outdated — I corrected it on the page already",
+  "expected": null,
+  "outcome": "pass",
+  "matched": []
+ },
+ {
+  "intent": "clean up the brain — find orphan pages and stale info",
+  "expected": "maintain",
+  "outcome": "pass",
+  "matched": [
+   "maintain"
+  ]
+ },
+ {
+  "intent": "Build a citation graph over this case-law corpus so I can see what overrules what",
+  "expected": "citation-graph-ingest",
+  "outcome": "pass",
+  "matched": [
+   "citation-graph-ingest"
+  ]
+ },
+ {
+  "intent": "Run citation graph ingest on the patents source",
+  "expected": "citation-graph-ingest",
+  "outcome": "pass",
+  "matched": [
+   "citation-graph-ingest"
+  ]
+ },
+ {
+  "intent": "Create a typed citation graph for these papers — extends, relies on, refutes",
+  "expected": "citation-graph-ingest",
+  "outcome": "pass",
+  "matched": [
+   "citation-graph-ingest"
+  ]
+ },
+ {
+  "intent": "Build a reference graph over the ingested filings so we can trace which ones supersede which",
+  "expected": "citation-graph-ingest",
+  "outcome": "pass",
+  "matched": [
+   "citation-graph-ingest"
+  ]
+ },
+ {
+  "intent": "I want to reason over a domain corpus, not just similarity-search it — graph the citations",
+  "expected": "citation-graph-ingest",
+  "outcome": "pass",
+  "matched": [
+   "citation-graph-ingest"
+  ]
+ },
+ {
+  "intent": "Fix broken citations in my essay pages",
+  "expected": "citation-fixer",
+  "outcome": "pass",
+  "matched": [
+   "citation-fixer"
+  ]
+ },
+ {
+  "intent": "Verify this academic claim from the book against the original paper",
+  "expected": "academic-verify",
+  "outcome": "pass",
+  "matched": [
+   "academic-verify"
+  ]
+ },
+ {
+  "intent": "Just walk one hop out from doc-a-example with the gbrain graph CLI",
+  "expected": null,
+  "outcome": "pass",
+  "matched": []
+ },
+ {
+  "intent": "Audit how the ingested court documents cite each other — build a reference graph of it",
+  "expected": "citation-graph-ingest",
+  "outcome": "pass",
+  "matched": [
+   "citation-graph-ingest"
+  ]
+ },
+ {
+  "intent": "fact check this draft before I post it",
+  "expected": "fact-check",
+  "outcome": "pass",
+  "matched": [
+   "fact-check"
+  ]
+ },
+ {
+  "intent": "verify the facts in this essay against live sources",
+  "expected": "fact-check",
+  "outcome": "pass",
+  "matched": [
+   "fact-check"
+  ]
+ },
+ {
+  "intent": "is this accurate? check the claims one by one",
+  "expected": "fact-check",
+  "outcome": "pass",
+  "matched": [
+   "fact-check"
+  ]
+ },
+ {
+  "intent": "this briefing came straight out of the brain — is this output hallucinating? re-derive every claim",
+  "expected": "fact-check",
+  "outcome": "pass",
+  "matched": [
+   "fact-check"
+  ]
+ },
+ {
+  "intent": "run a source check on the numbers in this post",
+  "expected": "fact-check",
+  "outcome": "pass",
+  "matched": [
+   "fact-check"
+  ]
+ },
+ {
+  "intent": "fix citations across these brain pages",
+  "expected": "citation-fixer",
+  "outcome": "pass",
+  "matched": [
+   "citation-fixer"
+  ]
+ },
+ {
+  "intent": "what's for breakfast",
+  "expected": null,
+  "outcome": "pass",
+  "matched": []
+ },
+ {
+  "intent": "check this study — is the 40% reduction number real, did it ever replicate",
+  "expected": "academic-verify",
+  "outcome": "pass",
+  "matched": [
+   "academic-verify"
+  ]
+ },
+ {
+  "intent": "Set up two-tier extraction for this document dump — cheap model on the noise, best model on what matters",
+  "expected": "two-tier-extraction",
+  "outcome": "pass",
+  "matched": [
+   "two-tier-extraction"
+  ]
+ },
+ {
+  "intent": "Use triage then deep read on these 5,000 old email threads so we don't burn the deep tier on noise",
+  "expected": "two-tier-extraction",
+  "outcome": "pass",
+  "matched": [
+   "two-tier-extraction"
+  ]
+ },
+ {
+  "intent": "What's the model escalation pattern for bulk-processing my transcript library?",
+  "expected": "two-tier-extraction",
+  "outcome": "pass",
+  "matched": [
+   "two-tier-extraction"
+  ]
+ },
+ {
+  "intent": "Give me smart model routing for this archive run — route models by content value",
+  "expected": "two-tier-extraction",
+  "outcome": "pass",
+  "matched": [
+   "two-tier-extraction"
+  ]
+ },
+ {
+  "intent": "Cheap triage expensive analysis: only the significant items should get the expensive model",
+  "expected": "two-tier-extraction",
+  "outcome": "pass",
+  "matched": [
+   "two-tier-extraction"
+  ]
+ },
+ {
+  "intent": "Which model tier for bulk extraction of this chat export?",
+  "expected": "two-tier-extraction",
+  "outcome": "pass",
+  "matched": [
+   "two-tier-extraction"
+  ]
+ },
+ {
+  "intent": "Crawl my archive and surface the writing worth keeping",
+  "expected": "archive-crawler",
+  "outcome": "pass",
+  "matched": [
+   "archive-crawler"
+  ]
+ },
+ {
+  "intent": "Which model should I set as my default for gbrain chat?",
+  "expected": null,
+  "outcome": "pass",
+  "matched": []
+ },
+ {
+  "intent": "Skillify this workflow end to end — full checklist, eval contract, and resolver row",
+  "expected": "skillify",
+  "outcome": "pass",
+  "matched": [
+   "skillify"
+  ]
+ },
+ {
+  "intent": "Check skill completeness on this workflow before we call it done",
+  "expected": "skillify",
+  "outcome": "pass",
+  "matched": [
+   "skillify"
+  ]
+ },
+ {
+  "intent": "Did this skill regress after my edit? Compare the fresh score against the prior baseline",
+  "expected": "skillify",
+  "outcome": "pass",
+  "matched": [
+   "skillify"
+  ]
+ },
+ {
+  "intent": "Skillify this new skill draft — take it through the whole checklist and evals",
+  "expected": "skillify",
+  "outcome": "pass",
+  "matched": [
+   "skillify",
+   "skill-creator"
+  ]
+ },
+ {
+  "intent": "Which of our skills are bundled into the plugin for downstream installs?",
+  "expected": null,
+  "outcome": "pass",
+  "matched": []
+ },
+ {
+  "intent": "My AGENTS.md too large at 30KB and hitting context limits, how do I shrink it",
+  "expected": "functional-area-resolver",
+  "outcome": "pass",
+  "matched": [
+   "functional-area-resolver"
+  ]
+ },
+ {
+  "intent": "The daily doctor says context-health is red because AGENTS.md too large",
+  "expected": "functional-area-resolver",
+  "outcome": "pass",
+  "matched": [
+   "functional-area-resolver"
+  ]
+ },
+ {
+  "intent": "How do I compress my resolver without losing routing accuracy",
+  "expected": "functional-area-resolver",
+  "outcome": "pass",
+  "matched": [
+   "functional-area-resolver"
+  ]
+ },
+ {
+  "intent": "RESOLVER.md too big — convert my 200-row skill resolver into functional areas",
+  "expected": "functional-area-resolver",
+  "outcome": "pass",
+  "matched": [
+   "functional-area-resolver"
+  ]
+ },
+ {
+  "intent": "What's the functional area dispatcher pattern for AGENTS.md",
+  "expected": "functional-area-resolver",
+  "outcome": "pass",
+  "matched": [
+   "functional-area-resolver"
+  ]
+ },
+ {
+  "intent": "My RESOLVER.md too big at 25KB, how do I shrink it",
+  "expected": "functional-area-resolver",
+  "outcome": "pass",
+  "matched": [
+   "functional-area-resolver"
+  ]
+ },
+ {
+  "intent": "I want to compress my resolver while keeping all the sub-skills reachable",
+  "expected": "functional-area-resolver",
+  "outcome": "pass",
+  "matched": [
+   "functional-area-resolver"
+  ]
+ },
+ {
+  "intent": "Explain the functional area dispatcher pattern and when to use it",
+  "expected": "functional-area-resolver",
+  "outcome": "pass",
+  "matched": [
+   "functional-area-resolver"
+  ]
+ },
+ {
+  "intent": "Skillify this — make this proper from the routing-pattern notes",
+  "expected": "skillify",
+  "outcome": "pass",
+  "matched": [
+   "skillify"
+  ]
+ },
+ {
+  "intent": "Create a skill that compacts a routing file using AI",
+  "expected": "skill-creator",
+  "outcome": "pass",
+  "matched": [
+   "skill-creator"
+  ]
+ },
+ {
+  "intent": "Personalized version of this book about resolver and dispatcher design",
+  "expected": "book-mirror",
+  "outcome": "pass",
+  "matched": [
+   "book-mirror"
+  ]
+ },
+ {
+  "intent": "Synthesize my concepts about how routing files grow over time",
+  "expected": "concept-synthesis",
+  "outcome": "pass",
+  "matched": [
+   "concept-synthesis"
+  ]
+ },
+ {
+  "intent": "I want to ingest all my podcast transcripts into the brain",
+  "expected": "bulk-ingestion",
+  "outcome": "pass",
+  "matched": [
+   "bulk-ingestion"
+  ]
+ },
+ {
+  "intent": "Build an ingestion pipeline for my newsletter archive",
+  "expected": "bulk-ingestion",
+  "outcome": "pass",
+  "matched": [
+   "bulk-ingestion"
+  ]
+ },
+ {
+  "intent": "Set up a bulk import of this email takeout — hundreds of thousands of messages",
+  "expected": "bulk-ingestion",
+  "outcome": "pass",
+  "matched": [
+   "bulk-ingestion"
+  ]
+ },
+ {
+  "intent": "Make a manifest so we can resume this large ingest across sessions and workers",
+  "expected": "bulk-ingestion",
+  "outcome": "pass",
+  "matched": [
+   "bulk-ingestion"
+  ]
+ },
+ {
+  "intent": "We need to bulk backfill three years of standup summaries into brain pages",
+  "expected": "bulk-ingestion",
+  "outcome": "pass",
+  "matched": [
+   "bulk-ingestion"
+  ]
+ },
+ {
+  "intent": "save this to brain — just the one article I linked",
+  "expected": "ingest",
+  "outcome": "pass",
+  "matched": [
+   "ingest",
+   "idea-ingest"
+  ]
+ },
+ {
+  "intent": "Crawl my archive and bulk ingest everything worth keeping",
+  "expected": "bulk-ingestion",
+  "outcome": "pass",
+  "matched": [
+   "archive-crawler",
+   "bulk-ingestion"
+  ]
+ },
+ {
+  "intent": "Bulk-rename the screenshots in this folder to kebab-case filenames",
+  "expected": null,
+  "outcome": "pass",
+  "matched": []
+ },
+ {
+  "intent": "Give me the brain pulse before my first meeting — what changed overnight",
+  "expected": "briefing",
+  "outcome": "pass",
+  "matched": [
+   "briefing"
+  ]
+ },
+ {
+  "intent": "Run the pre-briefing pull: salience, anomalies, and recall before you compose today's briefing",
+  "expected": "briefing",
+  "outcome": "pass",
+  "matched": [
+   "briefing"
+  ]
+ },
+ {
+  "intent": "Morning briefing please, and lead with anything high-salience or anomalous in the brain",
+  "expected": "briefing",
+  "outcome": "pass",
+  "matched": [
+   "briefing"
+  ]
+ },
+ {
+  "intent": "What's happening today across my meetings and hot topics",
+  "expected": "briefing",
+  "outcome": "pass",
+  "matched": [
+   "briefing"
+  ]
+ },
+ {
+  "intent": "Why did the page for acme-example suddenly spike in edits last Tuesday — dig into the cause",
+  "expected": null,
+  "outcome": "pass",
+  "matched": []
+ },
+ {
+  "intent": "gbrain doctor says source-a is stale — should I just raise the timeout on the sync?",
+  "expected": "measure-before-you-fix",
+  "outcome": "pass",
+  "matched": [
+   "measure-before-you-fix"
+  ]
+ },
+ {
+  "intent": "The embed job is slow and died with ETIMEDOUT — bump the timeout and rerun",
+  "expected": "measure-before-you-fix",
+  "outcome": "pass",
+  "matched": [
+   "measure-before-you-fix"
+  ]
+ },
+ {
+  "intent": "Sync is stuck again, third freshness alert today, let's rewrite the wrapper",
+  "expected": "measure-before-you-fix",
+  "outcome": "pass",
+  "matched": [
+   "measure-before-you-fix"
+  ]
+ },
+ {
+  "intent": "The pipeline looks wedged — it says 14 hours behind, split the step so it can't starve",
+  "expected": "measure-before-you-fix",
+  "outcome": "pass",
+  "matched": [
+   "measure-before-you-fix"
+  ]
+ },
+ {
+  "intent": "Raise the timeout on the cycle step, it keeps timing out overnight",
+  "expected": "measure-before-you-fix",
+  "outcome": "pass",
+  "matched": [
+   "measure-before-you-fix"
+  ]
+ },
+ {
+  "intent": "Why is this function returning undefined? Debug it",
+  "expected": null,
+  "outcome": "pass",
+  "matched": []
+ },
+ {
+  "intent": "run a brain health check — citations, orphans, stale pages",
+  "expected": "maintain",
+  "outcome": "pass",
+  "matched": [
+   "citation-fixer",
+   "smoke-test",
+   "maintain"
+  ]
+ },
+ {
+  "intent": "Doctor flagged a sync freshness alert — triage brain health before we change anything",
+  "expected": "measure-before-you-fix",
+  "outcome": "pass",
+  "matched": [
+   "maintain",
+   "measure-before-you-fix"
+  ]
+ },
+ {
+  "intent": "Please make pdf from brain page media/books/this-book-personalized",
+  "expected": "brain-pdf",
+  "outcome": "pass",
+  "matched": [
+   "brain-pdf"
+  ]
+ },
+ {
+  "intent": "Run brain pdf on this strategy doc for the meeting",
+  "expected": "brain-pdf",
+  "outcome": "pass",
+  "matched": [
+   "brain-pdf"
+  ]
+ },
+ {
+  "intent": "Convert brain page to pdf with a draft watermark",
+  "expected": "brain-pdf",
+  "outcome": "pass",
+  "matched": [
+   "brain-pdf"
+  ]
+ },
+ {
+  "intent": "Publish this page as pdf for the printable deliverable",
+  "expected": "brain-pdf",
+  "outcome": "pass",
+  "matched": [
+   "brain-pdf"
+  ]
+ },
+ {
+  "intent": "Export brain page to a clean PDF I can send",
+  "expected": "brain-pdf",
+  "outcome": "pass",
+  "matched": [
+   "brain-pdf"
+  ]
+ },
+ {
+  "intent": "Please verify this academic claim from the book against the original paper",
+  "expected": "academic-verify",
+  "outcome": "pass",
+  "matched": [
+   "academic-verify"
+  ]
+ },
+ {
+  "intent": "Check this study cited in the article — has it been replicated",
+  "expected": "academic-verify",
+  "outcome": "pass",
+  "matched": [
+   "academic-verify"
+  ]
+ },
+ {
+  "intent": "Run academic verify on the 40% reduction claim and trace it to the source data",
+  "expected": "academic-verify",
+  "outcome": "pass",
+  "matched": [
+   "academic-verify"
+  ]
+ },
+ {
+  "intent": "Validate citation for the Stanford study referenced in the policy brief",
+  "expected": "academic-verify",
+  "outcome": "pass",
+  "matched": [
+   "academic-verify"
+  ]
+ },
+ {
+  "intent": "Is this study real, or is it on Retraction Watch",
+  "expected": "academic-verify",
+  "outcome": "pass",
+  "matched": [
+   "academic-verify"
+  ]
+ },
+ {
+  "intent": "A new meeting transcript received from my recorder — run the full pipeline on it",
+  "expected": "meeting-ingestion",
+  "outcome": "pass",
+  "matched": [
+   "meeting-ingestion"
+  ]
+ },
+ {
+  "intent": "My meeting recorder just finished — ingest this recording into the brain and update everyone who was there",
+  "expected": "meeting-ingestion",
+  "outcome": "pass",
+  "matched": [
+   "ingest",
+   "meeting-ingestion"
+  ]
+ },
+ {
+  "intent": "Here are the meeting notes from my sync with alice-example — file them with attendee pages and timeline merge",
+  "expected": "meeting-ingestion",
+  "outcome": "pass",
+  "matched": [
+   "meeting-ingestion"
+  ]
+ },
+ {
+  "intent": "I have a voice note from my meeting recorder — process this meeting into the brain",
+  "expected": "meeting-ingestion",
+  "outcome": "pass",
+  "matched": [
+   "voice-note-ingest",
+   "ingest",
+   "meeting-ingestion"
+  ]
+ },
+ {
+  "intent": "Reschedule tomorrow's standup with alice-example to the afternoon",
+  "expected": null,
+  "outcome": "pass",
+  "matched": []
+ },
+ {
+  "intent": "please validate frontmatter on the latest batch of brain pages",
+  "expected": "frontmatter-guard",
+  "outcome": "pass",
+  "matched": [
+   "frontmatter-guard"
+  ]
+ },
+ {
+  "intent": "fix frontmatter on these pages",
+  "expected": "frontmatter-guard",
+  "outcome": "pass",
+  "matched": [
+   "frontmatter-guard"
+  ]
+ },
+ {
+  "intent": "I want to run a frontmatter audit across the brain",
+  "expected": "frontmatter-guard",
+  "outcome": "pass",
+  "matched": [
+   "frontmatter-guard"
+  ]
+ },
+ {
+  "intent": "what's for breakfast",
+  "expected": null,
+  "outcome": "pass",
+  "matched": []
+ },
+ {
+  "intent": "Run concept synthesis on my brain — dedupe stubs and tier them",
+  "expected": "concept-synthesis",
+  "outcome": "pass",
+  "matched": [
+   "concept-synthesis"
+  ]
+ },
+ {
+  "intent": "Synthesize my concepts into a tiered intellectual map",
+  "expected": "concept-synthesis",
+  "outcome": "pass",
+  "matched": [
+   "concept-synthesis"
+  ]
+ },
+ {
+  "intent": "Find patterns across my notes and group them into clusters",
+  "expected": "concept-synthesis",
+  "outcome": "pass",
+  "matched": [
+   "concept-synthesis"
+  ]
+ },
+ {
+  "intent": "Build my intellectual map — what's canon vs riff",
+  "expected": "concept-synthesis",
+  "outcome": "pass",
+  "matched": [
+   "concept-synthesis"
+  ]
+ },
+ {
+  "intent": "Trace idea evolution across years of my reflections",
+  "expected": "concept-synthesis",
+  "outcome": "pass",
+  "matched": [
+   "concept-synthesis"
+  ]
+ },
+ {
+  "intent": "Trace idea evolution across years of my reflections and cluster the themes",
+  "expected": "concept-synthesis",
+  "outcome": "pass",
+  "matched": [
+   "concept-synthesis"
+  ]
+ },
+ {
+  "intent": "Run concept synthesis with the cull pass — hard keep or delete verdicts on my hollow concept stubs",
+  "expected": "concept-synthesis",
+  "outcome": "pass",
+  "matched": [
+   "concept-synthesis"
+  ]
+ },
+ {
+  "intent": "Synthesize my concepts and fold the redundant stubs into canonical heads under a cluster budget",
+  "expected": "concept-synthesis",
+  "outcome": "pass",
+  "matched": [
+   "concept-synthesis"
+  ]
+ },
+ {
+  "intent": "Delete the stale stub page about acme-example, it is outdated and no longer accurate",
+  "expected": null,
+  "outcome": "pass",
+  "matched": []
+ },
+ {
+  "intent": "Run idea lineage on founder-led sales and show the earliest version",
+  "expected": "idea-lineage",
+  "outcome": "pass",
+  "matched": [
+   "idea-lineage"
+  ]
+ },
+ {
+  "intent": "Show how my thinking about compounding trust changed over time",
+  "expected": "idea-lineage",
+  "outcome": "pass",
+  "matched": [
+   "idea-lineage"
+  ]
+ },
+ {
+  "intent": "What is my current version of the invisible college idea?",
+  "expected": "idea-lineage",
+  "outcome": "pass",
+  "matched": [
+   "idea-lineage"
+  ]
+ },
+ {
+  "intent": "Where did this idea come from in my notes, and what did I abandon?",
+  "expected": "idea-lineage",
+  "outcome": "pass",
+  "matched": [
+   "idea-lineage"
+  ]
+ },
+ {
+  "intent": "Show reversals in my thinking about founder-led sales",
+  "expected": "idea-lineage",
+  "outcome": "pass",
+  "matched": [
+   "idea-lineage"
+  ]
+ },
+ {
+  "intent": "How has acme-example MRR trended since January?",
+  "expected": null,
+  "outcome": "pass",
+  "matched": []
+ },
+ {
+  "intent": "Build my intellectual map across all my recurring frameworks",
+  "expected": "concept-synthesis",
+  "outcome": "pass",
+  "matched": [
+   "concept-synthesis"
+  ]
+ },
+ {
+  "intent": "Research everything about zettelkasten note systems, save every source, and write me a compendium",
+  "expected": "research-compendium",
+  "outcome": "pass",
+  "matched": [
+   "data-research",
+   "research-compendium"
+  ]
+ },
+ {
+  "intent": "Write me the definitive guide to home espresso — read them all and summarize each source first",
+  "expected": "research-compendium",
+  "outcome": "pass",
+  "matched": [
+   "research-compendium"
+  ]
+ },
+ {
+  "intent": "Deepen the compendium on urban walkability with another research layer",
+  "expected": "research-compendium",
+  "outcome": "pass",
+  "matched": [
+   "data-research",
+   "research-compendium"
+  ]
+ },
+ {
+  "intent": "Archive the sources then summarize each one before writing the synthesis doc",
+  "expected": "research-compendium",
+  "outcome": "pass",
+  "matched": [
+   "research-compendium"
+  ]
+ },
+ {
+  "intent": "Deep research and write up a comprehensive guide to solid-state batteries",
+  "expected": "research-compendium",
+  "outcome": "pass",
+  "matched": [
+   "data-research",
+   "research-compendium"
+  ]
+ },
+ {
+  "intent": "Deep research and write up a tracker with one row per funding round",
+  "expected": "data-research",
+  "outcome": "pass",
+  "matched": [
+   "data-research",
+   "research-compendium"
+  ]
+ },
+ {
+  "intent": "Just give me a quick answer about espresso grind size, no sources needed",
+  "expected": null,
+  "outcome": "pass",
+  "matched": []
+ },
+ {
+  "intent": "What are my tasks looking like today?",
+  "expected": "daily-task-manager",
+  "outcome": "pass",
+  "matched": [
+   "daily-task-manager"
+  ]
+ },
+ {
+  "intent": "Add task: renew the acme-example contract next week",
+  "expected": "daily-task-manager",
+  "outcome": "pass",
+  "matched": [
+   "daily-task-manager"
+  ]
+ },
+ {
+  "intent": "Complete task: quarterly report — mark it off",
+  "expected": "daily-task-manager",
+  "outcome": "pass",
+  "matched": [
+   "daily-task-manager"
+  ]
+ },
+ {
+  "intent": "Defer task: website redesign, push it to next Monday",
+  "expected": "daily-task-manager",
+  "outcome": "pass",
+  "matched": [
+   "daily-task-manager"
+  ]
+ },
+ {
+  "intent": "What did I get done across the brain last week?",
+  "expected": null,
+  "outcome": "pass",
+  "matched": []
+ },
+ {
+  "intent": "Who is Paul Graham and what has he written about startups",
+  "expected": "query",
+  "outcome": "pass",
+  "matched": [
+   "query"
+  ]
+ },
+ {
+  "intent": "I need background on the Series B round Acme raised last year",
+  "expected": "query",
+  "outcome": "pass",
+  "matched": [
+   "query"
+  ]
+ },
+ {
+  "intent": "Do we already have notes on this person",
+  "expected": "query",
+  "outcome": "pass",
+  "matched": [
+   "query"
+  ]
+ },
+ {
+  "intent": "Run perplexity-research on Brex and surface NEW developments",
+  "expected": "perplexity-research",
+  "outcome": "pass",
+  "matched": [
+   "data-research",
+   "perplexity-research"
+  ]
+ },
+ {
+  "intent": "What's new about this company that the brain doesn't already cover",
+  "expected": "perplexity-research",
+  "outcome": "pass",
+  "matched": [
+   "perplexity-research"
+  ]
+ },
+ {
+  "intent": "Tell me the current state of the YC W26 batch announcements",
+  "expected": "perplexity-research",
+  "outcome": "pass",
+  "matched": [
+   "perplexity-research"
+  ]
+ },
+ {
+  "intent": "Do a web research pass on this person — focus on the delta",
+  "expected": "perplexity-research",
+  "outcome": "pass",
+  "matched": [
+   "data-research",
+   "perplexity-research"
+  ]
+ },
+ {
+  "intent": "What changed about this funding round since I last looked",
+  "expected": "perplexity-research",
+  "outcome": "pass",
+  "matched": [
+   "perplexity-research"
+  ]
+ },
+ {
+  "intent": "Draft a tweet as alice-example announcing the acme-example launch",
+  "expected": "draft-in-voice",
+  "outcome": "pass",
+  "matched": [
+   "draft-in-voice"
+  ]
+ },
+ {
+  "intent": "Make this sound like charlie-example before I send it",
+  "expected": "draft-in-voice",
+  "outcome": "pass",
+  "matched": [
+   "draft-in-voice"
+  ]
+ },
+ {
+  "intent": "Ghostwrite a recruiting blurb in their voice for widget-co",
+  "expected": "draft-in-voice",
+  "outcome": "pass",
+  "matched": [
+   "draft-in-voice"
+  ]
+ },
+ {
+  "intent": "Build a voice profile for alice-example from her posts over the last year",
+  "expected": "draft-in-voice",
+  "outcome": "pass",
+  "matched": [
+   "draft-in-voice"
+  ]
+ },
+ {
+  "intent": "Turn this voice memo into a post in my voice about the launch",
+  "expected": "draft-in-voice",
+  "outcome": "pass",
+  "matched": [
+   "draft-in-voice"
+  ]
+ },
+ {
+  "intent": "Transcribe and file this voice note from my walk",
+  "expected": "voice-note-ingest",
+  "outcome": "pass",
+  "matched": [
+   "voice-note-ingest"
+  ]
+ },
+ {
+  "intent": "Save report: this week's pipeline numbers for the team",
+  "expected": "reports",
+  "outcome": "pass",
+  "matched": [
+   "reports"
+  ]
+ },
+ {
+  "intent": "Fix the grammar and typos in this paragraph I wrote myself, keeping my wording",
+  "expected": null,
+  "outcome": "pass",
+  "matched": []
+ },
+ {
+  "intent": "I have an unidentified contact in this reply draft — run resolve before asking",
+  "expected": "resolve-before-asking",
+  "outcome": "pass",
+  "matched": [
+   "resolve-before-asking"
+  ]
+ },
+ {
+  "intent": "This person page still says to be filled by content analysis — resolve it from the brain",
+  "expected": "resolve-before-asking",
+  "outcome": "pass",
+  "matched": [
+   "resolve-before-asking"
+  ]
+ },
+ {
+  "intent": "The briefing lists three people with unknown relationship — exhaust the brain before asking the user",
+  "expected": "resolve-before-asking",
+  "outcome": "pass",
+  "matched": [
+   "resolve-before-asking"
+  ]
+ },
+ {
+  "intent": "I don't know who this is — should I ask who they are or can the brain answer first?",
+  "expected": "resolve-before-asking",
+  "outcome": "pass",
+  "matched": [
+   "resolve-before-asking"
+  ]
+ },
+ {
+  "intent": "There's a placeholder on this page left by the email import — fill in who charlie-example is before asking me",
+  "expected": "resolve-before-asking",
+  "outcome": "pass",
+  "matched": [
+   "resolve-before-asking"
+  ]
+ },
+ {
+  "intent": "who is alice-example? tell me about her background",
+  "expected": "query",
+  "outcome": "pass",
+  "matched": [
+   "query"
+  ]
+ },
+ {
+  "intent": "what's for breakfast",
+  "expected": null,
+  "outcome": "pass",
+  "matched": []
+ },
+ {
+  "intent": "The tool result says GBRAIN_DB_ACCESS conn_refused — handle it",
+  "expected": "db-repair",
+  "outcome": "pass",
+  "matched": [
+   "db-repair"
+  ]
+ },
+ {
+  "intent": "gbrain database error on every call, can you fix it",
+  "expected": "db-repair",
+  "outcome": "pass",
+  "matched": [
+   "db-repair"
+  ]
+ },
+ {
+  "intent": "gbrain connection refused when I query the brain",
+  "expected": "db-repair",
+  "outcome": "pass",
+  "matched": [
+   "db-repair"
+  ]
+ },
+ {
+  "intent": "I cannot reach the brain database from this session",
+  "expected": "db-repair",
+  "outcome": "pass",
+  "matched": [
+   "db-repair"
+  ]
+ },
+ {
+  "intent": "The brain database is down again — repair access",
+  "expected": "db-repair",
+  "outcome": "pass",
+  "matched": [
+   "db-repair"
+  ]
+ },
+ {
+  "intent": "fix gbrain database access so recall works",
+  "expected": "db-repair",
+  "outcome": "pass",
+  "matched": [
+   "db-repair"
+  ]
+ },
+ {
+  "intent": "repair gbrain postgres, the pooler keeps rejecting us",
+  "expected": "db-repair",
+  "outcome": "pass",
+  "matched": [
+   "db-repair"
+  ]
+ },
+ {
+  "intent": "Do a strategic reading of 'The Power Broker' against my current situation",
+  "expected": "strategic-reading",
+  "outcome": "pass",
+  "matched": [
+   "strategic-reading"
+  ]
+ },
+ {
+  "intent": "Read this through the lens of the board meeting next week and give me tactics",
+  "expected": "strategic-reading",
+  "outcome": "pass",
+  "matched": [
+   "idea-ingest",
+   "strategic-reading"
+  ]
+ },
+ {
+  "intent": "Apply this to my problem with the launch — what to do, what to avoid, what to watch for",
+  "expected": "strategic-reading",
+  "outcome": "pass",
+  "matched": [
+   "strategic-reading"
+  ]
+ },
+ {
+  "intent": "What can I learn from this about handling a hostile gatekeeper",
+  "expected": "strategic-reading",
+  "outcome": "pass",
+  "matched": [
+   "strategic-reading"
+  ]
+ },
+ {
+  "intent": "Extract a playbook from this case study for my product launch",
+  "expected": "strategic-reading",
+  "outcome": "pass",
+  "matched": [
+   "strategic-reading"
+  ]
+ },
+ {
+  "intent": "lift this skill back into gbrain so others can use it",
+  "expected": "skillpack-harvest",
+  "outcome": "pass",
+  "matched": [
+   "skillpack-harvest"
+  ]
+ },
+ {
+  "intent": "publish my fork-only skill upstream",
+  "expected": "skillpack-harvest",
+  "outcome": "pass",
+  "matched": [
+   "skillpack-harvest"
+  ]
+ },
+ {
+  "intent": "share this skill with the gbrain bundle",
+  "expected": "skillpack-harvest",
+  "outcome": "pass",
+  "matched": [
+   "skillpack-harvest"
+  ]
+ },
+ {
+  "intent": "harvest my skill into gbrain for the other clients",
+  "expected": "skillpack-harvest",
+  "outcome": "pass",
+  "matched": [
+   "skillpack-harvest"
+  ]
+ },
+ {
+  "intent": "promote this skill to gbrain so neuromancer can scaffold it",
+  "expected": "skillpack-harvest",
+  "outcome": "pass",
+  "matched": [
+   "skillpack-harvest"
+  ]
+ },
+ {
+  "intent": "I want this skill in the gbrain bundle",
+  "expected": "skillpack-harvest",
+  "outcome": "pass",
+  "matched": [
+   "skillpack-harvest"
+  ]
+ },
+ {
+  "intent": "move my custom skill into the gbrain core",
+  "expected": "skillpack-harvest",
+  "outcome": "pass",
+  "matched": [
+   "skillpack-harvest"
+  ]
+ },
+ {
+  "intent": "publish this report to the team",
+  "expected": null,
+  "outcome": "pass",
+  "matched": []
+ },
+ {
+  "intent": "promote my role on LinkedIn",
+  "expected": null,
+  "outcome": "pass",
+  "matched": []
+ },
+ {
+  "intent": "bundle these screenshots into a deck",
+  "expected": null,
+  "outcome": "pass",
+  "matched": []
+ },
+ {
+  "intent": "lift weights at the gym",
+  "expected": null,
+  "outcome": "pass",
+  "matched": []
+ },
+ {
+  "intent": "Run a link quality check on this morning briefing before it goes out",
+  "expected": "reports",
+  "outcome": "pass",
+  "matched": [
+   "briefing",
+   "reports"
+  ]
+ },
+ {
+  "intent": "Validate report links in the meeting digest — no profile links standing in for posts",
+  "expected": "reports",
+  "outcome": "pass",
+  "matched": [
+   "reports"
+  ]
+ },
+ {
+  "intent": "Do a report quality pass: flag broken, dead, or indirect links in this week's digest",
+  "expected": "reports",
+  "outcome": "pass",
+  "matched": [
+   "reports"
+  ]
+ },
+ {
+  "intent": "Validate report links — make sure every brain-page link is committed and pushed so nothing 404s",
+  "expected": "reports",
+  "outcome": "pass",
+  "matched": [
+   "reports"
+  ]
+ },
+ {
+  "intent": "Fix broken citations on this brain page",
+  "expected": "citation-fixer",
+  "outcome": "pass",
+  "matched": [
+   "citation-fixer"
+  ]
+ },
+ {
+  "intent": "File my quarterly expense report with the accounting team",
+  "expected": null,
+  "outcome": "pass",
+  "matched": []
+ },
+ {
+  "intent": "I downloaded my chatgpt export — import my conversations into the brain as pages",
+  "expected": "conversation-archive",
+  "outcome": "pass",
+  "matched": [
+   "conversation-archive"
+  ]
+ },
+ {
+  "intent": "when did I first discuss seed-stage pricing with any AI assistant?",
+  "expected": "conversation-archive",
+  "outcome": "pass",
+  "matched": [
+   "conversation-archive"
+  ]
+ },
+ {
+  "intent": "search my conversations with Claude and Perplexity about agent memory and build me a timeline",
+  "expected": "conversation-archive",
+  "outcome": "pass",
+  "matched": [
+   "conversation-archive"
+  ]
+ },
+ {
+  "intent": "archive my session transcripts from this agent and backfill missing conversations from last month",
+  "expected": "conversation-archive",
+  "outcome": "pass",
+  "matched": [
+   "conversation-archive"
+  ]
+ },
+ {
+  "intent": "I have a claude export with 4000 threads — import my conversations and keep the archive gap-free",
+  "expected": "conversation-archive",
+  "outcome": "pass",
+  "matched": [
+   "conversation-archive"
+  ]
+ },
+ {
+  "intent": "did my colleague answer in the group channel last night?",
+  "expected": null,
+  "outcome": "pass",
+  "matched": []
+ },
+ {
+  "intent": "which gbrain engine is this brain running on",
+  "expected": "postgres-adopt",
+  "outcome": "pass",
+  "matched": [
+   "postgres-adopt"
+  ]
+ },
+ {
+  "intent": "is my brain pglite or postgres right now",
+  "expected": "postgres-adopt",
+  "outcome": "pass",
+  "matched": [
+   "postgres-adopt"
+  ]
+ },
+ {
+  "intent": "show me gbrain engine status for this machine",
+  "expected": "postgres-adopt",
+  "outcome": "pass",
+  "matched": [
+   "postgres-adopt"
+  ]
+ },
+ {
+  "intent": "I want to upgrade to postgres for the brain",
+  "expected": "postgres-adopt",
+  "outcome": "pass",
+  "matched": [
+   "postgres-adopt"
+  ]
+ },
+ {
+  "intent": "switch gbrain to postgres, we have three agents now",
+  "expected": "postgres-adopt",
+  "outcome": "pass",
+  "matched": [
+   "postgres-adopt"
+  ]
+ },
+ {
+  "intent": "install postgres for gbrain on this box",
+  "expected": "postgres-adopt",
+  "outcome": "pass",
+  "matched": [
+   "postgres-adopt"
+  ]
+ },
+ {
+  "intent": "move my brain to supabase, it hit 5000 pages",
+  "expected": "postgres-adopt",
+  "outcome": "pass",
+  "matched": [
+   "postgres-adopt"
+  ]
+ },
+ {
+  "intent": "set up postgres for the brain instead of the local file engine",
+  "expected": "postgres-adopt",
+  "outcome": "pass",
+  "matched": [
+   "postgres-adopt"
+  ]
+ }
+]

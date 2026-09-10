@@ -1,0 +1,39 @@
+=== pgvector 0.8.6 / 17.11 (Debian 17.11-1.pgdg12+2) ===
+--- dim=768 n=100000 ---
+NOTICE:  table "t768_100000" does not exist, skipping
+RESULT dim=768 n=100000 heap_bytes=5218304 index_bytes=341344256 build_secs=8 idx_bytes_per_vec=3413.4 heap_bytes_per_vec=52.1
+ERROR:  more than one row returned by a subquery used as an expression
+RESULT_QUERY dim=768 n=100000 ef_search=40 mean_ms=SET
+ERROR:  more than one row returned by a subquery used as an expression
+RESULT_QUERY dim=768 n=100000 ef_search=200 mean_ms=SET
+--- dim=1024 n=50000 ---
+NOTICE:  table "t1024_50000" does not exist, skipping
+RESULT dim=1024 n=50000 heap_bytes=2613248 index_bytes=280526848 build_secs=5 idx_bytes_per_vec=5610.5 heap_bytes_per_vec=52.2
+ERROR:  more than one row returned by a subquery used as an expression
+RESULT_QUERY dim=1024 n=50000 ef_search=40 mean_ms=SET
+ERROR:  more than one row returned by a subquery used as an expression
+RESULT_QUERY dim=1024 n=50000 ef_search=200 mean_ms=SET
+--- dim=1024 n=200000 ---
+NOTICE:  table "t1024_200000" does not exist, skipping
+ERROR:  could not resize shared memory segment "/PostgreSQL.3382554412" to 4291890752 bytes: No space left on device
+ERROR:  relation "ix_t1024_200000" does not exist
+LINE 1: SELECT pg_relation_size('ix_t1024_200000')
+                                ^
+
+Parse error: bad token
+    <stdin>:1
+
+RESULT dim=1024 n=200000 heap_bytes=10436608 index_bytes= build_secs=0 idx_bytes_per_vec= heap_bytes_per_vec=52.1
+ERROR:  more than one row returned by a subquery used as an expression
+RESULT_QUERY dim=1024 n=200000 ef_search=40 mean_ms=SET
+ERROR:  more than one row returned by a subquery used as an expression
+RESULT_QUERY dim=1024 n=200000 ef_search=200 mean_ms=SET
+--- dim=1536 n=100000 ---
+NOTICE:  table "t1536_100000" does not exist, skipping
+RESULT dim=1536 n=100000 heap_bytes=5218304 index_bytes=143884288 build_secs=10 idx_bytes_per_vec=1438.8 heap_bytes_per_vec=52.1
+ERROR:  more than one row returned by a subquery used as an expression
+RESULT_QUERY dim=1536 n=100000 ef_search=40 mean_ms=SET
+ERROR:  more than one row returned by a subquery used as an expression
+RESULT_QUERY dim=1536 n=100000 ef_search=200 mean_ms=SET
+=== DONE ===
+EXIT=0

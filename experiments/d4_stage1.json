@@ -1,0 +1,89 @@
+[
+ {
+  "method": "float32 vector(1024) [exact, reference]",
+  "bytes": 4104,
+  "r@10": 1.0,
+  "enc_s": 0.0,
+  "note": ""
+ },
+ {
+  "method": "halfvec(1024)",
+  "bytes": 2056,
+  "r@10": 0.9971760276121745,
+  "r@10|rescore50": 0.9961091935989992,
+  "enc_s": 0.01,
+  "note": ""
+ },
+ {
+  "method": "int8 scalar quant",
+  "bytes": 1032,
+  "r@10": 0.9852525886413555,
+  "r@10|rescore50": 0.9957012864763135,
+  "enc_s": 0.0,
+  "note": ""
+ },
+ {
+  "method": "binary_quantize(x) -> bit(1024)  [pgvector default]",
+  "bytes": 136,
+  "r@10": 0.7326953247568245,
+  "r@10|rescore50": 0.9789457169752197,
+  "r@10|rescore100": 0.9912143081267698,
+  "enc_s": 0.0,
+  "note": ""
+ },
+ {
+  "method": "binary_quantize(x - corpus_mean) -> bit(1024)",
+  "bytes": 136,
+  "r@10": 0.7576717916535927,
+  "r@10|rescore50": 0.9819265767179242,
+  "r@10|rescore100": 0.9918104800753104,
+  "enc_s": 0.0,
+  "note": ""
+ },
+ {
+  "method": "SimHash/LSH L=128 bits",
+  "bytes": 24,
+  "r@10": 0.41299027298399743,
+  "r@10|rescore50": 0.7239410103545679,
+  "enc_s": 0.0,
+  "note": ""
+ },
+ {
+  "method": "SimHash/LSH L=256 bits",
+  "bytes": 40,
+  "r@10": 0.5509256353937874,
+  "r@10|rescore50": 0.8650141198619509,
+  "enc_s": 0.0,
+  "note": ""
+ },
+ {
+  "method": "SimHash/LSH L=512 bits",
+  "bytes": 72,
+  "r@10": 0.6517100721681832,
+  "r@10|rescore50": 0.9422340759334906,
+  "enc_s": 0.0,
+  "note": ""
+ },
+ {
+  "method": "SimHash/LSH L=1024 bits",
+  "bytes": 136,
+  "r@10": 0.7287417634138689,
+  "r@10|rescore50": 0.9729839974898105,
+  "enc_s": 0.0,
+  "note": ""
+ },
+ {
+  "method": "SimHash/LSH L=2048 bits",
+  "bytes": 264,
+  "r@10": 0.7773140884844683,
+  "enc_s": 0.01,
+  "note": ""
+ },
+ {
+  "method": "SimHash/LSH L=4096 bits",
+  "bytes": 520,
+  "r@10": 0.8145591465327895,
+  "enc_s": 0.01,
+  "note": ""
+ }
+]

@@ -1696,7 +1696,273 @@
    "report_path": "/Users/stephen/Cookies/company-brain-research/findings/d5-curation-process.md"
   }
  ],
- "judges": [],
- "leaderboard": [],
- "synth": null
+ "judges": [
+  {
+   "key": "j1-rag-engineer",
+   "ranking": [
+    "d3-router",
+    "d4-index-adversary",
+    "d1-write-gate",
+    "d2-lifecycle",
+    "d5-curation-process"
+   ],
+   "grafts": [
+    "d1's L2 closed forms (1-delta = m/(k*n), epsilon = w*/n) grafted into d3's abstention gate: d3 section 12 names delta and epsilon as 'the largest unknown in the proposal' and ships the gate in shadow mode because no published value exists for text; d1 derives both from a chosen horizon in items, turning d3's open question into a one-week calibration. Also graft d1's L4 identity (one duplicate insert == m/(k*r) days of drift), which tells d3 immediately whether its single per-skill filter can see a duplicate at all at the horizon it picked.",
+    "d1's 'impossible corner' self-check as a doctor check on d3's skill_novelty_filter: the fourth corner (n_gamma low + n_alpha high) is unrepresentable by construction, so its rate is a free corruption alarm above ~1%. d3 persists a projection seed per skill and warns that losing it makes every stored code garbage but ships no integrity check; this is ~10 lines and catches exactly that failure.",
+    "d1's 'on_duplicate: route, never block' doctrine applied to d3's abstention: d3's gate returns ABSTAIN, which IS a block, and per g05's OWASP ASI06 argument a router gate is a worse denial surface than a write gate because an adversary who depresses a skill's filter weights silently disables a capability. d3's advisory mode (router proposes, model disposes) should be the default, not the post-K4 fallback.",
+    "d4's 136-byte binary_quantize shadow added to d3's abstention baseline ladder: d4 section 5.4 measured the free ANN probe at 0.843 and the binarized shadow at 0.834 on paraphrase-shaped probes, within 0.009 of each other, and at 136 B/prototype the whole 150-skill table is cache-resident. d3's K2 comparators (B5 max-cosine, B6 logistic) omit it, so the true floor the fly gate must clear is currently missing from the ladder.",
+    "d5's B8 match_mode surfaced on every d3 routing decision: d3's three-stage design already has the information VFB's resolve_entity reports and throws it away, returning a bare slug. Return {slug, match_mode in {trigger, prototype, escalated, abstain}, margin} plus VFB's own warning to check before building on a non-exact match. Two lines, real safety value.",
+    "d2's readout-bout ledger (retrieval_bouts + last_bout_at with a 24h refractory) in place of d3's decayed kind='event' facts row: a strictly better instrument for 'is this skill actually used' than a 7-day-half-life event count, it feeds d3's kind='observed' prototypes directly, and d2 already verified against schema.sql:163-188 that bumping it does not invalidate the query cache.",
+    "d5's B9 merge inversion, shipped this week independent of everything: the only recommendation in the panel backed by a benchmark that measured exactly the decision in question (ConnectomeBench), one day of work, and a safety fix rather than an optimisation, since the single operation GBrain automates is the one models are measurably worst at.",
+    "d2's HALFLIFE_DAYS correction landed before anyone calibrates anything: it is a time constant tau, not a half-life (the file's own comment concedes 'returns ~0.368' = e^-1), so every kind decays 1.44x faster than its name claims and four consumers plus d3's routing-event decay all inherit the error. One line plus a test pin.",
+    "d4's WTA-no-op porting fact used to delete dead code from both d1 and d3: with constant fan-in, M(x - c*1) = Mx - c*f*1 is a uniform shift so winner-take-all is invariant, and d4's raw and per-vector-centred arms produced bit-identical results. d1's divisiveNormalise() and d3's k-WTA(M*(q - mean(q))) are both inert on L2-normalised embeddings, and keeping them is a false claim of fidelity to the fly's concentration-invariance mechanism.",
+    "d1's write-time contradiction trigger grafted onto d2's L3 claim_evidence ledger: d2's ledger has no trigger of its own and only reuses cached verdicts, while d1's recurrence band is the cheapest trigger anyone proposed and targets a hole the shipped probe structurally cannot reach (docs/contradictions.md discards every pair more than 30 days apart, which is most real supersessions on a quarterly org clock).",
+    "d3's pre-registration and receipt discipline applied to every arm in the panel: bind each run to prompt_template_hash / fixtures_hash / harness_sha as evals/functional-area-resolver/ already does. d3 is the only design that ran a benchmark and discovered the benchmark itself was the problem (100.0% to 0.0% under LOTO), and that same receipt mechanism is what made its own README-vs-receipt discrepancy findable at all."
+   ]
+  },
+  {
+   "key": "j2-comp-neuro",
+   "ranking": [
+    "d2-lifecycle",
+    "d4-index-adversary",
+    "d1-write-gate",
+    "d3-router",
+    "d5-curation-process"
+   ],
+   "grafts": [
+    "d5 B5 - confidence carried with its scale and producer (confidence_scale, confidence_producer, verified_value beats predicted). d2's net(c) = sum of sign*magnitude*exp(-age/tau) currently adds magnitudes from different extractors, model versions and human judgements as if commensurable, which is exactly the error VFB's published policy forbids. Two days, and it is what makes d2's central function meaningful. Highest-value graft.",
+    "d5 B1 page_lineage as a precondition rather than a competitor. d2's L3 ledger and g01's WITHOUT OVERLAPS constraint both key on facts.entity_slug - a bare mutable TEXT with no FK that the nightly cycle itself rewrites (50 merges/run, with nowhere to record that a merge happened). A ledger keyed on a string that moves is not an audit trail. Ship the lineage table (one day) even if B1's anchoring machinery waits behind K1.",
+    "d1's parameter laws folded into d2's undefined interference term h(i): 1-delta = m/(k*n), epsilon = w*/n, floor n >= m/k. d2's forgetting daemon leaves h(i) undefined and g07 notes the fly Bloom filter computes exactly that for free, so the term gets derived rather than invented constants.",
+    "Two missing biology ablations for d1's K2, one extra row each: (a) adaptive-k - set the winner count by thresholding total drive instead of a fixed top-k, which is what APL's GABAergic feedback actually does (Lin et al., Nat Neurosci 17:559, 2014) and matters for bursty company ingest; (b) a fan-in sweep over s in {6, 12, 96, 154}, because the fly's ~6 claws is an absolute number optimising dimensionality for the fly's input dimension and noise (Litwin-Kumar et al., Neuron 93:1153, 2017), so neither 6 nor d1's 6.25% ratio transfers to d=1536 without re-deriving.",
+    "d1's K2 run once to answer both sockets: recurrence-after-dormancy AUROC at G in {7,14,25} days, fly-bank vs fly-single vs max-cosine vs SimHash vs SAGE, offline, ~200 lines, four days, ~$0. It settles d3's abstention gate at the same time. Pre-register it alongside d2's K5.",
+    "d4's corrected baselines made mandatory for every gate arm: free ANN probe 0.843, binary_quantize 0.834, FlyHash k=64 0.800, lexical SimHash 0.590 and 0.263 on paraphrase-shaped edits. Any novelty/dedup component graded only against lexical SimHash is being graded against the weakest available opponent.",
+    "d1's novelty_band='impossible' doctor check, generalised. A state-space corner that cannot occur if parameters and state are correct, wired to a warning above 1% - a free corruption detector. d2 needs the equivalent invariants on retrieval_bouts and suppression, given gbrain#3889 (every judge call failed, probe reported '0 contradictions', doctor showed [OK]).",
+    "d1's route-don't-block doctrine and per-source state scoping: never refuse a write, only annotate and route; scope filter/suppression state per source_id so a hostile source cannot depress another's; make every budget a hard cap against induced judge spend (OWASP ASI06). d2's suppression daemon is the same attack surface and inherits all three mitigations free.",
+    "d3's LOTO discipline as a standing regression test on every eval d2 ships - strip the tokens a fixture was built from and re-score (GBrain's router went 303/303 to 0/271, with 24 silent misroutes) - plus d3's STRICT-not-LENIENT rule: never report a metric that grants one arm partial credit the others cannot earn.",
+    "d3's write-back pattern: routing/lifecycle decisions land in facts with kind='event' and inherit decay, consolidation and audit for free. d2's lifecycle_events should follow it rather than being a bespoke log, so the lifecycle's own telemetry is subject to the lifecycle.",
+    "d5 B9 - human-gate merges, automate splits and identification. One day, and the only panel recommendation backed by a benchmark that measured exactly this decision (ConnectomeBench: 75-85% on split errors, poor on merges, against GBrain's automatic 50-merges-per-run).",
+    "d5's graded uncertainty vocabulary replacing d2's bare sign+magnitude: FlyWire's is_hemilineage is H, H?, Hp, H/L, H(NT), H_2NT - the reason for the doubt is encoded in the label. d2 already copies the contradiction probe's six verdict classes into claim_evidence.verdict; make the class the primary carrier and the float secondary.",
+    "d4's D4-ALT as an orthogonal budget release: 3-5 dev-days, 13,726 -> 609 B/row, $410/mo -> $110/mo at the million-page tier. It buys nothing in quality and it pays for the curation work that does, which given g02's 222x-4,514x curation-over-embedding ratio is the right trade to make explicit.",
+    "Fix HALFLIFE_DAYS before anything calibrates against it: exp(-age/7) is 36.8% at 7 days, so the true half-life is 4.85 days and every kind decays 1.44x faster than its name claims. Rename to TIME_CONSTANT_DAYS or multiply by 1/ln2 and pin it in tests - any decay parameter tuned against the current table is tuned against a 44% error."
+   ]
+  },
+  {
+   "key": "j3-yc-founder",
+   "ranking": [
+    "d2-lifecycle",
+    "d4-index-adversary",
+    "d1-write-gate",
+    "d3-router",
+    "d5-curation-process"
+   ],
+   "grafts": [
+    "The free-baseline rule (d4 §5.4, d1 §11): before any novelty/dedup/staleness machinery, the arm to beat is `1 - max cosine` from one HNSW probe already paid for -- 0.843 on paraphrase dedup at 3.78 ms @100K, vs FlyHash k=64's 0.800 and lexical SimHash's 0.590 (0.263 on heavy edits). Every gate d2 adds gets benchmarked against that arm first; most will not clear it. This single rule saves more engineering than anything else in the panel.",
+    "d1's write-time contradiction trigger, with a boring scorer (d1 §5): GBrain's probe is query-sampled AND discards every pair >30 days apart, so it structurally cannot see quarterly-clock supersessions (pricing, org, policy). Trigger the probe at write time on 'similar at the month scale, dissimilar at the week scale' -- but compute that band with max-cosine plus a `last_seen_at` SQL predicate, not a two-compartment Bloom filter. $0.68/month at 250 writes/day, break-even at 0.7% of writes suppressed. Highest-value graft: it reaches the supersession class d2's L1/L2 cannot.",
+    "d1's hook location and routing doctrine (d1 §4.1): src/core/import-file.ts:756, immediately after the #1309 cross-slug dedup pre-check and before chunking/embedding, with `on_duplicate: route`, never `block`. d1's own concession applies to d2 directly -- L3's prediction-error write gate 'is dedup with a neuroscience name', and an ingest-time gate does it better and earlier. Move that work upstream.",
+    "d4's D4-ALT as a parallel four-day sidecar: `CREATE INDEX ... USING hnsw ((binary_quantize(embedding)::bit(1024)) bit_hamming_ops)` plus a two-stage rescore. Measured 22.5x storage (13,726 -> 609 B/row), 1.9x latency (7.34 -> 3.81 ms), 0.9918 recall@10. Fully orthogonal to d2, so the second engineer ships it in week 2 while the first runs K5.",
+    "d5's B9 -- invert the merge automation. ConnectomeBench (arXiv:2511.05542, NeurIPS 2025 D&B) measures LLMs at 75-85% on split-error correction and 52-82% on segment identification (chance 50% / 20-25%) but 'generally struggling on merge error identification'. GBrain's only automatic destructive operation is a slug-normalising merge at 50 pages/run. Automate splits and identification; human-gate merges. One day, and the only recommendation in the panel backed by a benchmark that measured exactly this decision.",
+    "d5's B3 -- two-tier status vocabulary with a build-breaking exhaustiveness assert, ported from flyem-snapshot's `assert list(NEUPRINT_STATUSLABEL_TO_STATUS.keys()) == DEFAULT_BODY_STATUS_CATEGORIES`. ~20 lines, and it matters because d2 adds `suppression` and `dormant_at` to a system that already has deleted_at, unverified, create_safety and sources.archived -- without the gate they become the fourth and fifth undocumented curation flags.",
+    "d5's B5 -- confidence carried with its scale and producer, never normalised, verified beats predicted. facts.confidence REAL DEFAULT 1.0 is currently compared across kinds, extractors and model versions as if commensurable and then multiplied by a decay factor; d2's netting function inherits that error unless rows carry `confidence_scale` and `confidence_producer`. Four columns and a rule, lifted from VFB.",
+    "d3's leave-one-trigger-out test as a standing CI check on every eval I own: delete only the trigger phrases each fixture literally contains and the shipped benchmark goes 100% -> 0% with 24 silent misroutes. Any benchmark whose fixtures were written against the mechanism under test is a tautology check; d2's arms need a template-blind stratum for the same reason or its numbers mean nothing.",
+    "d3's write-back pattern (§3.4): log lifecycle and routing decisions as `facts` rows with kind='event' rather than a bespoke table, inheriting the 7-day event half-life, the facts->takes bridge and the audit trail for free, and turning 'evals are performance reviews' into a measured loop over real traffic. d2's `lifecycle_events` should be this.",
+    "d5's B7 -- the known-defects layer: corpus_defects(source_id, scope, valid_from, valid_until, reason), stamped onto any retrieval that intersects an open defect ('the Slack connector dropped threads 2026-03-01..03-14'). One day, and nothing in the stack does it.",
+    "g01's SQL:2011 `PRIMARY KEY (key, period WITHOUT OVERLAPS)`, named independently by d1 §11, d2 §3 and d5 §3 as strictly better than any scoring approach for arbitration. Adopt it BEFORE d2's L3 ledger, so the ledger becomes the constraint's escape hatch for the overlapping-interval / different-holder 'debate' case rather than a competitor to it.",
+    "d1's seed-and-model coupling discipline: any derived code stores embedding_model, embedding_dim and its seed on the state row and invalidates on change. Cheap, and it prevents a class of silent-garbage bug that no test catches.",
+    "d3's B10 check as a week-1 gate on any context-reduction work: Anthropic ships tool_search_tool_bm25_20251119 with defer_loading:true, the same idea at the platform layer. One day to find out whether the platform already delivers 80% of the win for zero engineering."
+   ]
+  }
+ ],
+ "leaderboard": [
+  {
+   "key": "d4-index-adversary",
+   "mean": 38.333333333333336,
+   "verdicts": [
+    "j1-rag-engineer:BUILD",
+    "j2-comp-neuro:KILL (fly backend) / BUILD (D4-ALT)",
+    "j3-yc-founder:BUILD"
+   ]
+  },
+  {
+   "key": "d2-lifecycle",
+   "mean": 38.333333333333336,
+   "verdicts": [
+    "j1-rag-engineer:BUILD",
+    "j2-comp-neuro:BUILD",
+    "j3-yc-founder:BUILD"
+   ]
+  },
+  {
+   "key": "d1-write-gate",
+   "mean": 37.333333333333336,
+   "verdicts": [
+    "j1-rag-engineer:PILOT",
+    "j2-comp-neuro:PILOT",
+    "j3-yc-founder:PILOT"
+   ]
+  },
+  {
+   "key": "d3-router",
+   "mean": 37,
+   "verdicts": [
+    "j1-rag-engineer:BUILD",
+    "j2-comp-neuro:BUILD (stage 1 + RouteBench) / KILL (fly gate)",
+    "j3-yc-founder:PILOT"
+   ]
+  },
+  {
+   "key": "d5-curation-process",
+   "mean": 31.666666666666668,
+   "verdicts": [
+    "j1-rag-engineer:PILOT",
+    "j2-comp-neuro:PILOT",
+    "j3-yc-founder:DEFER"
+   ]
+  }
+ ],
+ "synth": {
+  "key_insights": [
+   "A company brain is RAG on the read path, plus a write-side lifecycle, plus procedural memory. Tan concedes the premise on stage ('you're right that retrieval is the primitive, the same way Postgres is just B-trees', 12:57) and relocates the value to what gets written, linked, tiered and arbitrated. YC's funding brief goes further: the deliverable is 'an executable skills file for AI', and 'this isn't a company-wide search or a chatbot over documents'.",
+   "The headline proof does not survive isolation, and the crux question is unrun. The only clean one-switch A/B gives the typed-edge graph +6.2 R@5 and +9.7 first-place-hit on 145 relational questions; the BM25+vector fusion layer is neutral-to-negative against pure vector (93.8% vs 93.19-93.40% strict recall_all@5 on LongMemEval-S); the reranker supplies the +2.1 that reaches 95.53%. The README's +31.4 P@5 is a superseded whole-adapter gap with lost receipts, re-measured by its own authors at +15.0.",
+   "The librarian does not exist in shipped code - in any system. GBrain's 23-phase nightly cycle automates the mechanical half (ingest triage, junk regex, cosine-0.85 consolidation, a 50-page/run merge, 72h GC) and refuses semantic pruning by written policy: 'archive is product judgment, not maintenance.' The cost is its own review queue at 32,500 rows growing 2-6k/day (gbrain#3269).",
+   "The 'recently published fruit-fly work' is the complete male Drosophila CNS connectome - Berg et al., Cell 189(18):5504-5526.e15, 3 September 2026, doi:10.1016/j.cell.2026.08.015: 166,700 neurons, 11,710 types, 124.2M connections, ~44 person-years. Its lesson is curation, not algorithm: the data was downloadable under CC-BY for eleven months and almost nothing was built on it; third-party applications appeared 48-72 hours after the curation was certified and publicised.",
+   "Every fly algorithm was measured this round and lost. As a pgvector backend, sign binarization beats FlyHash at equal bytes (0.7577 vs 0.4948 recall@10; 0.9918 vs 0.8339 after rescore) and the parity config is refused outright ('sparsevec cannot have more than 1000 non-zero elements for hnsw index'). As a dedup hash it loses to the free ANN probe (0.843 vs 0.800). As a router it loses to a no-training nearest centroid at every pool size. KILL all three.",
+   "Exactly one fly mechanism survives, at PILOT. The fly Bloom filter (PNAS 2018) as a write-time recurrence-after-dormancy clock - 'similar to something we saw three weeks ago but not this week' - which is where superseded facts live, and which GBrain's contradiction probe structurally cannot see ('skip pairs whose dates are >30d apart'). ~40% odds; a 4-day, ~$0 offline test settles it.",
+   "The highest-value transfer for the user's legal/government RAG has nothing to do with flies: as-of-date filtering before arbitration. On 312 expert-validated time-sensitive statutory questions, 197 (63%) have the older version as the correct answer - newest-wins is inverted by construction. Regexing the as-of date from the query and hard-filtering to versions valid at that date takes Claude Opus 4.5 from 35.40% to 81.42% (arXiv:2605.23497).",
+   "Do this first: the Tier-0 crux slice - ~$30, one afternoon, 804 MemConflict static + conditional questions, tuned hybrid vs curated brain vs reranker-off. The cheapest experiment that can falsify the entire thesis, and nobody has run it."
+  ],
+  "key_facts": [
+   {
+    "claim": "Tan answers 'this is just RAG' at 12:57-13:27 with a concession, not a refutation: 'you're right that retrieval is the primitive, the same way Postgres is just B-trees... Retrieval is easy. Being worth retrieving from is the product.'",
+    "source_url": "https://www.youtube.com/watch?v=eBUyTS7SzV4",
+    "confidence": "high"
+   },
+   {
+    "claim": "YC's Summer 2026 'Company Brain' RFS (Tom Blomfield, published 2026-04-28, still live) asks for a system that 'turns it into an executable skills file for AI' and says 'this isn't a company-wide search or a chatbot over documents'. Its 220-word text mentions neither provenance metadata nor contradiction detection.",
+    "source_url": "https://www.ycombinator.com/rfs#company-brain",
+    "confidence": "high"
+   },
+   {
+    "claim": "GBrain's clean one-switch A/B (shared index, shared query vectors) gives typed-edge graph retrieval +6.2 points R@5 and +9.7 points first-place-hit on 145 relationship questions, 45 gains and 0 losses across 435 pairs; invested_in first-place went 9/39 to 21/39. The README's +31.4 P@5 is a superseded April-2026 whole-adapter gap with lost receipts (manifest status 'disclosed-gap'), re-measured at +15.0.",
+    "source_url": "https://github.com/garrytan/gbrain-evals",
+    "confidence": "high"
+   },
+   {
+    "claim": "GBrain's own README states pure vector scored 93.8% on LongMemEval-S vs 93.19-93.40% for the hybrid fusion, i.e. the BM25+vector layer is neutral-to-negative; the cross-encoder reranker supplies the +2.1 points that reach the 95.53% headline.",
+    "source_url": "https://raw.githubusercontent.com/garrytan/gbrain/master/README.md",
+    "confidence": "high"
+   },
+   {
+    "claim": "The complete male Drosophila CNS connectome was published in Cell on 3 September 2026 (Berg et al., Cell 189(18):5504-5526.e15, CC BY 4.0, 111 authors): 166,700 neurons, 11,710 neuron types, 124.2M synaptic connections, 25.6M edges among 166,483 synapse-bearing neurons, ~44 person-years of proofreading. No ahead-of-print / '15 August' record exists in any primary source.",
+    "source_url": "https://doi.org/10.1016/j.cell.2026.08.015",
+    "confidence": "high"
+   },
+   {
+    "claim": "The MaleCNS dataset was public under CC-BY for eleven months before the paper (v0.9 on 2025-10-03, v1.0 on 2026-06-08) with almost nothing built on it; third-party applications appeared 48-72 hours after the 3 Sept publication. The fly-plays-DOOM meme wave started earlier and on a different dataset (FlyWire/FAFB female, 18-20 Aug 2026).",
+    "source_url": "https://www.janelia.org/project-team/flyem/male-cns-connectome",
+    "confidence": "high"
+   },
+   {
+    "claim": "BANC (Bates, Phelps, Kim, Yang et al., Nature 656(8129):957-970, published online 8 June 2026) reports 155,916 proofread neurons and 218,460,852 detected synaptic links (18% two-sided); 188,508 is a metadata row count including glia and unproofread fragments. Its own analogy is Brooks' 1986 subsumption architecture, and the supervisory layer (mushroom body + central complex) is 'nonessential for many behaviours'.",
+    "source_url": "https://doi.org/10.1038/s41586-026-10735-w",
+    "confidence": "high"
+   },
+   {
+    "claim": "Measured first-party in pgvector 0.8.6 on real 1024-d bge-m3 embeddings: at equal database bytes sign binarization beats FlyHash by +53% relative recall@10 (0.7577 vs 0.4948) and +19 points after rescoring (0.9918 vs 0.8339); the FlyHash column costs 2.4x the bytes and 2.2x the latency of bit(1024); the parity configuration is refused with 'ERROR: sparsevec cannot have more than 1000 non-zero elements for hnsw index'.",
+    "source_url": "https://github.com/pgvector/pgvector",
+    "confidence": "high"
+   },
+   {
+    "claim": "On paraphrase-shaped dedup probes the free ANN probe (1 - max cosine, already paid for) scores 0.843, binary_quantize's 136-byte shadow 0.834, FlyHash k=64 0.800, and lexical SimHash 0.590 (0.263 on heavy edits) - so FlyHash loses the dedup role too, and SimHash is not the incumbent.",
+    "source_url": "https://arxiv.org/abs/2607.08382",
+    "confidence": "high"
+   },
+   {
+    "claim": "FlyPrompt's REAR operator is a dense Gaussian random matrix (M=10,000) with ReLU plus closed-form ridge regression - no sparse binary projection, no winner-take-all. Its gain comes from expert modularity, not expansion (RanPAC alone 79.92 vs FlyPrompt 86.76 A_last on CIFAR-100).",
+    "source_url": "https://arxiv.org/abs/2602.01976",
+    "confidence": "high"
+   },
+   {
+    "claim": "On 312 expert-validated time-sensitive German statutory QA pairs, 197 (63%) are Pre-Amendment questions where the correct answer is the older version, so max(serial) newest-wins is wrong by construction; as-of-date extraction plus hard version filtering takes Claude Opus 4.5 from 35.40% to 81.42%.",
+    "source_url": "https://arxiv.org/abs/2605.23497",
+    "confidence": "high"
+   },
+   {
+    "claim": "On MemoryAgentBench FactConsolidation the deterministic max(serial) operator contributes only +2.0 pp pooled and 0.0 pp at 262K - the gain comes from the LLM candidate-extraction stage - and the same pipeline shows no advantage on LongMemEval's knowledge-update subset (26/45 vs 29/45, McNemar p=0.45). MAB v4 shows GPT-5-mini at 78 single-hop / 28 multi-hop with no memory system at all.",
+    "source_url": "https://arxiv.org/abs/2507.05257",
+    "confidence": "high"
+   },
+   {
+    "claim": "Bounded self-managed memory scores 15 points below full context on LongMemEval knowledge-update questions (92% to 77%), and proportionally more memory capacity recovers nothing (28% to 28%) - policy, not capacity, is the binding constraint.",
+    "source_url": "https://arxiv.org/abs/2606.27472",
+    "confidence": "high"
+   },
+   {
+    "claim": "Cosine similarity separates 'contradicted fact' from 'rephrased duplicate' at AUROC 0.59, barely above chance, and vanilla RAG serves superseded values 15-40% of the time - so staleness is structurally unfixable by better ranking.",
+    "source_url": "https://arxiv.org/abs/2606.26511",
+    "confidence": "high"
+   },
+   {
+    "claim": "ConnectomeBench measures LLMs at 75-85% balanced accuracy on split-error correction and 52-82% on segment identification but finds they 'generally struggl[e] on merge error identification' - while GBrain's only automatic destructive operation is a slug-normalising merge capped at 50 pages per run.",
+    "source_url": "https://arxiv.org/abs/2511.05542",
+    "confidence": "high"
+   },
+   {
+    "claim": "GBrain's live consolidate run processed 62 buckets and promoted 0 facts into 0 takes (every qualifying bucket topping out at cosine 0.844 against a 0.85 threshold), while its human-gated take-proposal queue reached 32,500 rows growing 2-6k/day.",
+    "source_url": "https://github.com/garrytan/gbrain/issues/3042",
+    "confidence": "high"
+   },
+   {
+    "claim": "GBrain's shipped skill router scores 303/303 = 100.0% on its own fixtures and 0/271 = 0.0% under leave-one-trigger-out (deleting only the phrases each fixture literally contains), with 24 intents silently misrouting to a different skill.",
+    "source_url": "https://github.com/garrytan/gbrain",
+    "confidence": "high"
+   },
+   {
+    "claim": "Zero of 1,402 Glean documentation pages mention 'contradict', zero in the public MicrosoftDocs/microsoft-365-docs repo, zero in Dust's docs - contradiction arbitration is structurally unavailable to an index-over-sources product, and every incumbent 'memory' shipped in 2026 (Glean, Copilot, Dust) is per-user rather than org-shared.",
+    "source_url": "https://www.glean.com/",
+    "confidence": "medium"
+   },
+   {
+    "claim": "Measured locally: a pgvector 0.8.6 HNSW top-10 query over 250,000 x 1024-dim vectors returns in 10.73 ms (3.78 ms at 100K), which is ~0.14% of a ~3,272 ms answered question; write-side LLM curation costs 222x-4,514x the embedding cost ($0.0128/page takes extraction vs $0.0000576/page embedding).",
+    "source_url": "https://github.com/pgvector/pgvector",
+    "confidence": "high"
+   },
+   {
+    "claim": "Tan's '94 companies have crossed $100M in revenue from a seed check' (03:37) appears nowhere Y Combinator publishes - zero hits across all 2,681 posts in YC's own blog index - its unit is undefined, and Tan silently dropped the sentence when re-delivering the same passage at Startup School on 2026-08-06.",
+    "source_url": "https://www.ycombinator.com/blog",
+    "confidence": "high"
+   },
+   {
+    "claim": "Tan's talk claims ~220,000 pages while GBrain's README read 146,646 on the day of the talk (2026-07-16) and 155,795 only from 2026-08-12 - a +50% gap against a hand-edited marketing line, where a GBrain 'page' is a database row of arbitrary length.",
+    "source_url": "https://raw.githubusercontent.com/garrytan/gbrain/master/README.md",
+    "confidence": "high"
+   },
+   {
+    "claim": "Ramp's internal 'Glass' and Git-backed 'Dojo' skill marketplace with 'over 350 skills shared company-wide' is confirmed by two Ramp-employee write-ups plus Ramp's own YouTube channel; 'DoorDash's Team OS' is one PM's personal write-up with a fictional-company example repo and an explicit disclaimer, not a company deployment.",
+    "source_url": "https://www.ramp.com",
+    "confidence": "medium"
+   },
+   {
+    "claim": "METR's RCT found early-2025 AI made 16 experienced open-source developers 19% slower (CI +2% to +39%) while they believed they were 20% faster; its May-2026 survey of 349 technical workers found a median self-reported 1.4-2x value gain - both far below Tan's '8X at the floor'.",
+    "source_url": "https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/",
+    "confidence": "high"
+   },
+   {
+    "claim": "GBrain's contradiction probe applies a 'Date pre-filter: skip pairs whose dates are >30d apart', which structurally excludes most real supersessions on a quarterly organisational clock - the one gap the fly Bloom filter's recurrence-after-dormancy band would reach.",
+    "source_url": "https://raw.githubusercontent.com/garrytan/gbrain/master/docs/contradictions.md",
+    "confidence": "high"
+   },
+   {
+    "claim": "MemConflict's released set (Data/Step4_4.jsonl, 39.7 MB) contains 30 instances and 3,750 questions at 202K mean dialogue tokens, split dynamic 2,946 / conditional 444 / static 360; the 804 static+conditional questions are where newest-wins is inverted or undefined and cost ~$30 to run.",
+    "source_url": "https://github.com/TaoZhen1110/MemConflict",
+    "confidence": "high"
+   },
+   {
+    "claim": "SQL:2011 standardised bitemporal tables with PRIMARY KEY (key, period WITHOUT OVERLAPS), shipping in Db2, MariaDB, XTDB and Oracle - the constraint that makes two contradictory live facts unrepresentable at write time. Zep/Graphiti, GBrain and every system surveyed store the timestamps and enforce nothing; GBrain is uni-temporal with an audit stamp, not bi-temporal.",
+    "source_url": "https://github.com/getzep/graphiti",
+    "confidence": "high"
+   }
+  ],
+  "recommendation": "Run the Tier-0 crux slice before building anything: ~$30 and one afternoon comparing a tuned BM25+dense hybrid against GBrain-default and GBrain-reranker-off on MemConflict's 804 static + conditional questions (https://github.com/TaoZhen1110/MemConflict), with judged answer accuracy as the primary endpoint and retrieval reported in the same table. These are the questions where newest-wins arbitration is inverted or undefined - what a company brain actually gets wrong - the minimum detectable difference is 5.7-7.4 pp so a real effect is visible, and nobody has ever run the file-and-git family on them. It is the single cheapest experiment that can falsify or confirm the entire \"curation beats retrieval\" thesis, and every other recommendation in the document is downstream of its answer. Pre-register the hypotheses, tuning space and prompts and commit the hash first; if curation shows nothing on this slice, the full ~$850 matrix is unlikely to rescue it. For the user's own hk-law-rag stack specifically, pair it with the one-day as-of-date filter test (extract the as-of date from the query, hard-filter to provisions valid at that date, before ranking) - the published effect on historically anchored statutory questions is 35.40% to 81.42%, and it is the highest-value change available to that system.",
+  "report_path": "/Users/stephen/Cookies/company-brain-research/SYNTHESIS-draft.md"
+ }
 }

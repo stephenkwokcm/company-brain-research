@@ -1,0 +1,20 @@
+=== pgvector 0.8.6 / PostgreSQL 17.11 (Debian 17.11-1.pgdg12+2) / HNSW defaults m=16 ef_construction=64 ===
+RESULT dim=768 n=100000 distinct_of_500=500 gen_s=4 build_s=65.8 heap_MB=5.0 table_total_MB=400.0 index_MB=390.6 index_B_per_vec=4096 table_B_per_vec=4195
+RESULT_QUERY dim=768 n=100000 ef_search=40 ms_per_query=3.66
+RESULT_QUERY dim=768 n=100000 ef_search=200 ms_per_query=6.84
+RESULT dim=1024 n=100000 distinct_of_500=500 gen_s=7 build_s=84.5 heap_MB=5.0 table_total_MB=532.4 index_MB=781.3 index_B_per_vec=8192 table_B_per_vec=5583
+RESULT_QUERY dim=1024 n=100000 ef_search=40 ms_per_query=3.78
+RESULT_QUERY dim=1024 n=100000 ef_search=200 ms_per_query=8.28
+RESULT dim=1536 n=100000 distinct_of_500=500 gen_s=9 build_s=114.7 heap_MB=5.0 table_total_MB=795.1 index_MB=781.3 index_B_per_vec=8192 table_B_per_vec=8337
+RESULT_QUERY dim=1536 n=100000 ef_search=40 ms_per_query=4.75
+RESULT_QUERY dim=1536 n=100000 ef_search=200 ms_per_query=8.41
+SQLERR: 
+SQLERR: 
+SQLERR: Error response from daemon: No such container: pgvm
+Traceback (most recent call last):
+  File "/private/tmp/claude-501/-Users-stephen-Cookies/c3771026-a579-4349-87b5-e6c6213744df/scratchpad/pgv.py", line 45, in <module>
+    sweep(dim, n)
+  File "/private/tmp/claude-501/-Users-stephen-Cookies/c3771026-a579-4349-87b5-e6c6213744df/scratchpad/pgv.py", line 24, in sweep
+    heap = int(psql(f"SELECT pg_relation_size('{t}')", True))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: ''

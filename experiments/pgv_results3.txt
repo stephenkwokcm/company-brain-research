@@ -1,0 +1,15 @@
+=== pgvector 0.8.6 / PostgreSQL 17.11 (Debian 17.11-1.pgdg12+2) / HNSW defaults m=16 ef_construction=64 ===
+RESULT dim=1536 n=100000 distinct_of_500=500 gen_s=9 build_s=119.8 heap_MB=5.0 table_total_MB=795.1 index_MB=781.3 index_B_per_vec=8192 table_B_per_vec=8337
+RESULT_QUERY dim=1536 n=100000 ef_search=40 ms_per_query=6.25
+RESULT_QUERY dim=1536 n=100000 ef_search=200 ms_per_query=11.43
+SQLERR: NOTICE:  hnsw graph no longer fits into maintenance_work_mem after 222854 tuples
+DETAIL:  Building will take significantly more time.
+HINT:  Increase maintenance_work_mem to speed up builds.
+SQLERR: Error response from daemon: container c9568a0bf6628f049f6c27c23bc7f6b9b69cb6ac976959b969f9c0e60789874b is not running
+Traceback (most recent call last):
+  File "/private/tmp/claude-501/-Users-stephen-Cookies/c3771026-a579-4349-87b5-e6c6213744df/scratchpad/pgv.py", line 45, in <module>
+    sweep(dim, n)
+  File "/private/tmp/claude-501/-Users-stephen-Cookies/c3771026-a579-4349-87b5-e6c6213744df/scratchpad/pgv.py", line 30, in sweep
+    idx = int(psql(f"SELECT pg_relation_size('ix_{t}')", True))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: ''

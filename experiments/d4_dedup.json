@@ -1,0 +1,58 @@
+[
+ {
+  "method": "float32 cosine (exact, the free baseline)",
+  "light edit (-10% words)": 0.9225,
+  "heavy edit (-25% + sentence shuffle)": 0.8325,
+  "60% window": 0.7725,
+  "all": 0.8425
+ },
+ {
+  "method": "binary_quantize(x-mean) bit(1024) Hamming",
+  "light edit (-10% words)": 0.9275,
+  "heavy edit (-25% + sentence shuffle)": 0.8075,
+  "60% window": 0.7675,
+  "all": 0.8341666666666666
+ },
+ {
+  "method": "SimHash/LSH on embedding L=64",
+  "light edit (-10% words)": 0.82,
+  "heavy edit (-25% + sentence shuffle)": 0.6025,
+  "60% window": 0.485,
+  "all": 0.6358333333333334
+ },
+ {
+  "method": "SimHash/LSH on embedding L=1024",
+  "light edit (-10% words)": 0.9175,
+  "heavy edit (-25% + sentence shuffle)": 0.82,
+  "60% window": 0.775,
+  "all": 0.8375
+ },
+ {
+  "method": "FlyHash on embedding m=20480 f=102 k=64",
+  "light edit (-10% words)": 0.9175,
+  "heavy edit (-25% + sentence shuffle)": 0.76,
+  "60% window": 0.7225,
+  "all": 0.8
+ },
+ {
+  "method": "FlyHash on embedding m=20480 f=102 k=256",
+  "light edit (-10% words)": 0.925,
+  "heavy edit (-25% + sentence shuffle)": 0.8225,
+  "60% window": 0.7625,
+  "all": 0.8366666666666667
+ },
+ {
+  "method": "FlyHash on embedding m=20480 f=102 k=1024",
+  "light edit (-10% words)": 0.9275,
+  "heavy edit (-25% + sentence shuffle)": 0.8325,
+  "60% window": 0.7725,
+  "all": 0.8441666666666666
+ },
+ {
+  "method": "lexical 64-bit SimHash over 3-shingles (Manku 2007)",
+  "light edit (-10% words)": 0.7725,
+  "heavy edit (-25% + sentence shuffle)": 0.2625,
+  "60% window": 0.735,
+  "all": 0.59
+ }
+]

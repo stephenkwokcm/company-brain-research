@@ -1,0 +1,492 @@
+[
+ {
+  "method": "FlyHash rho=10 m=10240 fanin=102 k=16 [corpus-centred]",
+  "bytes_packed_idx": 32,
+  "bytes_pgvector_sparsevec": 144,
+  "bytes_dense_bitmap": 1288,
+  "enc_s": 0.66,
+  "r@10": 0.2678067147787888,
+  "rescore50": 0.43903357389394404,
+  "rescore100": 0.5650768748038917
+ },
+ {
+  "method": "FlyHash rho=10 m=10240 fanin=102 k=32 [corpus-centred]",
+  "bytes_packed_idx": 64,
+  "bytes_pgvector_sparsevec": 272,
+  "bytes_dense_bitmap": 1288,
+  "enc_s": 0.63,
+  "r@10": 0.38478192657671795,
+  "rescore50": 0.6390021964229698,
+  "rescore100": 0.7001568873548824
+ },
+ {
+  "method": "FlyHash rho=10 m=10240 fanin=102 k=64 [corpus-centred]",
+  "bytes_packed_idx": 128,
+  "bytes_pgvector_sparsevec": 528,
+  "bytes_dense_bitmap": 1288,
+  "enc_s": 0.63,
+  "r@10": 0.5148101663005961,
+  "rescore50": 0.7919673674301924,
+  "rescore100": 0.8618449952933893
+ },
+ {
+  "method": "FlyHash rho=10 m=10240 fanin=102 k=128 [corpus-centred]",
+  "bytes_packed_idx": 256,
+  "bytes_pgvector_sparsevec": 1040,
+  "bytes_dense_bitmap": 1288,
+  "enc_s": 0.63,
+  "r@10": 0.6259491684970192,
+  "rescore50": 0.9052714151239519,
+  "rescore100": 0.9477565108252379
+ },
+ {
+  "method": "FlyHash rho=10 m=10240 fanin=102 k=256 [corpus-centred]",
+  "bytes_packed_idx": 512,
+  "bytes_pgvector_sparsevec": 2064,
+  "bytes_dense_bitmap": 1288,
+  "enc_s": 0.64,
+  "r@10": 0.71289614057107,
+  "rescore50": 0.9620018826482686,
+  "rescore100": 0.9824599937245125
+ },
+ {
+  "method": "FlyHash rho=10 m=10240 fanin=102 k=512 [corpus-centred]",
+  "bytes_packed_idx": 1024,
+  "bytes_pgvector_sparsevec": 4112,
+  "bytes_dense_bitmap": 1288,
+  "enc_s": 0.63,
+  "r@10": 0.7733605271415125,
+  "rescore50": 0.9827737684342713,
+  "rescore100": 0.9918732350172619
+ },
+ {
+  "method": "FlyHash rho=10 m=10240 fanin=102 k=1024 [corpus-centred]",
+  "bytes_packed_idx": 2048,
+  "bytes_pgvector_sparsevec": 8208,
+  "bytes_dense_bitmap": 1288,
+  "enc_s": 0.65,
+  "r@10": 0.8066834013178538,
+  "rescore50": 0.9892061499843158,
+  "rescore100": 0.9937872607467879
+ },
+ {
+  "method": "FlyHash rho=20 m=20480 fanin=12 k=16 [corpus-centred]",
+  "bytes_packed_idx": 32,
+  "bytes_pgvector_sparsevec": 144,
+  "bytes_dense_bitmap": 2568,
+  "enc_s": 0.7,
+  "r@10": 0.2378726074678381,
+  "rescore50": 0.4279573266394722,
+  "rescore100": 0.5294634452463135
+ },
+ {
+  "method": "FlyHash rho=20 m=20480 fanin=12 k=32 [corpus-centred]",
+  "bytes_packed_idx": 64,
+  "bytes_pgvector_sparsevec": 272,
+  "bytes_dense_bitmap": 2568,
+  "enc_s": 0.7,
+  "r@10": 0.3597113272670223,
+  "rescore50": 0.5734546595544404,
+  "rescore100": 0.6443991214308128
+ },
+ {
+  "method": "FlyHash rho=20 m=20480 fanin=12 k=64 [corpus-centred]",
+  "bytes_packed_idx": 128,
+  "bytes_pgvector_sparsevec": 528,
+  "bytes_dense_bitmap": 2568,
+  "enc_s": 0.68,
+  "r@10": 0.47919673674301855,
+  "rescore50": 0.7552557263884585,
+  "rescore100": 0.8249764668967746
+ },
+ {
+  "method": "FlyHash rho=20 m=20480 fanin=12 k=128 [corpus-centred]",
+  "bytes_packed_idx": 256,
+  "bytes_pgvector_sparsevec": 1040,
+  "bytes_dense_bitmap": 2568,
+  "enc_s": 0.7,
+  "r@10": 0.6010354565422027,
+  "rescore50": 0.8843740194540446,
+  "rescore100": 0.933291496705378
+ },
+ {
+  "method": "FlyHash rho=20 m=20480 fanin=12 k=256 [corpus-centred]",
+  "bytes_packed_idx": 512,
+  "bytes_pgvector_sparsevec": 2064,
+  "bytes_dense_bitmap": 2568,
+  "enc_s": 0.71,
+  "r@10": 0.6924380294948228,
+  "rescore50": 0.9493567618450061,
+  "rescore100": 0.9747411358644574
+ },
+ {
+  "method": "FlyHash rho=20 m=20480 fanin=12 k=512 [corpus-centred]",
+  "bytes_packed_idx": 1024,
+  "bytes_pgvector_sparsevec": 4112,
+  "bytes_dense_bitmap": 2568,
+  "enc_s": 0.7,
+  "r@10": 0.757201129588955,
+  "rescore50": 0.9776906181361859,
+  "rescore100": 0.9894571697521232
+ },
+ {
+  "method": "FlyHash rho=20 m=20480 fanin=12 k=1024 [corpus-centred]",
+  "bytes_packed_idx": 2048,
+  "bytes_pgvector_sparsevec": 8208,
+  "bytes_dense_bitmap": 2568,
+  "enc_s": 0.71,
+  "r@10": 0.7962033260119235,
+  "rescore50": 0.9871666143708869,
+  "rescore100": 0.9932538437401989
+ },
+ {
+  "method": "FlyHash rho=20 m=20480 fanin=102 k=16 [corpus-centred]",
+  "bytes_packed_idx": 32,
+  "bytes_pgvector_sparsevec": 144,
+  "bytes_dense_bitmap": 2568,
+  "enc_s": 1.31,
+  "r@10": 0.24377157201129587,
+  "rescore50": 0.4453718230310618,
+  "rescore100": 0.5338876686539045
+ },
+ {
+  "method": "FlyHash rho=20 m=20480 fanin=102 k=32 [corpus-centred]",
+  "bytes_packed_idx": 64,
+  "bytes_pgvector_sparsevec": 272,
+  "bytes_dense_bitmap": 2568,
+  "enc_s": 1.25,
+  "r@10": 0.36871666143708814,
+  "rescore50": 0.5794163790398501,
+  "rescore100": 0.6494508942579243
+ },
+ {
+  "method": "FlyHash rho=20 m=20480 fanin=102 k=64 [corpus-centred]",
+  "bytes_packed_idx": 128,
+  "bytes_pgvector_sparsevec": 528,
+  "bytes_dense_bitmap": 2568,
+  "enc_s": 1.25,
+  "r@10": 0.4947599623470348,
+  "rescore50": 0.7617508628804585,
+  "rescore100": 0.8339190461248925
+ },
+ {
+  "method": "FlyHash rho=20 m=20480 fanin=102 k=128 [corpus-centred]",
+  "bytes_packed_idx": 256,
+  "bytes_pgvector_sparsevec": 1040,
+  "bytes_dense_bitmap": 2568,
+  "enc_s": 1.25,
+  "r@10": 0.6191088798242861,
+  "rescore50": 0.890649513649211,
+  "rescore100": 0.935582052086612
+ },
+ {
+  "method": "FlyHash rho=20 m=20480 fanin=102 k=256 [corpus-centred]",
+  "bytes_packed_idx": 512,
+  "bytes_pgvector_sparsevec": 2064,
+  "bytes_dense_bitmap": 2568,
+  "enc_s": 1.26,
+  "r@10": 0.7051145277690618,
+  "rescore50": 0.9558205208660289,
+  "rescore100": 0.9791967367430258
+ },
+ {
+  "method": "FlyHash rho=20 m=20480 fanin=102 k=512 [corpus-centred]",
+  "bytes_packed_idx": 1024,
+  "bytes_pgvector_sparsevec": 4112,
+  "bytes_dense_bitmap": 2568,
+  "enc_s": 1.27,
+  "r@10": 0.76915594603075,
+  "rescore50": 0.9802949482271807,
+  "rescore100": 0.9909632883589625
+ },
+ {
+  "method": "FlyHash rho=20 m=20480 fanin=102 k=1024 [corpus-centred]",
+  "bytes_packed_idx": 2048,
+  "bytes_pgvector_sparsevec": 8208,
+  "bytes_dense_bitmap": 2568,
+  "enc_s": 1.28,
+  "r@10": 0.8097897709444619,
+  "rescore50": 0.9887668653906545,
+  "rescore100": 0.9937245058048362
+ },
+ {
+  "method": "FlyHash rho=20 m=20480 fanin=205 k=16 [corpus-centred]",
+  "bytes_packed_idx": 32,
+  "bytes_pgvector_sparsevec": 144,
+  "bytes_dense_bitmap": 2568,
+  "enc_s": 1.97,
+  "r@10": 0.24364606212739254,
+  "rescore50": 0.4464072795732674,
+  "rescore100": 0.5369312833385634
+ },
+ {
+  "method": "FlyHash rho=20 m=20480 fanin=205 k=32 [corpus-centred]",
+  "bytes_packed_idx": 64,
+  "bytes_pgvector_sparsevec": 272,
+  "bytes_dense_bitmap": 2568,
+  "enc_s": 1.91,
+  "r@10": 0.36793222466269215,
+  "rescore50": 0.5878569187323514,
+  "rescore100": 0.6549419516786966
+ },
+ {
+  "method": "FlyHash rho=20 m=20480 fanin=205 k=64 [corpus-centred]",
+  "bytes_packed_idx": 128,
+  "bytes_pgvector_sparsevec": 528,
+  "bytes_dense_bitmap": 2568,
+  "enc_s": 1.92,
+  "r@10": 0.49792908691559457,
+  "rescore50": 0.7676184499529394,
+  "rescore100": 0.8387197991841947
+ },
+ {
+  "method": "FlyHash rho=20 m=20480 fanin=205 k=128 [corpus-centred]",
+  "bytes_packed_idx": 256,
+  "bytes_pgvector_sparsevec": 1040,
+  "bytes_dense_bitmap": 2568,
+  "enc_s": 1.92,
+  "r@10": 0.618951992469407,
+  "rescore50": 0.892438029494833,
+  "rescore100": 0.9362096015061304
+ },
+ {
+  "method": "FlyHash rho=20 m=20480 fanin=205 k=256 [corpus-centred]",
+  "bytes_packed_idx": 512,
+  "bytes_pgvector_sparsevec": 2064,
+  "bytes_dense_bitmap": 2568,
+  "enc_s": 1.93,
+  "r@10": 0.7084091622215251,
+  "rescore50": 0.9560087856918832,
+  "rescore100": 0.9780043928459448
+ },
+ {
+  "method": "FlyHash rho=20 m=20480 fanin=205 k=512 [corpus-centred]",
+  "bytes_packed_idx": 1024,
+  "bytes_pgvector_sparsevec": 4112,
+  "bytes_dense_bitmap": 2568,
+  "enc_s": 1.92,
+  "r@10": 0.7717602761217447,
+  "rescore50": 0.9799811735174219,
+  "rescore100": 0.991528082836528
+ },
+ {
+  "method": "FlyHash rho=20 m=20480 fanin=205 k=1024 [corpus-centred]",
+  "bytes_packed_idx": 2048,
+  "bytes_pgvector_sparsevec": 8208,
+  "bytes_dense_bitmap": 2568,
+  "enc_s": 1.95,
+  "r@10": 0.8103231879510513,
+  "rescore50": 0.989080640100413,
+  "rescore100": 0.9945089425792318
+ },
+ {
+  "method": "FlyHash rho=40 m=40960 fanin=102 k=16 [corpus-centred]",
+  "bytes_packed_idx": 32,
+  "bytes_pgvector_sparsevec": 144,
+  "bytes_dense_bitmap": 5128,
+  "enc_s": 2.63,
+  "r@10": 0.22962033260119233,
+  "rescore50": 0.44317540006275474,
+  "rescore100": 0.47910260433009044
+ },
+ {
+  "method": "FlyHash rho=40 m=40960 fanin=102 k=32 [corpus-centred]",
+  "bytes_packed_idx": 64,
+  "bytes_pgvector_sparsevec": 272,
+  "bytes_dense_bitmap": 5128,
+  "enc_s": 2.62,
+  "r@10": 0.3521179792908692,
+  "rescore50": 0.5414496391590828,
+  "rescore100": 0.6574835268277416
+ },
+ {
+  "method": "FlyHash rho=40 m=40960 fanin=102 k=64 [corpus-centred]",
+  "bytes_packed_idx": 128,
+  "bytes_pgvector_sparsevec": 528,
+  "bytes_dense_bitmap": 5128,
+  "enc_s": 2.54,
+  "r@10": 0.47831816755569506,
+  "rescore50": 0.7365861311578342,
+  "rescore100": 0.7951992469407028
+ },
+ {
+  "method": "FlyHash rho=40 m=40960 fanin=102 k=128 [corpus-centred]",
+  "bytes_packed_idx": 256,
+  "bytes_pgvector_sparsevec": 1040,
+  "bytes_dense_bitmap": 5128,
+  "enc_s": 2.56,
+  "r@10": 0.6014119861939127,
+  "rescore50": 0.8711327267022375,
+  "rescore100": 0.9186695952306366
+ },
+ {
+  "method": "FlyHash rho=40 m=40960 fanin=102 k=256 [corpus-centred]",
+  "bytes_packed_idx": 512,
+  "bytes_pgvector_sparsevec": 2064,
+  "bytes_dense_bitmap": 5128,
+  "enc_s": 2.54,
+  "r@10": 0.6953875117665516,
+  "rescore50": 0.9473172262315765,
+  "rescore100": 0.9727016002510279
+ },
+ {
+  "method": "FlyHash rho=40 m=40960 fanin=102 k=512 [corpus-centred]",
+  "bytes_packed_idx": 1024,
+  "bytes_pgvector_sparsevec": 4112,
+  "bytes_dense_bitmap": 5128,
+  "enc_s": 2.54,
+  "r@10": 0.7619391277063069,
+  "rescore50": 0.9781299027298469,
+  "rescore100": 0.9894571697521233
+ },
+ {
+  "method": "FlyHash rho=40 m=40960 fanin=102 k=1024 [corpus-centred]",
+  "bytes_packed_idx": 2048,
+  "bytes_pgvector_sparsevec": 8208,
+  "bytes_dense_bitmap": 5128,
+  "enc_s": 2.58,
+  "r@10": 0.8043928459366175,
+  "rescore50": 0.9883589582679689,
+  "rescore100": 0.9935676184499569
+ },
+ {
+  "method": "FlyHash rho=20 m=20480 fanin=102 k=16 [per-vector-centred (fly step 1)]",
+  "bytes_packed_idx": 32,
+  "bytes_pgvector_sparsevec": 144,
+  "bytes_dense_bitmap": 2568,
+  "enc_s": 1.28,
+  "r@10": 0.24377157201129593,
+  "rescore50": 0.45026670850329326,
+  "rescore100": 0.5490743646062126
+ },
+ {
+  "method": "FlyHash rho=20 m=20480 fanin=102 k=32 [per-vector-centred (fly step 1)]",
+  "bytes_packed_idx": 64,
+  "bytes_pgvector_sparsevec": 272,
+  "bytes_dense_bitmap": 2568,
+  "enc_s": 1.24,
+  "r@10": 0.367775337307813,
+  "rescore50": 0.628647631000942,
+  "rescore100": 0.7237527455287156
+ },
+ {
+  "method": "FlyHash rho=20 m=20480 fanin=102 k=64 [per-vector-centred (fly step 1)]",
+  "bytes_packed_idx": 128,
+  "bytes_pgvector_sparsevec": 528,
+  "bytes_dense_bitmap": 2568,
+  "enc_s": 1.23,
+  "r@10": 0.4963288358958269,
+  "rescore50": 0.7912456855977484,
+  "rescore100": 0.8691245685597867
+ },
+ {
+  "method": "FlyHash rho=20 m=20480 fanin=102 k=128 [per-vector-centred (fly step 1)]",
+  "bytes_packed_idx": 256,
+  "bytes_pgvector_sparsevec": 1040,
+  "bytes_dense_bitmap": 2568,
+  "enc_s": 1.24,
+  "r@10": 0.614841543771572,
+  "rescore50": 0.9048007530593148,
+  "rescore100": 0.9500784436774506
+ },
+ {
+  "method": "FlyHash rho=20 m=20480 fanin=102 k=256 [per-vector-centred (fly step 1)]",
+  "bytes_packed_idx": 512,
+  "bytes_pgvector_sparsevec": 2064,
+  "bytes_dense_bitmap": 2568,
+  "enc_s": 1.23,
+  "r@10": 0.7060244744273613,
+  "rescore50": 0.963790398493892,
+  "rescore100": 0.984876058989652
+ },
+ {
+  "method": "FlyHash rho=20 m=20480 fanin=102 k=512 [per-vector-centred (fly step 1)]",
+  "bytes_packed_idx": 1024,
+  "bytes_pgvector_sparsevec": 4112,
+  "bytes_dense_bitmap": 2568,
+  "enc_s": 1.25,
+  "r@10": 0.7793222466269218,
+  "rescore50": 0.9866018198933232,
+  "rescore100": 0.9935676184499574
+ },
+ {
+  "method": "FlyHash rho=20 m=20480 fanin=102 k=1024 [per-vector-centred (fly step 1)]",
+  "bytes_packed_idx": 2048,
+  "bytes_pgvector_sparsevec": 8208,
+  "bytes_dense_bitmap": 2568,
+  "enc_s": 1.27,
+  "r@10": 0.8330090994665831,
+  "rescore50": 0.9940696579855703,
+  "rescore100": 0.9953247568246038
+ },
+ {
+  "method": "FlyHash rho=20 m=20480 fanin=102 k=16 [raw]",
+  "bytes_packed_idx": 32,
+  "bytes_pgvector_sparsevec": 144,
+  "bytes_dense_bitmap": 2568,
+  "enc_s": 1.24,
+  "r@10": 0.24377157201129593,
+  "rescore50": 0.45026670850329326,
+  "rescore100": 0.5490743646062126
+ },
+ {
+  "method": "FlyHash rho=20 m=20480 fanin=102 k=32 [raw]",
+  "bytes_packed_idx": 64,
+  "bytes_pgvector_sparsevec": 272,
+  "bytes_dense_bitmap": 2568,
+  "enc_s": 1.24,
+  "r@10": 0.367775337307813,
+  "rescore50": 0.628647631000942,
+  "rescore100": 0.7237527455287156
+ },
+ {
+  "method": "FlyHash rho=20 m=20480 fanin=102 k=64 [raw]",
+  "bytes_packed_idx": 128,
+  "bytes_pgvector_sparsevec": 528,
+  "bytes_dense_bitmap": 2568,
+  "enc_s": 1.24,
+  "r@10": 0.4963288358958269,
+  "rescore50": 0.7912456855977484,
+  "rescore100": 0.8691245685597867
+ },
+ {
+  "method": "FlyHash rho=20 m=20480 fanin=102 k=128 [raw]",
+  "bytes_packed_idx": 256,
+  "bytes_pgvector_sparsevec": 1040,
+  "bytes_dense_bitmap": 2568,
+  "enc_s": 1.24,
+  "r@10": 0.614841543771572,
+  "rescore50": 0.9048007530593148,
+  "rescore100": 0.9500784436774506
+ },
+ {
+  "method": "FlyHash rho=20 m=20480 fanin=102 k=256 [raw]",
+  "bytes_packed_idx": 512,
+  "bytes_pgvector_sparsevec": 2064,
+  "bytes_dense_bitmap": 2568,
+  "enc_s": 1.29,
+  "r@10": 0.7060244744273613,
+  "rescore50": 0.963790398493892,
+  "rescore100": 0.984876058989652
+ },
+ {
+  "method": "FlyHash rho=20 m=20480 fanin=102 k=512 [raw]",
+  "bytes_packed_idx": 1024,
+  "bytes_pgvector_sparsevec": 4112,
+  "bytes_dense_bitmap": 2568,
+  "enc_s": 1.25,
+  "r@10": 0.7793222466269218,
+  "rescore50": 0.9866018198933232,
+  "rescore100": 0.9935676184499574
+ },
+ {
+  "method": "FlyHash rho=20 m=20480 fanin=102 k=1024 [raw]",
+  "bytes_packed_idx": 2048,
+  "bytes_pgvector_sparsevec": 8208,
+  "bytes_dense_bitmap": 2568,
+  "enc_s": 1.27,
+  "r@10": 0.8330090994665831,
+  "rescore50": 0.9940382805145945,
+  "rescore100": 0.9952620018826521
+ }
+]
