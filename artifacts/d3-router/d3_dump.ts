@@ -1,0 +1,10 @@
+import { loadSkillTriggerIndex, entriesToResolverContent } from './gbrain/src/core/skill-trigger-index.ts';
+import { loadRoutingFixtures, indexResolverTriggers } from './gbrain/src/core/routing-eval.ts';
+const entries = loadSkillTriggerIndex('./gbrain/skills');
+const rc = entriesToResolverContent(entries);
+const idx = indexResolverTriggers(rc);
+const obj: Record<string,string[]> = {};
+for (const [k,v] of idx.skillPhrases) obj[k]=v;
+const { fixtures } = loadRoutingFixtures('./gbrain/skills');
+await Bun.write('./d3_index.json', JSON.stringify({phrases:obj, fixtures}, null, 1));
+console.log('skills in index', Object.keys(obj).length, 'phrases', Object.values(obj).flat().length, 'fixtures', fixtures.length);
